@@ -2,6 +2,10 @@
   margin-top:150px !important;
 }
 
+.slider img{
+  filter: brightness(0.8);
+}
+
 .hours{
   padding-bottom:0px !important;
 }
@@ -7905,7 +7909,7 @@ button.scroltop {
 }
 
 .site-header {
-  position: absolute;  
+  position: fixed;  
   z-index: 12;  
 }
 
@@ -7942,7 +7946,7 @@ ul.nav.navbar-nav {
  gap: 10px;
  letter-spacing: 7px;
  font-size: 45px;
- height: 53px;
+ color: #fff;
  font-weight: 800;
  font-family: 'TT Drugs';
  }

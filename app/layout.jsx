@@ -27,7 +27,7 @@ import ScrollTop from "@/components/common/ScrollTop";
 import SearchPopup from "@/components/common/SearchPopup";
 
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import Header from "@/components/Header2";
 
 export default function RootLayout({ children }) {
   const path = usePathname();

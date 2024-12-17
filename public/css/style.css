@@ -6368,10 +6368,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   .slider {
     height: 110vh;  
   }
-  .banner-end{
-    padding: 45px;
-    margin-top: 58%;
-  }
+
 
  .section-head{
   padding: 8px;
@@ -11673,7 +11670,7 @@ footer .widget_services ul li {
 }
 .footer-bottom {
   background-color: #fbceb2;
-  padding: 30px 0;
+  padding: 10px 0 20px 0px;
   color: #FFF;
   font-size: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);

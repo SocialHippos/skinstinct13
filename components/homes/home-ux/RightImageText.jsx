@@ -8,7 +8,7 @@ export default function About() {
         <div className="row align-items-center col-rev sb">
 
           <div
-            className="col-lg-6 col-md-6 col-sm-12 col-12 about-pic"
+            className="col-lg-6 col-md-6 col-sm-12 col-12"
             data-wow-duration="2s"
             data-wow-delay="0.6s"
           >
