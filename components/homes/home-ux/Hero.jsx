@@ -33,7 +33,6 @@ const Hero = () => {
         style={{
           ...style,
           display: "block",
-          background: "rgba(0, 0, 0, 0.5)",
           borderRadius: "50%",
           padding: "10px",
           

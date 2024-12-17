@@ -13,7 +13,7 @@ export default function Header() {
   };
 
   return (
-    <header className="site-header mo-left header container ">
+    <header className="site-header mo-left header container animate delayed delayed-1-sec animated fadeIn  ">
       <div className="sticky-headers main-bar-wraper navbar-expand-lg">
         <div className="main-bar clearfix dz-header">
           <div className="container clearfix header-padding">
@@ -58,7 +58,7 @@ export default function Header() {
             >
               <div className="logo-header d-md-block d-lg-none">
                 <Link href="/">
-                  <img alt="" src="/images/skinstinct.svg" width="258" height="75" />
+                  <img alt="" src="/images/skinstinct.png" width="258" height="75" />
                 </Link>
               </div>
               <ul className="nav navbar-nav">

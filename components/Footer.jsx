@@ -11,11 +11,16 @@ export default function Footer() {
   return (
     <footer className="site-footer">
           <div className="footer-bottom">
-        <div className="container">
+         
          <div className="row">
           <div className="Book-slot">
-          <h1>BOOK YOUR SESSION TODAY →  BOOK YOUR SESSION TODAY → </h1>
-         </div>
+          <div className="sliding-text">
+          <span>BOOK YOUR SESSION TODAY →</span>
+              <span>BOOK YOUR SESSION TODAY →</span>
+              <span>BOOK YOUR SESSION TODAY →</span>
+              <span>BOOK YOUR SESSION TODAY →</span>
+              </div>
+     
         </div>
         </div>
       </div>
@@ -67,7 +72,7 @@ export default function Footer() {
             </div>
             <div className="col-md-4 col-xl-3 col-lg-4 col-sm-6 footer-col-4">
               <div className="widget widget_getintuch">
-                <h5 className="footer-titles text-white">ABOUT</h5>
+                <h5 className="footer-titles text-white footer-about">ABOUT</h5>
                 <ul>
                   <li>
                    <a href="#">HOME</a>

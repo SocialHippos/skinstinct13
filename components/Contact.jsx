@@ -30,6 +30,7 @@ export default function Contact4() {
       {/* contact area */}
       <div className="section-full content-inner bg-white contact-style-1">
         <div className="container">
+        <h2 className="title text-center-mbl text-left-p-13">CONTACT US</h2>
           <div className="row dzseth">
             <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
               <div className="icon-bx-wraper bx-style-1 p-lr20 p-tb30 center seth radius-sm">
