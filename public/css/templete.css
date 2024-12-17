@@ -2,6 +2,10 @@
   margin-top:150px !important;
 }
 
+.slider img{
+  filter: brightness(0.8);
+}
+
 .hours{
   padding-bottom:0px !important;
 }
@@ -55,7 +59,7 @@ padding: 0 60px;
 }
 
 .header-padding{
-  padding: 10px 0px 5px 0px;
+  padding: 0;
 }
 
 .dlab-media{
@@ -2262,6 +2266,11 @@ HOME 5 Box Header
 .box-header.header-transparent .main-bar {
   border: 0;
 }
+
+.header-transparent {
+  position: absolute;
+  width: 100%;
+}
 /* .box-header.site-header .main-bar .container {
   background: #fff;
 } */
@@ -2364,7 +2373,8 @@ HOME 5 Box Header
 }
 .const-about .section-head.style2,
 .exhibition-bx .section-head {
-  margin-bottom: 30px;
+  margin-bottom: -50px;
+  padding: 90px;
 }
 .about-year span {
   font-size: 85px;
@@ -2633,19 +2643,21 @@ HOME 5 Box Header
 .project-carousel-1 .owl-prev i {
   font-size: 22px;
 }
+
  
 .section-head.style2 .title {
   font-weight: 400;
   font-size: 40px;
   margin-bottom: 10px;
   color: #ae7451;
-  font-family: fangsong;
+  font-family: TT Drugs;
 }
 .section-head.style2 p {
   padding-top: 0;
   font-size: 16px;
   line-height: 26px;
   color:#ae7451 ;
+  font-family: TT Drugs;
 }
 .sr-iconbox .dlab-tilte {
   font-weight: 600;
@@ -4436,7 +4448,7 @@ HOME 5 Box Header
   margin: 0;
   padding: 0;
 }
-.header-sidenav .extra-nav .extra-cell {
+.header-sidenav .extra-nav .extra-cell a {
   margin: 0;
 }
 .header-sidenav .menu-icon {
@@ -4840,6 +4852,8 @@ HOME 5 Box Header
   }
   .section-head.style2 .title {
     font-size: 30px;
+    
+   
   }
   .about-year {
     margin-bottom: 15px;
@@ -7377,6 +7391,8 @@ button.scroltop {
   }
   .dz-header .header-nav .nav > li > a {
     font-size: 16px;
+    font-family: TT Drugs;
+    padding-left: 12px;
   }
   .dz-oil-industry-zone .dz-banner-top .dz-title {
     font-size: 42px;
@@ -7414,6 +7430,7 @@ button.scroltop {
   }
   .dz-header .header-nav .nav > li > a {
     padding: 22px 9px 22px 9px;
+    font-family: TT Drugs;
   }
   .dz-header .dz-bannerbtn {
     padding: 12px 25px;
@@ -7892,7 +7909,7 @@ button.scroltop {
 }
 
 .site-header {
-  position: absolute;  
+  position: fixed;  
   z-index: 12;  
 }
 
@@ -7926,11 +7943,12 @@ ul.nav.navbar-nav {
  }
 
  .banner-end h1  {
- gap: 12px;
- letter-spacing: 10px;
+ gap: 10px;
+ letter-spacing: 7px;
  font-size: 45px;
- height: 53px;
+ color: #fff;
  font-weight: 800;
+ font-family: 'TT Drugs';
  }
 
  button.button.dz-bannerbtn.bg-button {
@@ -7938,6 +7956,8 @@ ul.nav.navbar-nav {
   border-radius: 19px;
   background-color: transparent;
   color: #fff;
+  font-family: TT Drugs;
+ 
 }
 
 
@@ -7992,6 +8012,7 @@ footer .widget ul {
 footer .widget ul li a {
   font-size: 15px;
   font-weight: 500;
+  font-family: TT Drugs;
 }
 
 h5.footer-title  {
@@ -8005,15 +8026,46 @@ h5.footer-titles {
 }
 
 
-.Book-slot h1 {
-  margin-top: 11px;
-  letter-spacing: 3px;
+.Book-slot {
+  overflow: hidden;  
+  position: relative;
+  white-space: nowrap;  
+}
+
+.Book-slot span {
+  display: inline-block;  
   font-weight: 800;
+  letter-spacing: 3px;
+  margin-top: 11px;
+  font-family: TT Drugs;
+  font-size: 30px;
+  animation: slide 10s linear infinite; 
+}
+
+.Book-slot  span {
+  display: inline-block;  
+  padding-right: 30px;  
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);  
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+@media (max-width: 768px) {
+  .Book-slot h1 {
+    font-size: 18px;
+    animation: slide 15s linear infinite;  
+  }
 }
 
 .join h4 {
   font-size: 40px;
   margin-bottom: 39px;
+  font-family: TT Drugs;
 }
 
 .footer-icon {
@@ -8023,17 +8075,18 @@ h5.footer-titles {
 .join input::placeholder {
   color: #fff;
    font-size: 18px;
+   font-family: TT Drugs;
 }
 
 .text-footer span{
   font-size: 18px;
+  font-family: TT Drugs;
 }
 
  
 .about-pic img {
   width: 100%;
   object-fit: cover;
-  margin-left: -20%;
   border-radius: 12px;
 }
 
@@ -8045,6 +8098,34 @@ h5.footer-titles {
  
 }
 
+.Discover-button button {
+  margin-left: 20px;
+}
+
 .section-full .content-inner .const-about .about-banner {
   margin-top: 12px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(100%); /* Start off-screen */
+  }
+  to {
+    transform: translateX(-100%); /* End off-screen */
+  }
+}
+
+
+@font-face {
+  font-family: 'TTDrugs';
+  src: url('/fonts/TTDrugs/TTDrugs-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTDrugs';
+  src: url('/fonts/TTDrugs/TTDrugs-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
