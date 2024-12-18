@@ -128,7 +128,7 @@ html {
 }
 body {
   background-color: #fff;
-  font-family: 'Futura PT', sans-serif;
+  font-family: 'TT Drugs Trial', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #6f6f6f;
@@ -272,7 +272,7 @@ h4,
 h5,
 h6 {
   color: #232323;
-  font-family: 'Futura PT', sans-serif;
+  font-family: 'TT Drugs Trial', sans-serif;
 }
 h1 a,
 h2 a,
@@ -471,16 +471,20 @@ strong {
   font-weight: 400;
 }
 .font-weight-600 {
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .font-weight-700 {
-  font-weight: 700;
+  font-weight: 400;
+
 }
 .font-weight-800 {
-  font-weight: 800;
+  font-weight: 400;
+
 }
 .font-weight-900 {
-  font-weight: 900;
+  font-weight: 400;
+
 }
 /*---------------------------------------------------------------
 4. LISTS
@@ -2079,7 +2083,8 @@ dl dd {
 ---------------------------------------------------------------*/
 
 label {
-  font-weight: 600;
+  font-weight: 400;
+
   margin-bottom: 10px;
 }
 .panel-default,
@@ -2272,7 +2277,8 @@ input[type="checkbox"] + label:after {
   color: #fff;
   content: "\f00c";
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 0px;
   -webkit-font-smoothing: antialiased;
   left: 6px;
@@ -2372,7 +2378,8 @@ input[type="radio"]:checked + label:before {
   content: "\f005";
   display: inline-block;
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
   height: 14px;
@@ -2562,7 +2569,8 @@ blockquote p {
 blockquote:before {
   content: "\f10d";
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   color: var(--color-primary);
   font-size: 35px;
   position: absolute;
@@ -3318,7 +3326,8 @@ blockquote:before {
   display: block;
   padding: 0 20px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
+
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 15px;
 }
@@ -3349,7 +3358,8 @@ blockquote:before {
   content: "\f078";
   display: block;
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   right: 4px;
   position: absolute;
   top: 50%;
@@ -3486,7 +3496,8 @@ blockquote:before {
   .header-nav .nav > li .mega-menu > li ul a:after {
     content: "\f105";
     font-family: "Font Awesome 5 Free";
-    font-weight: 600;
+    font-weight: 400;
+
     width: auto;
     height: auto;
     background: transparent !important;
@@ -3726,7 +3737,8 @@ blockquote:before {
   .header-nav .nav > li > .sub-menu .sub-menu li a:after {
     content: "\f111";
     font-family: "Font Awesome 5 Free";
-    font-weight: 600;
+    font-weight: 400;
+
     width: auto;
     height: auto;
     background: transparent;
@@ -4296,7 +4308,8 @@ blockquote:before {
 .dlab-bnr-text strong {
   display: block;
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 70px;
   margin: 0 0 25px;
   color: #ffffff;
@@ -4304,7 +4317,8 @@ blockquote:before {
 .dlab-bnr-text span {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 400;
+
   display: block;
   margin-bottom: 30px;
 }
@@ -4590,16 +4604,20 @@ blockquote:before {
   font-weight: 400;
 }
 .tp-caption .font-weight-600 {
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .tp-caption .font-weight-700 {
-  font-weight: 700;
+  font-weight: 400;
+
 }
 .tp-caption .font-weight-800 {
-  font-weight: 800;
+  font-weight: 400;
+
 }
 .tp-caption .font-weight-900 {
-  font-weight: 900;
+  font-weight: 400;
+
 }
 .tp-caption h1,
 .tp-caption h2,
@@ -4607,7 +4625,8 @@ blockquote:before {
 .tp-caption h4,
 .tp-caption h5,
 .tp-caption h6 {
-  font-weight: 800;
+  font-weight: 400;
+
   margin-bottom: 24px;
   color: #ffffff;
 }
@@ -4642,7 +4661,8 @@ blockquote:before {
 .tp-caption h4,
 .tp-caption h5,
 .tp-caption h6 {
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .tp-caption .text {
   color: #ffffff;
@@ -4976,7 +4996,8 @@ blockquote:before {
   padding: 0;
   display: inline-block;
   color: var(--color-primary);
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 13px;
   text-transform: uppercase;
 }
@@ -5059,7 +5080,8 @@ blockquote:before {
   display: inline-block;
   text-transform: uppercase;
   font-size: 10px;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .dlab-info[class*="border-"] .post-title {
   margin-top: 0;
@@ -5363,7 +5385,8 @@ blockquote:before {
   border: 1px solid #e0e0e0;
   color: #767676;
   padding: 9px 15px;
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 12px;
   display: block;
   float: left;
@@ -5387,7 +5410,8 @@ blockquote:before {
 .nav-links .nav-next a {
   display: inline-block;
   color: #3396d1;
-  font-weight: 600;
+  font-weight: 400;
+
   margin-bottom: 20px;
   outline: none !important;
 }
@@ -5399,7 +5423,8 @@ blockquote:before {
 .nav-links .nav-next a:after {
   content: "\f105";
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   vertical-align: middle;
   margin-left: 2px;
   color: #333;
@@ -5442,7 +5467,8 @@ blockquote:before {
   color: #fff;
   padding: 2px 6px;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
+
   background-color: #ccc;
   margin: 0 2px;
 }
@@ -5456,7 +5482,8 @@ blockquote:before {
   color: #fff;
   padding: 10px 15px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 /*Post password form*/
 
@@ -5483,7 +5510,8 @@ blockquote:before {
   border: none;
   height: 40px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 /*gallery css for blog post*/
 
@@ -5643,13 +5671,15 @@ ol.comment-list li.comment .comment-author .fn {
   color: #555555;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
 }
 ol.comment-list li.comment .comment-author .says {
   display: none;
   color: #999999;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 ol.comment-list li.comment .comment-meta {
   color: #8d8d8d;
@@ -5665,7 +5695,8 @@ ol.comment-list li.comment .comment-meta a {
 ol.comment-list li.comment .comment-meta:before,
 ol.comment-list li.comment .reply a:before {
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 11px;
   vertical-align: top;
 }
@@ -5688,7 +5719,8 @@ ol.comment-list li.comment .reply a {
   right: 30px;
   margin-top: -5px;
   color: var(--primary);
-  font-weight: 700;
+  font-weight: 400;
+
 }
 ol.comment-list li .children {
   list-style: none;
@@ -5748,7 +5780,8 @@ ol.comment-list li .children li {
 }
 .comment-respond .comment-reply-title {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .comments-area .comment-form {
   margin: 0 -15px;
@@ -5838,7 +5871,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   border-width: 1px;
   color: #fff;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 400;
+
   padding: 10px 20px;
   text-transform: uppercase;
 }
@@ -5918,7 +5952,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   margin-bottom: 20px;
   padding-bottom: 15px;
-  font-weight: 600;
+  font-weight: 400;
+
   line-height: 12px;
 }
 .widget-title.style-1:after {
@@ -6019,7 +6054,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   top: 10px;
   display: block;
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .widget_categories ul li li,
 .widget_archive ul li li,
@@ -6183,7 +6219,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   color: #707070;
   content: ">";
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   margin: 0 0 0 5px;
 }
 .widget_calendar table {
@@ -6234,7 +6271,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   display: inline-block;
   margin: 0 0 5px;
   color: #555555;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .side-bar .widget_tag_cloud a:hover {
   background-color: var(--color-primary);
@@ -6297,7 +6335,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .widget_rss ul cite {
   color: #333;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 /* widget get in tuch */
 
@@ -6466,13 +6505,15 @@ footer .widget ul{
 }
 .widget-newslatter .site-button {
   padding: 12px 15px;
-  font-weight: 700;
+  font-weight: 400;
+
 }
 .news-box form:after {
   color: #000000;
   content: "Newslatter";
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 400;
+
   opacity: 0.05;
   position: absolute;
   top: -40px;
@@ -6482,7 +6523,8 @@ footer .widget ul{
   font-family: themify;
   content: "\e75a";
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 400;
+
   opacity: 0.05;
   position: absolute;
   right: 0;
@@ -6505,7 +6547,8 @@ footer .widget ul{
   line-height: 20px;
 }
 .widget-about .button-sm {
-  font-weight: 700;
+  font-weight: 400;
+
   padding: 5px 20px;
 }
 /* widget testimonial */
@@ -6516,7 +6559,8 @@ footer .widget ul{
   margin-bottom: 10px;
 }
 .widget-testimonial .testimonial-name {
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 13px;
   text-transform: uppercase;
   color: #000;
@@ -6886,7 +6930,8 @@ a,
   border-color: transparent;
   line-height: 1.42857;
   border-radius: 3px;
-  font-weight: 600;
+  font-weight: 400;
+
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -6927,7 +6972,8 @@ a,
 }
 .button-lg {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
+
   padding: 18px 35px;
 }
 .button-xl {
@@ -8742,7 +8788,8 @@ ul[class*="list-"] {
 }
 [class*="list-"].style2.list-box > li:after {
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   content: "\f0da";
   left: 39px;
   position: absolute;
@@ -9443,7 +9490,8 @@ ul[class*="list-"] {
 }
 .ow-event-meta ul li {
   color: #a9a9a9;
-  font-weight: 600;
+  font-weight: 400;
+
   display: inline-block;
   padding-left: 20px;
 }
@@ -9546,7 +9594,8 @@ ul[class*="list-"] {
 .quote-left:before,
 .quote-right:after {
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   position: absolute;
   z-index: 10;
   top: 15px;
@@ -10011,7 +10060,8 @@ ul[class*="list-"] {
   bottom: -10px;
   color: #000000;
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 80px;
   opacity: 0.05;
   position: absolute;
@@ -10034,7 +10084,8 @@ ul[class*="list-"] {
 }
 .testimonial-9 .testimonial-name,
 .testimonial-10 .testimonial-name {
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 13px;
   text-transform: uppercase;
   color: #000;
@@ -10114,7 +10165,8 @@ ul[class*="list-"] {
 .pricingtable-title * {
   margin: 0;
   color: #fff;
-  font-weight: 800;
+  font-weight: 400;
+
 }
 .pricingtable-features {
   margin: 0;
@@ -10248,7 +10300,8 @@ ul[class*="list-"] {
 .counter-style-2 .counter,
 .counter-style-3 .counter {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 400;
+
 }
 .counter-style-1 .counter-text,
 .counter-style-2 .counter-text {
@@ -10381,7 +10434,8 @@ ul[class*="list-"] {
   width: 1000px;
 }
 .provider_registration .bootstrap-select div.dropdown-menu ul li a {
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .provider_registration
   .bootstrap-select
@@ -10529,7 +10583,8 @@ ul[class*="list-"] {
   content: "\f105";
   margin-left: 7px;
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .breadcrumb-row ul li:last-child {
   color: #676767;
@@ -10781,7 +10836,8 @@ ul[class*="list-"] {
   position: relative;
   font-size: 14px;
   vertical-align: middle;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .dlab-address-bx .fa {
   position: absolute;
@@ -11349,7 +11405,8 @@ ul[class*="list-"] {
 .dlab-box-bg .icon-box-btn .site-button {
   border-radius: 0;
   color: var(--color-primary);
-  font-weight: 600;
+  font-weight: 400;
+
   margin-bottom: 0;
 }
 /* >Box New Style */
@@ -12145,7 +12202,8 @@ footer .widget_services ul li a:hover {
 }
 .page-notfound strong {
   font-size: 200px;
-  font-weight: 900;
+  font-weight: 400;
+
   line-height: 140px;
   display: block;
 }
@@ -12317,7 +12375,8 @@ footer .widget_services ul li a:hover {
 }
 .ow-entry-title {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
+
   padding: 5px 0;
 }
 .ow-entry-title,
@@ -12792,7 +12851,8 @@ ol.commentlist li .star-rating {
   margin-bottom: -1px;
   padding: 10px 15px;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .sidenav > ul li a:hover {
   color: #fff;
@@ -12958,12 +13018,14 @@ ol.commentlist li .star-rating {
   width: 80px;
 }
 .check-tbl th {
-  font-weight: 700;
+  font-weight: 400;
+
   font-size: 15px;
   padding: 10px;
 }
 .check-tbl td {
-  font-weight: 600;
+  font-weight: 400;
+
   padding: 10px;
 }
 .check-tbl.table > tbody > tr > td,
@@ -12980,7 +13042,8 @@ ol.commentlist li .star-rating {
 .product-price-total,
 .check-tbl .product-price-total,
 .check-tbl .product-item-price {
-  font-weight: 700;
+  font-weight: 400;
+
 }
 /* Cart */
 .product-item-close a {
@@ -13045,7 +13108,8 @@ ol.commentlist li .star-rating {
 .item-price {
   font-family: open sans;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .item-info-in.center {
   bottom: auto;
@@ -13153,13 +13217,15 @@ ol.commentlist li .star-rating {
 .add-box h2 {
   font-size: 50px;
   line-height: 50px;
-  font-weight: 700;
+  font-weight: 400;
+
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .add-box h5 {
   font-size: 20px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
+
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .item-add.add-style-2 {
@@ -13210,10 +13276,12 @@ ol.commentlist li .star-rating {
 }
 .shop-item-tage span {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .shop-item-tage a {
-  font-weight: 600;
+  font-weight: 400;
+
   margin-left: 7px;
 }
 /* Hover Style  */
@@ -13741,7 +13809,8 @@ ol.commentlist li .star-rating {
   border-width: 0 0 2px;
   color: #000000;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
+
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 0;
@@ -13758,7 +13827,8 @@ ol.commentlist li .star-rating {
 .shop-categories .acod-head a.collapsed:after,
 .shop-categories .acod-head a:after {
   font-family: open sans;
-  font-weight: 700;
+  font-weight: 400;
+
   color: #000;
   font-size: 18px;
   right: 5px;
@@ -13781,7 +13851,8 @@ ol.commentlist li .star-rating {
 .price .amount {
   border: 0 none;
   color: #404040;
-  font-weight: 700;
+  font-weight: 400;
+
   margin-bottom: 15px;
   padding: 0;
   text-align: left;
@@ -13805,7 +13876,8 @@ ol.commentlist li .star-rating {
 }
 .shop-account .site-button.button-lg {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
+
   padding: 14px 30px;
   text-transform: uppercase;
 }
@@ -13924,7 +13996,8 @@ ol.commentlist li .star-rating {
 }
 .short-edit-box h5 a {
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
+
 }
 
 /* Animation */
@@ -13941,7 +14014,8 @@ ol.commentlist li .star-rating {
   color: #505050;
   display: table-cell;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
+
   height: 200px;
   text-align: center;
   text-transform: capitalize;
@@ -14381,7 +14455,8 @@ ol.commentlist li .star-rating {
   margin-bottom: 5px;
   font-size: 35px;
   line-height: 45px;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .project-bx {
   position: relative;
@@ -14399,7 +14474,8 @@ ol.commentlist li .star-rating {
 .project-bx .dlab-info .dlab-title {
   margin-bottom: 0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .about-carousel-ser {
   overflow: hidden;
@@ -14618,7 +14694,8 @@ ol.commentlist li .star-rating {
   color: #000;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 400;
+
   opacity: 0.5;
   margin-bottom: 10px;
 }

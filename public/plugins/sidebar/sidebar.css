@@ -360,12 +360,14 @@ a[aria-expanded="true"]::before {
 	border-radius:0 0 0 15px;
 }
 .sort-area .content-area .element-area .myNavbar > ul > li > a{
-	font-weight: 600;
+	font-weight: 400;
+
 	color: #464a4c;
 }
 .sort-area .content-area .element-area .myNavbar > ul > li.active > a{
 	color: #3b68e7;
-    font-weight: 600;
+    font-weight: 400;
+
 }
 .sort-area .content-area .element-area .myNavbar > ul > li ul{
 	display:none;

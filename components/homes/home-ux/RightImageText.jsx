@@ -27,7 +27,7 @@ export default function RightImageText() {
         <div
           className="col-lg-6 col-md-6 col-sm-12 col-12 about_text" 
         >
-          <div className="content-bx1 col-lg-8 col-sm-12 col-12 wow fadeInRight">
+          <div className="content-bx1 col-lg-9 col-sm-12 col-12 wow fadeInRight">
             <div className="section-head style2">
               <h2 className="title">
                 Your Partner in Advanced Skin Rejuvenation

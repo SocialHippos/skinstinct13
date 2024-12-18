@@ -22,7 +22,8 @@
   color: #fff;
   font-family: Arial;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 20px;
   margin: 0;
   padding: 2px 4px;
@@ -37,7 +38,8 @@
   color: #fff;
   font-family: Arial;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 20px;
   margin: 0;
   position: absolute;
@@ -51,7 +53,8 @@
   color: #fff;
   font-family: Arial;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 20px;
   margin: 0;
   position: absolute;
@@ -65,7 +68,8 @@
   color: #fff;
   font-family: Arial;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 40px;
   margin: 0;
   position: absolute;
@@ -79,7 +83,8 @@
   color: #fff;
   font-family: Arial;
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 400;
+
   letter-spacing: -2px;
   line-height: 60px;
   margin: 0;
@@ -95,7 +100,8 @@
   color: #fff;
   font-family: Arial;
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 60px;
   margin: 0;
   padding: 1px 4px 0;
@@ -111,7 +117,8 @@
   color: #000;
   font-family: Arial;
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 60px;
   margin: 0;
   padding: 1px 4px 0;
@@ -126,7 +133,8 @@
   color: #000;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 20px;
   margin: 0;
   position: absolute;
@@ -140,7 +148,8 @@
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 20px;
   margin: 0;
   position: absolute;
@@ -169,7 +178,8 @@
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 400;
+
   letter-spacing: 0;
   line-height: 36px;
   margin: 0;
@@ -302,7 +312,8 @@
   color: #fff;
   font-family: Arial;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 400;
+
   height: auto;
   letter-spacing: -1.5px;
   line-height: 36px;
@@ -322,7 +333,8 @@
   color: #666;
   font-family: "Open Sans";
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 60px;
   margin: 0;
   padding: 1px 4px 0;
@@ -382,7 +394,8 @@
   color: #34495e;
   font-family: "Open Sans";
   font-size: 58px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 60px;
   text-decoration: none;
 }
@@ -395,7 +408,8 @@
   color: #fff;
   font-family: "Open Sans";
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 20px;
   padding: 10px;
   text-decoration: none;
@@ -409,7 +423,8 @@
   color: #e33a0c;
   font-family: "Open Sans";
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 30px;
   padding: 0;
   text-decoration: none;
@@ -437,7 +452,8 @@
   color: #fff;
   font-family: "Open Sans";
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 20px;
   padding: 10px;
   text-decoration: none;
@@ -451,7 +467,8 @@
   color: #f39c12;
   font-family: "Open Sans";
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 30px;
   text-decoration: none;
 }
@@ -464,7 +481,8 @@
   color: #fff;
   font-family: "Open Sans";
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 20px;
   padding: 10px;
   text-decoration: none;
@@ -488,7 +506,8 @@
   color: #fff;
   font-family: "Open Sans";
   font-size: 58px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 60px;
   text-decoration: none;
 }
@@ -544,7 +563,8 @@
   color: #fff;
   font-family: "Open Sans";
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 20px;
   padding: 10px;
   text-decoration: none;
@@ -572,7 +592,8 @@
   color: #000;
   font-family: "Open Sans";
   font-size: 58px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 60px;
   text-decoration: none;
 }
@@ -619,7 +640,8 @@
   color: #fff;
   font-family: "Open Sans";
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 40px;
   padding: 10px 20px 15px;
   text-decoration: none;
@@ -662,7 +684,8 @@
   color: #fff;
   font-family: "Source Sans Pro";
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 400;
+
   letter-spacing: 1px;
   line-height: 60px;
   text-decoration: none;
@@ -724,7 +747,8 @@
   color: #333;
   font-family: "Source Sans Pro";
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 400;
+
   letter-spacing: 1px;
   line-height: 60px;
   text-decoration: none;
@@ -799,7 +823,8 @@
   font-family: Roboto;
   font-size: 120px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 120px;
   padding: 0;
   text-decoration: none;
@@ -936,7 +961,8 @@
   font-family: Raleway;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+
   letter-spacing: 3px;
   line-height: 20px;
   padding: 0;
@@ -971,7 +997,8 @@
   font-family: Raleway;
   font-size: 80px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
+
   line-height: 70px;
   padding: 0;
   text-decoration: none;
@@ -1021,7 +1048,8 @@
   font-family: Raleway;
   font-size: 12px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   letter-spacing: 2px;
   line-height: 20px;
   padding: 0;
@@ -1038,7 +1066,8 @@
   font-family: Raleway;
   font-size: 60px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
+
   letter-spacing: 2px;
   line-height: 60px;
   padding: 0;
@@ -1089,7 +1118,8 @@
   font-family: Raleway;
   font-size: 130px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
+
   line-height: 130px;
   padding: 0;
   text-decoration: none;
@@ -1122,7 +1152,8 @@
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
+
   line-height: 20px;
   padding: 0;
   text-decoration: none;
@@ -1358,7 +1389,8 @@
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   line-height: 24px;
   padding: 0;
   text-decoration: none;
@@ -1436,7 +1468,8 @@
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   line-height: 24px;
   padding: 0;
   text-align: left;
@@ -1453,7 +1486,8 @@
   font-family: Raleway;
   font-size: 30px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
+
   line-height: 30px;
   padding: 20px 22px 20px 25px;
   text-align: left;
@@ -1481,7 +1515,8 @@
   font-family: Raleway;
   font-size: 70px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 70px;
   padding: 10px 0;
   text-decoration: none;
@@ -1634,7 +1669,8 @@
   font-family: Roboto;
   font-size: 13px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+
   letter-spacing: 2px;
   line-height: 17px;
   padding: 12px 35px;
@@ -1662,7 +1698,8 @@
   font-family: Roboto;
   font-size: 15px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
+
   line-height: 20px;
   padding: 0;
   text-align: left;
@@ -1741,7 +1778,8 @@
   font-family: Raleway;
   font-size: 30px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
+
   line-height: 30px;
   padding: 5px;
   text-align: left;
@@ -1758,7 +1796,8 @@
   font-family: Raleway;
   font-size: 12px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   letter-spacing: 2px;
   line-height: 12px;
   padding: 5px;
@@ -1832,7 +1871,8 @@
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   letter-spacing: 1px;
   line-height: 48px;
   padding: 0 40px;
@@ -1888,7 +1928,8 @@
   font-family: Raleway;
   font-size: 15px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   letter-spacing: 1px;
   line-height: 15px;
   padding: 13px 35px;
@@ -1916,7 +1957,8 @@
   font-family: Raleway;
   font-size: 15px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   line-height: 15px;
   padding: 12px 35px;
   text-align: left;
@@ -1943,7 +1985,8 @@
   font-family: Raleway;
   font-size: 17px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   letter-spacing: 2px;
   line-height: 17px;
   padding: 12px 35px;
@@ -1971,7 +2014,8 @@
   font-family: Raleway;
   font-size: 17px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   letter-spacing: 2px;
   line-height: 17px;
   padding: 12px 35px;
@@ -1999,7 +2043,8 @@
   font-family: Raleway;
   font-size: 15px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+
   letter-spacing: 1px;
   line-height: 15px;
   padding: 13px 35px;
@@ -2027,7 +2072,8 @@
   font-family: Roboto;
   font-size: 15px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
+
   line-height: 15px;
   padding: 10px 30px;
   text-align: left;
@@ -2054,7 +2100,8 @@
   font-family: Roboto;
   font-size: 17px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 17px;
   padding: 17px 35px;
   text-align: left;
@@ -2081,7 +2128,8 @@
   font-family: Roboto;
   font-size: 17px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 17px;
   padding: 15px 35px;
   text-align: left;
@@ -2190,7 +2238,8 @@
   font-family: Roboto;
   font-size: 17px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 17px;
   padding: 17px 35px;
   text-align: left;
@@ -2217,7 +2266,8 @@
   font-family: Roboto;
   font-size: 17px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+
   line-height: 17px;
   padding: 15px 35px;
   text-align: left;
@@ -2354,7 +2404,8 @@
   color: rgba(255, 255, 255, 1);
   font-size: 110px;
   line-height: 100px;
-  font-weight: 800;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 10px 0 10px 0;
@@ -2434,7 +2485,8 @@
   color: rgba(41, 46, 49, 1);
   font-size: 13px;
   line-height: 13px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 15px 70px 15px 50px;
@@ -2462,7 +2514,8 @@
   color: rgba(41, 46, 49, 1);
   font-size: 20px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 14px 14px 14px 16px;
@@ -2490,7 +2543,8 @@
   color: rgba(255, 255, 255, 1);
   font-size: 12px;
   line-height: 12px;
-  font-weight: 600;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 5px 5px 5px 5px;
@@ -2508,7 +2562,8 @@
   color: rgba(255, 255, 255, 1);
   font-size: 30px;
   line-height: 30px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 5px 5px 5px 5px;
@@ -2587,7 +2642,8 @@
   color: rgba(255, 255, 255, 1);
   font-size: 70px;
   line-height: 70px;
-  font-weight: 800;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 0;
@@ -2604,7 +2660,8 @@
   color: rgba(255, 255, 255, 1);
   font-size: 20px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 20px 50px 20px 50px;
@@ -2650,7 +2707,8 @@
   color: rgba(41, 46, 49, 1);
   font-size: 33px;
   line-height: 45px;
-  font-weight: 600;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 0;
@@ -2667,7 +2725,8 @@
   color: rgba(111, 124, 130, 1);
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 0;
@@ -2762,7 +2821,8 @@
   color: rgba(41, 46, 49, 1);
   font-size: 13px;
   line-height: 13px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 15px 50px 15px 50px;
@@ -2790,7 +2850,8 @@
   color: rgba(41, 46, 49, 1);
   font-size: 13px;
   line-height: 13px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 14px 14px 14px 16px;
@@ -2835,7 +2896,8 @@
   color: rgba(168, 216, 238, 1);
   font-size: 15px;
   line-height: 20px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Roboto;
   padding: 0;
@@ -2852,7 +2914,8 @@
   color: rgba(255, 255, 255, 1);
   font-size: 13px;
   line-height: 17px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Roboto;
   padding: 12px 35px 12px 35px;
@@ -2902,7 +2965,8 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
+
   padding: 0 20px;
   border: 0;
   background: #009aee;
@@ -2922,7 +2986,8 @@
   color: rgba(255, 255, 255, 1);
   font-size: 70px;
   line-height: 70px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: "Roboto Condensed";
   padding: 0 0 10px 0;
@@ -2940,7 +3005,8 @@
   color: rgba(255, 255, 255, 0.65);
   font-size: 25px;
   line-height: 25px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: italic;
   font-family: "" Playfair Display "";
   padding: 0 0 10px 0;
@@ -3032,7 +3098,8 @@
   color: rgba(0, 0, 0, 0.65);
   font-size: 25px;
   line-height: 25px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: italic;
   font-family: "Playfair Display";
   padding: 0 0 10px 0;
@@ -3049,7 +3116,8 @@
   color: rgba(0, 0, 0, 1);
   font-size: 70px;
   line-height: 70px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: "Roboto Condensed";
   padding: 0 0 10px 0;
@@ -3348,7 +3416,8 @@
   color: rgba(0, 0, 0, 1);
   font-size: 60px;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Roboto;
   padding: 0;
@@ -3454,7 +3523,8 @@
   color: rgba(0, 0, 0, 1);
   font-size: 60px;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Roboto;
   padding: 0;
@@ -3554,7 +3624,8 @@
   color: rgba(255, 255, 255, 1);
   font-size: 70px;
   line-height: 70px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: lato;
   padding: 0;
@@ -3617,7 +3688,8 @@
   color: rgba(255, 255, 255, 1);
   font-size: 12px;
   line-height: 12px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: lato;
   padding: 0;
@@ -3726,7 +3798,8 @@
   color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
   line-height: 15px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Lato;
   padding: 17px 73px 17px 50px;
@@ -3810,7 +3883,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 70px;
   line-height: 70px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Roboto;
   padding: 0;
@@ -3917,7 +3991,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 40px;
   line-height: 40px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Lato;
   padding: 0;
@@ -4056,7 +4131,8 @@ tp-caption.Team-Thumb {
 .SleekLanding-ButtonBG,
 .tp-caption.SleekLanding-ButtonBG {
   color: rgba(0, 0, 0, 1);
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   padding: 0;
   text-decoration: none;
@@ -4074,7 +4150,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 13px;
   line-height: 50px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Lato;
   padding: 0;
@@ -4226,7 +4303,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 70px;
   line-height: 80px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Lato;
   padding: 0;
@@ -4299,7 +4377,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 60px;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Oswald;
   padding: 0;
@@ -4366,7 +4445,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 50px;
   line-height: 50px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Lato;
   padding: 0;
@@ -4402,7 +4482,8 @@ tp-caption.Team-Thumb {
   color: rgba(164, 157, 143, 1);
   font-size: 27px;
   line-height: 35px;
-  font-weight: 600;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Lato;
   padding: 0;
@@ -4445,7 +4526,8 @@ tp-caption.Team-Thumb {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 900;
+  font-weight: 400;
+
   padding: 0 20px;
   border: 1px solid #009aee;
   background: #009aee;
@@ -4502,7 +4584,8 @@ tp-caption.Team-Thumb {
   color: rgba(248, 124, 9, 1);
   font-size: 12px;
   line-height: 22px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: lato;
   padding: 0;
@@ -4562,7 +4645,8 @@ tp-caption.Team-Thumb {
   color: rgba(109, 177, 155, 1);
   font-size: 12px;
   line-height: 22px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: lato;
   padding: 0;
@@ -4593,7 +4677,8 @@ tp-caption.Team-Thumb {
   color: rgba(153, 153, 153, 1);
   font-size: 12px;
   line-height: 22px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: lato;
   padding: 0;
@@ -4698,7 +4783,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 14px;
   line-height: 60px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Roboto;
   padding: 0 50px 0 50px;
@@ -4756,7 +4842,8 @@ tp-caption.Team-Thumb {
   color: rgba(17, 17, 17, 1);
   font-size: 20px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: BenchNine;
   padding: 21px 30px 16px 30px;
@@ -4774,7 +4861,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 65px;
   line-height: 70px;
-  font-weight: 700;
+  font-weight: 400;
+
   font-style: normal;
   font-family: BenchNine;
   padding: 21px 30px 16px 30px;
@@ -4799,7 +4887,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 13px;
   line-height: 40px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 1px 30px 1px 30px;
@@ -4828,7 +4917,8 @@ tp-caption.Team-Thumb {
   color: rgba(255, 255, 255, 1);
   font-size: 120px;
   line-height: 120px;
-  font-weight: 900;
+  font-weight: 400;
+
   font-style: normal;
   font-family: Raleway;
   padding: 0;
@@ -5488,7 +5578,8 @@ tp-caption.Team-Thumb {
   font-family: Lato, sans-serif;
   line-height: 46px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
+
   padding: 0 30px;
   border: 0;
   background: #f04531;
@@ -5864,7 +5955,8 @@ website:   	http://www.themepunch.com
   border: none;
 }
 .rev_slider .no-slides-text {
-  font-weight: 700;
+  font-weight: 400;
+
   text-align: center;
   padding-top: 80px;
 }
@@ -6410,14 +6502,16 @@ img.tp-slider-alternative-image {
   font-size: 15px;
   line-height: 45px !important;
   font-family: arial, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
+
   letter-spacing: -1px;
   text-decoration: none;
 }
 .tp-button.big {
   color: #fff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
-  font-weight: 700;
+  font-weight: 400;
+
   padding: 9px 20px;
   font-size: 19px;
   line-height: 57px !important;
@@ -6489,7 +6583,8 @@ img.tp-slider-alternative-image {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 15px;
-  font-weight: 900;
+  font-weight: 400;
+
 }
 .rev-btn.rev-withicon i {
   font-weight: 400;
@@ -7025,7 +7120,8 @@ img.tp-slider-alternative-image {
 .hginfo,
 .hglayerinfo {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .tparrows.tp-leftarrow:before {
   content: "\e824";
@@ -7536,7 +7632,8 @@ body.rtl .tp-kbimg {
   color: #888;
   font-size: 12px;
   padding: 0 10px;
-  font-weight: 600;
+  font-weight: 400;
+
   right: 27px;
   top: -4px;
   background: #fff;
@@ -7924,7 +8021,8 @@ body.rtl .tp-kbimg {
   transform: translateX(200px);
   text-transform: uppercase;
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 13px;
   line-height: 70px;
   white-space: nowrap;
@@ -8082,7 +8180,8 @@ body.rtl .tp-kbimg {
 .erinyen .tp-tab-title {
   color: #a8d8ee;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 400;
+
   text-transform: uppercase;
   font-family: "Roboto Slab";
   margin-bottom: 5px;
@@ -8497,7 +8596,8 @@ body.rtl .tp-kbimg {
 .hades .tp-tab-title {
   display: block;
   color: #333;
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 18px;
   text-align: center;
   line-height: 25px;
@@ -8587,7 +8687,8 @@ body.rtl .tp-kbimg {
   position: relative;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 12px;
   line-height: 90px;
   white-space: nowrap;
@@ -8680,7 +8781,8 @@ body.rtl .tp-kbimg {
 .hebe .tp-tab-title {
   color: #a8d8ee;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 400;
+
   text-transform: uppercase;
   font-family: "Roboto Slab";
   margin-bottom: 5px;
@@ -8836,7 +8938,8 @@ body.rtl .tp-kbimg {
   background: #000;
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
+
   position: absolute;
   font-size: 12px;
   white-space: nowrap;
@@ -8909,7 +9012,8 @@ body.rtl .tp-kbimg {
 .hermes .tp-tab-date {
   display: block;
   color: #888;
-  font-weight: 600;
+  font-weight: 400;
+
   font-size: 12px;
   margin-bottom: 10px;
 }
@@ -8917,7 +9021,8 @@ body.rtl .tp-kbimg {
   display: block;
   color: #fff;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 400;
+
   text-transform: uppercase;
   line-height: 19px;
 }
@@ -9562,7 +9667,8 @@ body.rtl .tp-kbimg {
   text-align: center;
   line-height: 15px;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 400;
+
   z-index: 3;
   visibility: hidden;
   opacity: 0;
@@ -9660,7 +9766,8 @@ body.rtl .tp-kbimg {
   text-align: center;
   background: rgba(0, 0, 0, 0.25);
   font-family: "Roboto Slab", serif;
-  font-weight: 700;
+  font-weight: 400;
+
   font-size: 13px;
   line-height: 13px;
   color: #fff;
