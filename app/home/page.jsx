@@ -1,5 +1,5 @@
 import React from "react";
-import Hero2 from "@/components/homes/home-ux/Hero2";
+import Hero2 from "@/components/homes/home-ux/Hero3";
 import RightImageText from "@/components/homes/home-ux/RightImageText";
 import Treatment from "@/components/homes/home-ux/Treatments";
 
