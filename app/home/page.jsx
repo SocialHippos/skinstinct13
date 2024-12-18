@@ -1,5 +1,5 @@
 import React from "react";
-import Hero2 from "@/components/homes/home-ux/Hero3";
+import Hero3 from "@/components/homes/home-ux/Hero3";
 import RightImageText from "@/components/homes/home-ux/RightImageText";
 import Treatment from "@/components/homes/home-ux/Treatments";
 
@@ -12,7 +12,7 @@ export default function page() {
     <>
       <div className="page-wraper roboto-condensed  ">
         <div className="page-content bg-white home-slider-10">
-          <Hero2 />
+          <Hero3 />
           <div className="content-block">
             <RightImageText />
             <Treatment />
