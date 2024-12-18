@@ -96,7 +96,7 @@ export default function page({ params }) {
               <div className="col-lg-12 m-b30">
                 <Image 
                   alt=""
-                  class="border-blk-2-20"
+                  className="border-blk-2-20"
                   src="/images/treatments/mesotherapy-skin-needling.png"
                   width="1000"
                   height="674"

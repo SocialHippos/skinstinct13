@@ -93,7 +93,8 @@
   font-size: 55px;
   line-height: 1.3;
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 400;
+
   position: relative;
 }
 
@@ -231,7 +232,6 @@
   justify-content: space-between;
   margin-left: -100px;
   margin-top: -100px;
-  background-image: url(../images/about/event/ribbon.png);
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -256,11 +256,13 @@
 .ev-counter-area .dz-title {
   font-size: 90px;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 400;
+
   color: var(--color-primary);
 }
 .ev-counter-area .dz-text {
-  font-weight: 600;
+  font-weight: 400;
+
   color: #000;
   margin-bottom: 0;
 }
@@ -295,7 +297,8 @@
 .ev-list li i:after {
   content: "\f00c";
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  font-weight: 400;
+
   position: absolute;
   left: 0;
   color: #fff;
@@ -331,7 +334,6 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -57%);
-  background-image: url(../images/about/event/circle.png);
   background-size: cover;
   z-index: -1;
 }
@@ -412,7 +414,6 @@
   position: absolute;
   width: 100%;
   height: 18px;
-  background-image: url(../images/price-pattern.png);
   left: 0;
 }
 .event-page .pricingtable-wrapper.style-2:before {
@@ -425,7 +426,8 @@
 .event-page .pricingtable-wrapper.style-2 .pricingtable-bx {
   font-size: 60px;
   color: var(--color-secondry);
-  font-weight: 800;
+  font-weight: 400;
+
   line-height: 1.2;
 }
 .event-page .pricingtable-wrapper.style-2 .pricingtable-price {
@@ -487,7 +489,8 @@
 }
 .event-page .icon-bx-wraper.style-19 .title {
   margin-bottom: 0;
-  font-weight: 600;
+  font-weight: 400;
+
 }
 .event-page .icon-bx-wraper.style-19 .title a {
   color: var(--color-primary);
@@ -518,7 +521,6 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-image: url("../images/about/event/ribbon.png");
   opacity: 0.2;
   z-index: -1;
 }
@@ -530,7 +532,8 @@
 .evft-title {
   font-size: 48px;
   line-height: 1.3;
-  font-weight: 600;
+  font-weight: 400;
+
   color: #000;
 }
 .ev-subscribe .dzSubscribe .input-group {

@@ -31,7 +31,7 @@
 .previousButton,
 .nextButton {
   position: absolute;
-  top: 50%;
+  top: 90%;
   transform: translateY(-50%);
   z-index: 10;
   background: url(/images/icon/angle_right.png) no-repeat center center / 32px;
@@ -39,13 +39,13 @@
   height: 60px;
   text-indent: -9999px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0);
 }
 .previousButton {
   transform: translateY(-50%) rotate(180deg);
   z-index: 10;
   background: url(/images/icon/angle_right.png) no-repeat center center / 32px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0);
 }
 .previousButton2,
 .nextButton2 {
@@ -138,8 +138,7 @@
 
 .previousButton:hover,
 .nextButton:hover {
-  background: url(/images/icon/angle_right.png) no-repeat center center / 17px;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0);
 }
 .previousButton3:hover,
 .nextButton3:hover {
@@ -158,17 +157,16 @@
   transform: rotate(180deg) translateY(calc(50% + 0px));
 }
 
-.previousButton:hover {
-  left: -10px;
-}
+
 
 .nextButton {
   right: 0;
 }
 
-.nextButton:hover {
-  right: -10px;
-}
+.swiper-button-prev, .swiper-button-next {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 95%) !important;}
+
 
 .slider-content {
   text-align: center;
@@ -189,7 +187,8 @@
 }
 
 .hero-sec .slider-content .inner h1 {
-  font-weight: 900;
+  font-weight: 400;
+
   margin: 0 auto;
   max-width: 840px;
   color: #ffffff;

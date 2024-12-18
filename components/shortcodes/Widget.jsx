@@ -197,7 +197,7 @@ export default function Widget() {
                     el: ".spt2",
                     bulletActiveClass: "active",
                     renderBullet: function (index, className) {
-                      return `  <button role="button" class="owl-dot ${className}">
+                      return `  <button role="button" className="owl-dot ${className}">
                 <span></span>
               </button>`;
                     },
@@ -235,7 +235,7 @@ export default function Widget() {
                     el: ".spt1",
                     bulletActiveClass: "active",
                     renderBullet: function (index, className) {
-                      return `  <button role="button" class="owl-dot ${className}">
+                      return `  <button role="button" className="owl-dot ${className}">
                 <span></span>
               </button>`;
                     },

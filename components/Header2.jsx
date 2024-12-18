@@ -12,11 +12,11 @@ export default function Header2() {
       {/* main header */}
       <div className="sticky-header main-bar-wraper navbar-expand-lg">
         <div className="main-bar clearfix">
-          <div className="container clearfix">
+          <div className="  clearfix">
             {/* website logo */}
             <div className="logo-header mostion ">
             <Link href="/">
-                <Image alt="" src="/images/skinstinct-white.svg" width="258" height="75" />
+                <Image alt="" src="/images/skinstinct1.png" width="258" height="75" />
               </Link>
             </div>
             {/* nav toggle button */}
@@ -39,7 +39,7 @@ export default function Header2() {
               <div className="extra-cell d-flex align-items-center gap-5 gap-xl-3 d-none d-lg-flex">
                 <Link href="/contact">
                   <button className="button dz-bannerbtn bg-button" type="button">
-                    BOOK AN APPOINTMENT
+                    BOOKING
                   </button>
                 </Link>
               </div>
@@ -52,7 +52,7 @@ export default function Header2() {
             >
               <div className="logo-header d-md-block d-lg-none">
               <Link href="/">
-                <Image alt="" src="/images/skinstinct.svg" width="258" height="75" />
+                <Image alt="" src="/images/skinstinct1.png" width="258" height="75" className="invert-logo" />
               </Link>
               </div>
               <ul className="nav navbar-nav">
