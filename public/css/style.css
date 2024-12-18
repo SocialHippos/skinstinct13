@@ -3996,7 +3996,7 @@ blockquote:before {
 }
 .header-transparent .main-bar {
   background-color: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 .header-transparent .header-nav .nav > li > a {
   color: #fff;
@@ -13471,7 +13471,6 @@ ol.commentlist li .star-rating {
 
 .content-block {
   background-color: #eebf9b;
-  margin-top: -2%;
 }
 .content-inner-2 {
   padding-top: 80px;
