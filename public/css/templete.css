@@ -3269,7 +3269,6 @@ HOME 5 Box Header
 
 /* New Css */
 .frame-box {
-  background-image: url(../images/background/bg12.jpg);
   background-attachment: unset !important;
 }
 .area-frame {
@@ -3297,10 +3296,6 @@ HOME 5 Box Header
 }
 .frame-box .area-frame .container:after {
   content: "";
-  background-image: url(../images/background/border-bg-top.png),
-    url(../images/background/border-bg-bottom.png),
-    url(../images/background/border-bg-left.png),
-    url(../images/background/border-bg-right.png);
   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
   background-position: top, bottom, left, right;
   height: calc(100% + 44px);
@@ -3372,7 +3367,6 @@ HOME 5 Box Header
 }
 .frame-box .top-bar:after {
   content: "";
-  background-image: url(../images/background/border-bg-bottom.png);
   position: absolute;
   bottom: -22px;
   width: 100%;
@@ -3501,7 +3495,6 @@ HOME 5 Box Header
 
 /* project */
 .frame-box .project-bx {
-  background-image: url(../images/pattern/pt1.jpg);
   padding: 10px;
   border-radius: 10px;
   height: 100%;
@@ -3638,7 +3631,6 @@ HOME 5 Box Header
 }
 .frame-box .footer-top:after {
   content: "";
-  background-image: url(../images/background/border-bg-dark-top.png);
   position: absolute;
   top: -22px;
   width: 100%;
