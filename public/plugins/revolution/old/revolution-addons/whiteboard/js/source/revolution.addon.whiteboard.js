@@ -43,8 +43,8 @@ var init = function(opt) {
 		_css_hand_image = "position:absolute; top:0px;left:0px;background-size:contain;background-repeat:no-repeat;background-position:center center;";
 		//opacity:0.2;border:1px dotted rgba(255,0,0,0.2);
 	
-	if (o.movehand!=undefined) o.movehand.markup = '<div className="wb-move-hand wb-thehand" style="'+_css_thehand+'"><div className="wb-hand-inner" style="'+_css_hand_inner+';width:'+o.movehand.width+'px;height:'+o.movehand.height+'px"><div className="wb-hand-scale" ><div className="wb-hand-image" style="'+_css_hand_image+'width:'+o.movehand.width+'px;height:'+o.movehand.height+'px;background-image:url('+o.movehand.src+');"></div></div></div>';
-	if (o.writehand!=undefined)  o.writehand.markup = '<div className="wb-draw-hand wb-thehand" style="'+_css_thehand+'"><div className="wb-hand-inner" style="'+_css_hand_inner+'"><div className="wb-hand-scale" style="'+_css_hand_scale+'"><div className="wb-hand-image" style="'+_css_hand_image+'width:'+o.writehand.width+'px;height:'+o.writehand.height+'px;background-image:url('+o.writehand.src+');"></div></div></div>';
+	if (o.movehand!=undefined) o.movehand.markup = '<div class="wb-move-hand wb-thehand" style="'+_css_thehand+'"><div class="wb-hand-inner" style="'+_css_hand_inner+';width:'+o.movehand.width+'px;height:'+o.movehand.height+'px"><div class="wb-hand-scale" ><div class="wb-hand-image" style="'+_css_hand_image+'width:'+o.movehand.width+'px;height:'+o.movehand.height+'px;background-image:url('+o.movehand.src+');"></div></div></div>';
+	if (o.writehand!=undefined)  o.writehand.markup = '<div class="wb-draw-hand wb-thehand" style="'+_css_thehand+'"><div class="wb-hand-inner" style="'+_css_hand_inner+'"><div class="wb-hand-scale" style="'+_css_hand_scale+'"><div class="wb-hand-image" style="'+_css_hand_image+'width:'+o.writehand.width+'px;height:'+o.writehand.height+'px;background-image:url('+o.writehand.src+');"></div></div></div>';
 	
 	
 	jQuery(window).resize(function() {

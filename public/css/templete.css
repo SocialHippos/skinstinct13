@@ -1,177 +1,6 @@
-
-.section-full {
-  width: 100%;
-}
-
-.content-inner-2 {
-  padding: 70px 0;
-}
-
-.portfolio {
-  position: relative;
-}
-
-.treatment-bg {
-  background: #f7f7f7;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.title {
-  margin-bottom: 30px;
-}
-
-.text-center-mbl {
-  text-align: center;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.portfolio-ic {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card-container {
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-.dlab-box {
-  position: relative;
-  overflow: hidden;
-}
-
-.dlab-media {
-  position: relative;
-}
-
-.dez-info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 100%;
-  text-align: center;
-}
-
-.text-white a img {
-  border-radius: 40px;
-}
-
-.dez-title {
-  margin: 0;
-}
-
-.dez-title a {
-  color: white !important;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.dlab-img-overlay1:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0);
-  transition: all 0.3s ease;
-}
-
-.dlab-img-overlay1:hover:before {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.overlay-bx {
-  position: absolute;
-  right: 20px;
-  z-index: 2;
-}
-
-.center {
-  text-align: center;
-}
-
-.treatment-button {
-  padding: 12px 30px;
-  background: #000;
-  color: white;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
-@media (max-width: 768px) {
-  .col-md-6 {
-    width: 50%;
-  }
-}
-
-@media (max-width: 576px) {
-  .col-sm-6 {
-    width: 100%;
-  }
-}
 .mt-150{
   margin-top:150px !important;
 }
-
-.treatment-box-img img{
-filter: brightness(0.9);
-}
-
-.about-button{
-  border: 1px solid #AE7451 !important;
-  color: #AE7451 !important;
-}
-
-.about-button:hover{
-  border: 1px solid #AE7451 !important;
-  background-color: #AE7451 !important;
-  background: #AE7451 !important;
-  color: #ffffff !important;
-}
-
-.treatment-button{
-  border: 1px solid #AE7451 !important;
-  color: #AE7451 !important;
-}
-
-.treatment-button:hover{
-  border: 1px solid #AE7451 !important;
-  background-color: #AE7451 !important;
-  background: #AE7451 !important;
-  color: #ffffff !important;
-}
-
-.treatment-bg{
-  background-color: #ffffff !important;
-  background: #ffffff !important;
-}
-
-.mt-20{
-  margin-top:20px !important;
-}
-
-.about_text{
-display: flex;
-justify-content: center;
-} 
 
 .slider img{
   filter: brightness(0.8);
@@ -188,8 +17,7 @@ border: 1px solid black;
 color: black;
 border-radius: 30px;
 display: inline-block;
-font-weight: 400;
-
+font-weight: 600;
 line-height: 50px;
 margin-right: 21px;
 padding: 0 60px;
@@ -202,8 +30,7 @@ padding: 0 60px;
   color: black;
   border-radius: 30px;
   display: inline-block;
-  font-weight: 400;
-
+  font-weight: 600;
   line-height: 50px;
   margin-right: 21px;
   padding: 0 60px;
@@ -223,8 +50,8 @@ padding: 0 60px;
 }
 
 .button.dz-bannerbtn.bg-button:hover{
-  background-color: #ffffff;
-  color:#AE7451;
+  background-color: #ffcfb2;
+  color:white;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -237,11 +64,11 @@ padding: 0 60px;
 
 .dlab-media{
   border-radius: 20px;
-
+  border: 2px solid #000000;
 }
 .border-blk-2-20{
   border-radius: 29px;
-
+  border: 2px solid #000000;
 }
 
 .pr-2{
@@ -262,7 +89,7 @@ width: 20px;}
 }
 
 button.dz-bannerbtn.bg-button{ 
-  border:1px solid #ffffff;
+  border:3px solid #ffffff;
 }
 
 @media only screen and (min-width: 767px){
@@ -270,8 +97,7 @@ button.dz-bannerbtn.bg-button{
   padding-left: 13px;
   margin-bottom: 10px;
   font-size: 40px;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 }
 
@@ -466,8 +292,7 @@ footer .footer-bottom .fa-heart {
 h4,
 h5,
 h6 {
-  font-weight: 400;
-
+  font-weight: 600;
 }
 .box-sort {
   background-color: #ffffff;
@@ -676,8 +501,7 @@ h6 {
 .dz_error-404 .dz_error {
   border-radius: 50%;
   font-size: 70px;
-  font-weight: 400;
-
+  font-weight: 700;
   height: 200px;
   line-height: 200px;
   margin: 20px 0;
@@ -686,22 +510,19 @@ h6 {
 }
 .dz_error-405 .dz_error {
   color: #dfdfdf;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: 'Futura PT', sans-serif;
   font-size: 200px;
-  font-weight: 400;
-
+  font-weight: 700;
   line-height: 200px;
 }
 .dz_error-404 .error-head {
-  font-weight: 400;
-
+  font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
 .dz_error-405 .error-head {
   font-size: 50px;
-  font-weight: 400;
-
+  font-weight: 700;
 }
 .dz_error-405 .error-content {
   font-size: 21px;
@@ -1030,8 +851,7 @@ h6 {
 }
 .features-info .title {
   font-size: 30px;
-  font-weight: 400;
-
+  font-weight: 600;
   text-transform: capitalize;
   line-height: 40px;
   padding-right: 30px;
@@ -1045,8 +865,7 @@ h6 {
 }
 .service-info .title {
   font-size: 36px;
-  font-weight: 400;
-
+  font-weight: 600;
   line-height: 50px;
 }
 .service-info p {
@@ -1060,8 +879,7 @@ h6 {
   padding: 50px 0;
 }
 .call-action .title {
-  font-weight: 400;
-
+  font-weight: 600;
   font-size: 30px;
   margin-bottom: 5px;
 }
@@ -1080,8 +898,7 @@ h6 {
 /* Home Slider */
 .home-slider.style1 .title {
   font-size: 36px;
-  font-weight: 400;
-
+  font-weight: 600;
   letter-spacing: 2px;
   line-height: 50px;
   max-width: 600px;
@@ -1112,8 +929,7 @@ h6 {
   font-size: 22px;
   line-height: 30px;
   margin-bottom: 0;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 .service-box.style1:hover:after {
   width: 100%;
@@ -1154,8 +970,7 @@ h6 {
 .service-box.style2 .title {
   font-size: 45px;
   line-height: 55px;
-  font-weight: 400;
-
+  font-weight: 700;
 }
 .service-box.style2 p {
   font-size: 16px;
@@ -1178,8 +993,7 @@ h6 {
   right: 30px;
   top: 30px;
   line-height: 80px;
-  font-weight: 400;
-
+  font-weight: 700;
   color: #000;
   opacity: 0.05;
   transition: all 0.5s;
@@ -1200,8 +1014,7 @@ h6 {
 }
 .service-box.style3 .dlab-title {
   font-size: 20px;
-  font-weight: 400;
-
+  font-weight: 600;
   color: #000;
   margin-bottom: 15px;
   line-height: 30px;
@@ -1267,8 +1080,7 @@ h6 {
 /* Widget Blog */
 .widget-blog .dlab-post-header .post-title {
   font-size: 18px;
-  font-weight: 400;
-
+  font-weight: 600;
   line-height: 26px;
 }
 .widget-blog .widget-post {
@@ -1289,7 +1101,7 @@ h6 {
   border-radius: 5px;
   width: 65px;
   background-color: var(--color-primary);
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: 'Futura PT', sans-serif;
 }
 .date-style-2 .post-date > strong:after {
   content: unset;
@@ -1389,8 +1201,7 @@ h6 {
 /* About History */
 .about-history .title {
   font-size: 30px;
-  font-weight: 400;
-
+  font-weight: 700;
   margin-bottom: 15px;
 }
 .about-history {
@@ -1469,8 +1280,7 @@ h6 {
 .counter-style-5 .counter {
   font-size: 60px;
   line-height: 60px;
-  font-weight: 400;
-
+  font-weight: 600;
   letter-spacing: 3px;
   margin-bottom: 10px;
 }
@@ -1525,16 +1335,14 @@ h6 {
 .counter-staus-box .section-head .title {
   font-size: 40px;
   line-height: 55px;
-  font-weight: 400;
-
+  font-weight: 700;
   color: #fff;
 }
 .counter-staus-box .play-btn {
   font-size: 18px;
   line-height: 70px;
   text-transform: uppercase;
-  font-weight: 400;
-
+  font-weight: 600;
   margin-bottom: 40px;
   color: #fff;
   display: inline-block;
@@ -1592,8 +1400,7 @@ h6 {
 .dlab-team1 .dlab-position {
   display: block;
   text-transform: uppercase;
-  font-weight: 400;
-
+  font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
   color: var(--color-primary);
@@ -1606,8 +1413,7 @@ h6 {
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 10px;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 .dlab-team1 .dlab-info:after {
   content: "";
@@ -1711,8 +1517,7 @@ h6 {
 .blog-post.post-style-1 .post-title {
   margin-top: 20px;
   margin-bottom: 5px;
-  font-weight: 400;
-
+  font-weight: 600;
   line-height: 34px;
   font-size: 20px;
 }
@@ -1849,8 +1654,7 @@ h6 {
   margin-bottom: 15px;
 }
 .service-media-bx .dlab-title {
-  font-weight: 400;
-
+  font-weight: 600;
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 24px;
@@ -1861,8 +1665,7 @@ h6 {
 }
 .service-media-bx .site-button {
   text-transform: uppercase;
-  font-weight: 400;
-
+  font-weight: 600;
   padding: 12px 30px;
 }
 
@@ -2139,16 +1942,14 @@ ol.comment-list li.comment .comment-author .fn {
   color: #000;
   font-size: 18px;
   text-transform: capitalize;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 ol.comment-list li.comment .comment-author {
   margin-bottom: 5px;
 }
 ol.comment-list li.comment .reply a {
   font-size: 14px;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 .comments-area .comment-form p input[type="submit"] {
   cursor: pointer;
@@ -2156,8 +1957,7 @@ ol.comment-list li.comment .reply a {
 }
 ol.commentlist li .meta strong {
   font-size: 16px;
-  font-weight: 400;
-
+  font-weight: 600;
   color: #000;
   margin-right: 5px;
 }
@@ -2235,8 +2035,7 @@ ol.commentlist li .meta span {
   padding: 15px 25px;
   margin-bottom: 10px;
   color: #000;
-  font-weight: 400;
-
+  font-weight: 600;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 5px 12px 20px 0 rgba(0, 0, 0, 0.05);
   transition: all 0.5s;
@@ -2277,8 +2076,7 @@ ol.commentlist li .meta span {
   padding: 15px;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 400;
-
+  font-weight: 600;
   text-align: center;
 }
 .download-file ul li a .text {
@@ -2292,14 +2090,12 @@ ol.commentlist li .meta span {
   margin-bottom: 20px;
   text-align: center;
   font-size: 20px;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 
 /* Portfolio Details */
 .widget_getintuch-pro-details .pro-details strong {
-  font-weight: 400;
-
+  font-weight: 600;
   color: #000;
   font-size: 15px;
 }
@@ -2310,8 +2106,7 @@ ol.commentlist li .meta span {
 .widget_getintuch-pro-details .pro-details {
   padding-left: 55px;
   margin-bottom: 30px;
-  font-weight: 400;
-
+  font-weight: 600;
   position: relative;
   color: #000;
   font-size: 15px;
@@ -2373,8 +2168,7 @@ ol.commentlist li .meta span {
 .footer-box .title,
 .header-box .title {
   font-size: 50px;
-  font-weight: 400;
-
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: var(--color-primary);
@@ -2466,7 +2260,7 @@ HOME 5 Box Header
 .roboto-condensed h3,
 .roboto-condensed h2,
 .roboto-condensed h1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 /* Header */
 .box-header.header-transparent .main-bar {
@@ -2528,7 +2322,7 @@ HOME 5 Box Header
 }
 .box-header .header-nav .nav > li > a {
   border: 0;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .box-header .extra-nav .site-button {
   height: 68px;
@@ -2538,7 +2332,7 @@ HOME 5 Box Header
   padding: 0 30px;
   margin-left: 30px;
   position: relative;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .box-header .extra-nav .site-button:after {
   content: "";
@@ -2585,11 +2379,10 @@ HOME 5 Box Header
 .about-year span {
   font-size: 85px;
   color: #000;
-  font-weight: 400;
-
+  font-weight: 600;
   position: relative;
   z-index: 1;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   border: 5px solid;
   width: 120px;
   height: 150px;
@@ -2600,7 +2393,7 @@ HOME 5 Box Header
   border-color: var(--color-primary) !important;
 }
 .about-year p {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 0;
   font-size: 18px;
   line-height: 28px;
@@ -2709,8 +2502,7 @@ HOME 5 Box Header
 }
 .portbox3 .portinner .port-up span {
   text-transform: uppercase;
-  font-weight: 400;
-
+  font-weight: 600;
   color: #5e5e5e;
   font-family: Montserrat;
   font-size: 14px;
@@ -2724,8 +2516,7 @@ HOME 5 Box Header
   font-weight: 400;
   font-family: Montserrat;
   text-transform: uppercase;
-  font-weight: 400;
-
+  font-weight: 600;
   font-size: 14px;
   padding: 15px;
   position: absolute;
@@ -2764,7 +2555,7 @@ HOME 5 Box Header
   border-bottom: 3px solid #eee;
   align-items: center;
   justify-content: center;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   position: relative;
 }
 .filters2 ul li a:after {
@@ -2859,18 +2650,17 @@ HOME 5 Box Header
   font-size: 40px;
   margin-bottom: 10px;
   color: #ae7451;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: TT Drugs;
 }
 .section-head.style2 p {
   padding-top: 0;
   font-size: 16px;
   line-height: 26px;
   color:#ae7451 ;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: TT Drugs;
 }
 .sr-iconbox .dlab-tilte {
-  font-weight: 400;
-
+  font-weight: 600;
   margin-bottom: 10px;
 }
 .sr-iconbox.style2 {
@@ -2963,8 +2753,7 @@ HOME 5 Box Header
   transform: translateY(-50%);
   line-height: 40px;
   font-family: "Font Awesome 5 Free";
-  font-weight: 400;
-
+  font-weight: 600;
 }
 .service-box.style4 .title {
   font-size: 20px;
@@ -3480,6 +3269,7 @@ HOME 5 Box Header
 
 /* New Css */
 .frame-box {
+  background-image: url(../images/background/bg12.jpg);
   background-attachment: unset !important;
 }
 .area-frame {
@@ -3494,12 +3284,11 @@ HOME 5 Box Header
 .frame-box h5,
 .frame-box h6,
 .frame-box .site-footer {
-  font-family: 'TT Drugs Trial', sans-serif;
-  font-weight: 400;
-
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
 }
 .frame-box p {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: 'Futura PT', sans-serif;
 }
 .frame-box .area-frame .container {
   background: #fff;
@@ -3508,6 +3297,10 @@ HOME 5 Box Header
 }
 .frame-box .area-frame .container:after {
   content: "";
+  background-image: url(../images/background/border-bg-top.png),
+    url(../images/background/border-bg-bottom.png),
+    url(../images/background/border-bg-left.png),
+    url(../images/background/border-bg-right.png);
   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
   background-position: top, bottom, left, right;
   height: calc(100% + 44px);
@@ -3558,13 +3351,12 @@ HOME 5 Box Header
   font-size: 15px;
   padding: 12px 20px;
   cursor: pointer;
-  font-weight: 400;
-
+  font-weight: 600;
   display: inline-block;
   background: var(--color-primary);
   margin: 0 2px;
   border-radius: 4px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .frame-box .main-bar {
   width: 100%;
@@ -3580,6 +3372,7 @@ HOME 5 Box Header
 }
 .frame-box .top-bar:after {
   content: "";
+  background-image: url(../images/background/border-bg-bottom.png);
   position: absolute;
   bottom: -22px;
   width: 100%;
@@ -3644,12 +3437,11 @@ HOME 5 Box Header
   color: #fff;
   line-height: 64px;
   margin-bottom: 10px;
-  font-weight: 400;
-
+  font-weight: 600;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 .frame-box .slide-content-box p {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 21px;
   font-weight: 400;
   color: #fff;
@@ -3703,13 +3495,13 @@ HOME 5 Box Header
   background: #fff;
 }
 .frame-box .about-bx strong {
-  font-weight: 400;
-
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 /* project */
 .frame-box .project-bx {
+  background-image: url(../images/pattern/pt1.jpg);
   padding: 10px;
   border-radius: 10px;
   height: 100%;
@@ -3719,8 +3511,7 @@ HOME 5 Box Header
   border-radius: 8px;
 }
 .frame-box .project-bx .info .title {
-  font-weight: 400;
-
+  font-weight: 600;
   margin: 0;
 }
 .frame-box .project-bx .info {
@@ -3741,8 +3532,7 @@ HOME 5 Box Header
 .frame-box .service-list li:after {
   content: "\f00c";
   font-family: "Font Awesome 5 Free";
-  font-weight: 400;
-
+  font-weight: 600;
   background-color: var(--color-primary);
   width: 45px;
   height: 45px;
@@ -3763,7 +3553,7 @@ HOME 5 Box Header
   background-color: var(--color-hover);
 }
 .frame-box .service-list li {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
   line-height: 28px;
   color: #000;
@@ -3779,20 +3569,20 @@ HOME 5 Box Header
 
 /* Testimonial Text*/
 .frame-box .testimonial-text p {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 24px;
   color: #6c6979;
   line-height: 40px;
 }
 .frame-box .item .testimonial-1 .testimonial-position {
   color: var(--color-primary);
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 300;
 }
 .frame-box .testimonial-1 .testimonial-name {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #000;
   font-size: 21px;
   margin-top: 5px;
@@ -3848,6 +3638,7 @@ HOME 5 Box Header
 }
 .frame-box .footer-top:after {
   content: "";
+  background-image: url(../images/background/border-bg-dark-top.png);
   position: absolute;
   top: -22px;
   width: 100%;
@@ -3929,8 +3720,7 @@ HOME 5 Box Header
 }
 .cargo-banner .title {
   font-size: 55px;
-  font-weight: 400;
-
+  font-weight: 600;
   line-height: 70px;
   margin-bottom: 30px;
 }
@@ -4376,10 +4166,9 @@ HOME 5 Box Header
 /* About info 1 */
 .section-head.style1 .title {
   font-size: 50px;
-  font-weight: 400;
-
+  font-weight: 600;
   line-height: 60px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: 'Futura PT', sans-serif;
   color: #000;
 }
 .about-info1 p,
@@ -4408,16 +4197,14 @@ HOME 5 Box Header
 .service-year {
   font-size: 130px;
   line-height: 140px;
-  font-weight: 400;
-
+  font-weight: 600;
   margin-bottom: 0px;
 }
 .service-year small {
   font-size: 22px;
   line-height: 22px;
   text-transform: uppercase;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 
 /*  */
@@ -4460,7 +4247,7 @@ HOME 5 Box Header
   top: 5px;
   left: 0;
   transition: all 0.5s;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: 'Futura PT', sans-serif;
   text-transform: capitalize;
 }
 .request-form .form-control {
@@ -4757,8 +4544,7 @@ HOME 5 Box Header
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
-  font-weight: 400;
-
+  font-weight: 600;
   color: #000;
   opacity: 0.3;
   margin-bottom: 10px;
@@ -5116,7 +4902,7 @@ HOME 5 Box Header
     width: 100px;
   }
   .frame-box .site-header.center .navbar-toggler {
-    margin: 13px 18px 14px 10px;
+    margin: 16px 0 18px 15px;
   }
   .frame-box .main-bar {
     padding: 55px 0;
@@ -5193,8 +4979,7 @@ HOME 5 Box Header
   .header-nav .nav > li.homedemo .mega-menu > li > a:after {
     content: "\f105";
     font-family: "Font Awesome 5 Free";
-    font-weight: 400;
-
+    font-weight: 600;
     width: auto;
     height: auto;
     background: transparent;
@@ -5203,8 +4988,7 @@ HOME 5 Box Header
     font-size: 18px;
     position: absolute;
     left: 0;
-    font-weight: 400;
-
+    font-weight: 700;
   }
   .header-nav .nav > li.homedemo .mega-menu > li > a img,
   .header-nav .nav > li.homedemo .mega-menu {
@@ -5352,7 +5136,7 @@ HOME 5 Box Header
   }
   .header-transparent.box-header .is-fixed .navbar-toggler,
   .header-transparent.box-header .navbar-toggler {
-    margin: 13px 18px 14px 10px;
+    margin: 17px 0 15px 20px;
   }
   .box-header .is-fixed .extra-nav .site-button,
   .box-header .extra-nav .site-button {
@@ -5681,8 +5465,7 @@ HOME 5 Box Header
 }
 .dlab-team5 .dlab-title {
   font-size: 18px;
-  font-weight: 400;
-
+  font-weight: 600;
   margin: 0 0 5px 0;
 }
 .dlab-team5 .dlab-position {
@@ -5749,8 +5532,7 @@ HOME 5 Box Header
 }
 .dlab-team6 .dlab-title {
   font-size: 20px;
-  font-weight: 400;
-
+  font-weight: 600;
   color: #fff;
   margin: 0 0 5px;
   line-height: 26px;
@@ -5783,8 +5565,7 @@ HOME 5 Box Header
   padding: 5px 10px;
   background: var(--color-primary);
   font-size: 17px;
-  font-weight: 400;
-
+  font-weight: 700;
   margin-bottom: 10px;
   color: #fff;
   text-transform: capitalize;
@@ -6174,8 +5955,7 @@ HOME 5 Box Header
   border: 7px solid #fff;
   background: var(--color-secondry);
   font-size: 22px;
-  font-weight: 400;
-
+  font-weight: 700;
   color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -6211,8 +5991,7 @@ HOME 5 Box Header
   background: #fff;
   margin: 0 auto;
   font-size: 70px;
-  font-weight: 400;
-
+  font-weight: 900;
   color: var(--color-primary);
   position: absolute;
   top: -60px;
@@ -6331,9 +6110,8 @@ HOME 5 Box Header
 .call-action.style2 h2.title {
   font-size: 36px;
   line-height: 46px;
-  font-family: 'TT Drugs Trial', sans-serif;
-  font-weight: 400;
-
+  font-family: 'Futura PT', sans-serif;
+  font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
@@ -6342,9 +6120,8 @@ HOME 5 Box Header
 }
 .call-action.style2 h3 {
   font-size: 26px;
-  font-weight: 400;
-
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-weight: 600;
+  font-family: 'Futura PT', sans-serif;
   line-height: 36px;
   margin-bottom: 15px;
 }
@@ -6392,8 +6169,7 @@ HOME 5 Box Header
 .site-footer.style2 .recent-posts-entry .post-title {
   line-height: 30px;
   font-size: 18px;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 .site-footer.style2 .recent-posts-entry .post-title a,
 .site-footer.style2 .recent-posts-entry .post-date strong,
@@ -6432,8 +6208,7 @@ HOME 5 Box Header
   padding: 8px 8px 8px 20px;
   font-size: 16px;
   color: #000;
-  font-weight: 400;
-
+  font-weight: 600;
 }
 .site-footer.style2 .widget p {
   font-size: 16px;
@@ -6922,6 +6697,7 @@ HOME 5 Box Header
 
 @media (min-width: 1200px) {
   .container {
+    max-width: 1200px;
     padding-left: 20px;
   }
 }
@@ -7052,7 +6828,7 @@ HOME 5 Box Header
     width: 100%;
   }
   blockquote {
-    ;
+    margin-top: 25px;
     margin-bottom: 25px;
   }
 
@@ -7153,8 +6929,7 @@ HOME 5 Box Header
 .bootstrap-select .dropdown-toggle:before {
   content: "\f0d7";
   font-family: "Font Awesome 5 Free";
-  font-weight: 400;
-
+  font-weight: 600;
   position: absolute;
   right: 12px;
 }
@@ -7231,8 +7006,7 @@ button.scroltop {
 	border-width: 0 0 2px;
     color: #000000;
     font-size: 15px;
-    font-weight: 400;
-
+    font-weight: 600;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 0;
@@ -7242,7 +7016,7 @@ button.scroltop {
 .dz-industry-zone {
   padding-top: 84px;
   padding-bottom: 84px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: 'Futura PT', sans-serif;
   width: 100%;
   background-color: #ffd658;
   position: relative;
@@ -7277,8 +7051,7 @@ button.scroltop {
 .dz-industry-zone .banner-contant .dz-title {
   font-size: 65px;
   line-height: 83px;
-  font-weight: 400;
-
+  font-weight: 600;
   color: #1f1f1f;
   margin-bottom: 10px;
 }
@@ -7327,8 +7100,7 @@ button.scroltop {
 .dz-industry-zone .banner-contant .dz-bannerlist ul li a {
   color: #1f1f1f;
   font-size: 16px;
-  font-weight: 400;
-
+  font-weight: 600;
   line-height: 27px;
 }
 
@@ -7619,7 +7391,7 @@ button.scroltop {
   }
   .dz-header .header-nav .nav > li > a {
     font-size: 16px;
-    font-family: 'TT Drugs Trial', sans-serif;
+    font-family: TT Drugs;
     padding-left: 12px;
   }
   .dz-oil-industry-zone .dz-banner-top .dz-title {
@@ -7658,7 +7430,7 @@ button.scroltop {
   }
   .dz-header .header-nav .nav > li > a {
     padding: 22px 9px 22px 9px;
-    font-family: 'TT Drugs Trial', sans-serif;
+    font-family: TT Drugs;
   }
   .dz-header .dz-bannerbtn {
     padding: 12px 25px;
@@ -7900,7 +7672,7 @@ button.scroltop {
     line-height: 16px;
   }
   .dz-ship-industry-zone .banner-content .dz-bannerlist {
-    ;
+    margin-top: 25px;
   }
   .dz-ship-industry-zone .banner-content .dz-bannerlist h6 {
     margin-bottom: 15px;
@@ -8175,9 +7947,8 @@ ul.nav.navbar-nav {
  letter-spacing: 7px;
  font-size: 45px;
  color: #fff;
- font-weight: 400;
-
- font-family: 'poppins';
+ font-weight: 800;
+ font-family: 'TT Drugs';
  }
 
  button.button.dz-bannerbtn.bg-button {
@@ -8185,7 +7956,7 @@ ul.nav.navbar-nav {
   border-radius: 19px;
   background-color: transparent;
   color: #fff;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: TT Drugs;
  
 }
 
@@ -8240,9 +8011,8 @@ footer .widget ul {
 
 footer .widget ul li a {
   font-size: 15px;
-  font-weight: 400;
-
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-weight: 500;
+  font-family: TT Drugs;
 }
 
 h5.footer-title  {
@@ -8264,11 +8034,10 @@ h5.footer-titles {
 
 .Book-slot span {
   display: inline-block;  
-  font-weight: 400;
-
+  font-weight: 800;
   letter-spacing: 3px;
   margin-top: 11px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: TT Drugs;
   font-size: 30px;
   animation: slide 10s linear infinite; 
 }
@@ -8296,7 +8065,7 @@ h5.footer-titles {
 .join h4 {
   font-size: 40px;
   margin-bottom: 39px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: TT Drugs;
 }
 
 .footer-icon {
@@ -8306,12 +8075,12 @@ h5.footer-titles {
 .join input::placeholder {
   color: #fff;
    font-size: 18px;
-   font-family: 'TT Drugs Trial', sans-serif;
+   font-family: TT Drugs;
 }
 
 .text-footer span{
   font-size: 18px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: TT Drugs;
 }
 
  

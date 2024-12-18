@@ -20,7 +20,7 @@ export default function Header() {
             {/* website logo */}
             <div className="logo-header mostion logo-dark">
               <Link href="/">
-                <img alt="" src="/images/skinstinct1.png" width="200" height="75" />
+                <img alt="" src="/images/skinstinct.png" width="200" height="75" />
               </Link>
             </div>
             
@@ -58,7 +58,7 @@ export default function Header() {
             >
               <div className="logo-header d-md-block d-lg-none">
                 <Link href="/">
-                  <img alt="" src="/images/skinstinct1.png" width="258" height="75" />
+                  <img alt="" src="/images/skinstinct.png" width="258" height="75" />
                 </Link>
               </div>
               <ul className="nav navbar-nav">

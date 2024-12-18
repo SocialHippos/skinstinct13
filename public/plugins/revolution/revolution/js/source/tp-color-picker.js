@@ -490,61 +490,61 @@
 	
 	var markup = 
 	
-	'<div id="rev-cpicker-back" className="rev-cpicker-close"></div>' + 
+	'<div id="rev-cpicker-back" class="rev-cpicker-close"></div>' + 
 	
 	'<div id="rev-cpicker">' + 
 		
 		'<div id="rev-cpicker-head">' + 
 			
-			'<div id="rev-cpicker-drag" className="rev-cpicker-draggable"></div>' + 
-			'<span id="rev-cpicker-color-btn" className="rev-cpicker-main-btn" data-text="solid_color"></span>' + 
-			'<span id="rev-cpicker-gradient-btn" className="rev-cpicker-main-btn" data-text="gradient_color"></span>' + 
+			'<div id="rev-cpicker-drag" class="rev-cpicker-draggable"></div>' + 
+			'<span id="rev-cpicker-color-btn" class="rev-cpicker-main-btn" data-text="solid_color"></span>' + 
+			'<span id="rev-cpicker-gradient-btn" class="rev-cpicker-main-btn" data-text="gradient_color"></span>' + 
 			
-			'<div id="rev-cpicker-editing" className="rev-cpicker-draggable">' + 
+			'<div id="rev-cpicker-editing" class="rev-cpicker-draggable">' + 
 				'<span id="rev-cpicker-edit-title" data-text="currently_editing"></span>' + 
 				'<span id="rev-cpicker-current-edit"></span>' + 
 			'</div>' + 
 			
-			'<span id="rev-cpicker-exit" className="rev-cpicker-close"></span>' + 
+			'<span id="rev-cpicker-exit" class="rev-cpicker-close"></span>' + 
 		
 		'</div>' + 
 		
-		'<div id="rev-cpicker-section-left" className="rev-cpicker-section">' + 
+		'<div id="rev-cpicker-section-left" class="rev-cpicker-section">' + 
 			
 			'<div id="rev-cpicker-body">' + 
 			
-				'<div id="rev-cpicker-colors" className="rev-cpicker-type">' + 
+				'<div id="rev-cpicker-colors" class="rev-cpicker-type">' + 
 					
-					'<div className="rev-cpicker-column rev-cpicker-column-left">	' + 
+					'<div class="rev-cpicker-column rev-cpicker-column-left">	' + 
 						
-						'<div className="rev-cpicker-column-inner-left">' + 
+						'<div class="rev-cpicker-column-inner-left">' + 
 						
-							'<div className="rev-cpicker-presets">' + 
+							'<div class="rev-cpicker-presets">' + 
 							
-								'<span id="rev-cpicker-colors-core-btn" className="rev-cpicker-preset-title rev-cpicker-preset-title-core selected">' + 
+								'<span id="rev-cpicker-colors-core-btn" class="rev-cpicker-preset-title rev-cpicker-preset-title-core selected">' + 
 									'<span data-text="core_presets"></span> ' + 
-									'<span className="rev-cpicker-arrow rev-cpicker-arrow-down"></span>' + 
-									'<span className="rev-cpicker-arrow rev-cpicker-arrow-up"></span>' + 
+									'<span class="rev-cpicker-arrow rev-cpicker-arrow-down"></span>' + 
+									'<span class="rev-cpicker-arrow rev-cpicker-arrow-up"></span>' + 
 								'</span>' + 
 								
-								'<span id="rev-cpicker-colors-custom-btn" className="rev-cpicker-preset-title rev-cpicker-preset-title-custom">' + 
+								'<span id="rev-cpicker-colors-custom-btn" class="rev-cpicker-preset-title rev-cpicker-preset-title-custom">' + 
 									'<span data-text="custom_presets"></span> ' + 
-									'<span className="rev-cpicker-arrow rev-cpicker-arrow-down"></span>' + 
-									'<span className="rev-cpicker-arrow rev-cpicker-arrow-up"></span>' + 
+									'<span class="rev-cpicker-arrow rev-cpicker-arrow-down"></span>' + 
+									'<span class="rev-cpicker-arrow rev-cpicker-arrow-up"></span>' + 
 								'</span>' + 
 								
-								'<div id="rev-cpicker-colors-core" className="rev-cpicker-presets-group"></div>' + 
-								'<div id="rev-cpicker-colors-custom" className="rev-cpicker-presets-group rev-cpicker-presets-custom"></div>' + 
+								'<div id="rev-cpicker-colors-core" class="rev-cpicker-presets-group"></div>' + 
+								'<div id="rev-cpicker-colors-custom" class="rev-cpicker-presets-group rev-cpicker-presets-custom"></div>' + 
 							
 							'</div>' + 
 							
-							'<div className="rev-cpicker-iris">' + 
+							'<div class="rev-cpicker-iris">' + 
 							
-								'<input id="rev-cpicker-iris-color" className="rev-cpicker-iris-input" value="#ffffff" />' + 
+								'<input id="rev-cpicker-iris-color" class="rev-cpicker-iris-input" value="#ffffff" />' + 
 								
-								'<div id="rev-cpicker-scroller" className="iris-slider iris-strip">' +
+								'<div id="rev-cpicker-scroller" class="iris-slider iris-strip">' +
 									'<div id="rev-cpicker-scroll-bg"></div>' + 
-									'<div id="rev-cpicker-scroll" className="iris-slider-offset"></div>' +
+									'<div id="rev-cpicker-scroll" class="iris-slider-offset"></div>' +
 								'</div>' +
 							
 							'</div>' + 
@@ -553,36 +553,36 @@
 					
 					'</div>' + 
 					
-					'<div className="rev-cpicker-column rev-cpicker-column-right">' + 
+					'<div class="rev-cpicker-column rev-cpicker-column-right">' + 
 						
-						'<div className="rev-cpicker-column-inner-right">' + 
+						'<div class="rev-cpicker-column-inner-right">' + 
 						
 							'<div>' + 
 							
 								'<span data-text="save_a_new_preset"></span>' + 
 								
-								'<div className="rev-cpicker-presets-save-as">' + 
+								'<div class="rev-cpicker-presets-save-as">' + 
 								
-									'<input type="text" className="rev-cpicker-preset-save" placeholder="" data-placeholder="enter_a_name" />' + 
-									'<span className="rev-cpicker-btn rev-cpicker-save-preset-btn" data-alert="naming_error">' + 
-										'<span className="rev-cpicker-save-icon"></span>' + 
-										'<span className="rev-cpicker-preset-save-text" data-text="save"></span>' + 
+									'<input type="text" class="rev-cpicker-preset-save" placeholder="" data-placeholder="enter_a_name" />' + 
+									'<span class="rev-cpicker-btn rev-cpicker-save-preset-btn" data-alert="naming_error">' + 
+										'<span class="rev-cpicker-save-icon"></span>' + 
+										'<span class="rev-cpicker-preset-save-text" data-text="save"></span>' + 
 									'</span>' + 
 								
 								'</div>' + 
 							
 							'</div>' + 
 							
-							'<div className="rev-cpicker-meta">' + 
+							'<div class="rev-cpicker-meta">' + 
 							
 								'<span data-text="color_hex_value"></span>' + 
 								'<br>' + 
-								'<input type="text" id="rev-cpicker-color-hex" className="rev-cpicker-input rev-cpicker-hex" value="#ffffff" />' + 
+								'<input type="text" id="rev-cpicker-color-hex" class="rev-cpicker-input rev-cpicker-hex" value="#ffffff" />' + 
 								'<br>' + 
-								'<span data-text="opacity" className="rev-cpicker-hideable"></span>' +
+								'<span data-text="opacity" class="rev-cpicker-hideable"></span>' +
 								'<br>' + 
-								'<input type="text" id="rev-cpicker-color-opacity" className="rev-cpicker-input rev-cpicker-opacity-input rev-cpicker-hideable" value="100%" />' + 
-								'<span id="rev-cpciker-clear-hex" className="rev-cpicker-btn rev-cpicker-btn-small rev-cpciker-clear rev-cpicker-hideable" data-text="clear"></span>' + 
+								'<input type="text" id="rev-cpicker-color-opacity" class="rev-cpicker-input rev-cpicker-opacity-input rev-cpicker-hideable" value="100%" />' + 
+								'<span id="rev-cpciker-clear-hex" class="rev-cpicker-btn rev-cpicker-btn-small rev-cpciker-clear rev-cpicker-hideable" data-text="clear"></span>' + 
 							
 							'</div>' + 
 							
@@ -592,58 +592,58 @@
 
 				'</div>' + 
 				
-				'<div id="rev-cpicker-gradients" className="rev-cpicker-type">' + 
+				'<div id="rev-cpicker-gradients" class="rev-cpicker-type">' + 
 				
-					'<div className="rev-cpicker-column rev-cpicker-column-left">	' + 
+					'<div class="rev-cpicker-column rev-cpicker-column-left">	' + 
 						
-						'<div className="rev-cpicker-column-inner-left">' + 
+						'<div class="rev-cpicker-column-inner-left">' + 
 						
-							'<div className="rev-cpicker-presets">' + 
+							'<div class="rev-cpicker-presets">' + 
 							
-								'<span id="rev-cpicker-gradients-core-btn" className="rev-cpicker-preset-title rev-cpicker-preset-title-core selected">' + 
+								'<span id="rev-cpicker-gradients-core-btn" class="rev-cpicker-preset-title rev-cpicker-preset-title-core selected">' + 
 									'<span data-text="core_presets"></span> ' + 
-									'<span className="rev-cpicker-arrow rev-cpicker-arrow-down"></span>' + 
-									'<span className="rev-cpicker-arrow rev-cpicker-arrow-up"></span>' + 
+									'<span class="rev-cpicker-arrow rev-cpicker-arrow-down"></span>' + 
+									'<span class="rev-cpicker-arrow rev-cpicker-arrow-up"></span>' + 
 								'</span>' + 
 								
-								'<span id="rev-cpicker-gradients-custom-btn" className="rev-cpicker-preset-title rev-cpicker-preset-title-custom">' + 
+								'<span id="rev-cpicker-gradients-custom-btn" class="rev-cpicker-preset-title rev-cpicker-preset-title-custom">' + 
 									'<span data-text="custom_presets"></span> ' + 
-									'<span className="rev-cpicker-arrow rev-cpicker-arrow-down"></span>' + 
-									'<span className="rev-cpicker-arrow rev-cpicker-arrow-up"></span>' + 
+									'<span class="rev-cpicker-arrow rev-cpicker-arrow-down"></span>' + 
+									'<span class="rev-cpicker-arrow rev-cpicker-arrow-up"></span>' + 
 								'</span>' + 
 								
-								'<div id="rev-cpicker-gradients-core" className="rev-cpicker-presets-group"></div>' + 
-								'<div id="rev-cpicker-gradients-custom" className="rev-cpicker-presets-group rev-cpicker-presets-custom"></div>' + 
+								'<div id="rev-cpicker-gradients-core" class="rev-cpicker-presets-group"></div>' + 
+								'<div id="rev-cpicker-gradients-custom" class="rev-cpicker-presets-group rev-cpicker-presets-custom"></div>' + 
 							
 							'</div>' + 
 							
-							'<div className="rev-cpicker-gradient-block">' + 
+							'<div class="rev-cpicker-gradient-block">' + 
 								
-								'<div id="rev-cpicker-gradient-input" className="rev-cpicker-gradient-builder">' + 
+								'<div id="rev-cpicker-gradient-input" class="rev-cpicker-gradient-builder">' + 
 									
-									'<span id="rev-cpicker-hit-top" className="rev-cpicker-builder-hit"></span>' +  
+									'<span id="rev-cpicker-hit-top" class="rev-cpicker-builder-hit"></span>' +  
 									'<div id="rev-cpicker-point-wrap">' + 
 										'<div id="rev-cpciker-point-container"></div>' + 
 									'</div>' + 
-									'<span id="rev-cpicker-hit-bottom" className="rev-cpicker-builder-hit"></span>' +  
+									'<span id="rev-cpicker-hit-bottom" class="rev-cpicker-builder-hit"></span>' +  
 								
 								'</div>' + 
 								
-								'<div className="rev-cpicker-meta-row-wrap">' + 
+								'<div class="rev-cpicker-meta-row-wrap">' + 
 								
-									'<div className="rev-cpicker-meta-row">' + 
+									'<div class="rev-cpicker-meta-row">' + 
 										
-										'<div><label data-text="opacity"></label><input type="text" id="rev-cpicker-grad-opacity" className="rev-cpicker-point-input rev-cpicker-opacity-input" value="100%" disabled /></div>' + 
-										'<div><label data-text="location"></label><input type="text" id="rev-cpicker-opacity-location" className="rev-cpicker-point-input rev-cpicker-point-location" value="100%" disabled /></div>' + 
-										'<div><label>&nbsp;</label><span className="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-point-delete" id="rev-cpicker-opacity-delete" data-text="delete">{{delete}}</span></div>' + 
+										'<div><label data-text="opacity"></label><input type="text" id="rev-cpicker-grad-opacity" class="rev-cpicker-point-input rev-cpicker-opacity-input" value="100%" disabled /></div>' + 
+										'<div><label data-text="location"></label><input type="text" id="rev-cpicker-opacity-location" class="rev-cpicker-point-input rev-cpicker-point-location" value="100%" disabled /></div>' + 
+										'<div><label>&nbsp;</label><span class="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-point-delete" id="rev-cpicker-opacity-delete" data-text="delete">{{delete}}</span></div>' + 
 									
 									'</div>' + 
 									
-									'<div className="rev-cpicker-meta-row">' + 
+									'<div class="rev-cpicker-meta-row">' + 
 										
-										'<div><label data-text="color"></label><span className="rev-cpicker-point-input" id="rev-cpicker-color-box"></span></div>' + 
-										'<div><label data-text="location"></label><input type="text" id="rev-cpicker-color-location" className="rev-cpicker-point-input rev-cpicker-point-location" value="100%" disabled /></div>' + 
-										'<div><label>&nbsp;</label><span className="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-point-input rev-cpicker-point-delete" id="rev-cpicker-color-delete" data-text="delete">{{delete}}</span></div>' + 
+										'<div><label data-text="color"></label><span class="rev-cpicker-point-input" id="rev-cpicker-color-box"></span></div>' + 
+										'<div><label data-text="location"></label><input type="text" id="rev-cpicker-color-location" class="rev-cpicker-point-input rev-cpicker-point-location" value="100%" disabled /></div>' + 
+										'<div><label>&nbsp;</label><span class="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-point-input rev-cpicker-point-delete" id="rev-cpicker-color-delete" data-text="delete">{{delete}}</span></div>' + 
 									
 									'</div>' + 
 									
@@ -655,52 +655,52 @@
 					
 					'</div>' + 
 					
-					'<div className="rev-cpicker-column rev-cpicker-column-right">' + 
+					'<div class="rev-cpicker-column rev-cpicker-column-right">' + 
 						
-						'<div className="rev-cpicker-column-inner-right">' + 
+						'<div class="rev-cpicker-column-inner-right">' + 
 						
 							'<div>' + 
 							
 								'<span data-text="save_a_new_preset"></span>' + 
 								
-								'<div className="rev-cpicker-presets-save-as">' + 
+								'<div class="rev-cpicker-presets-save-as">' + 
 								
-									'<input type="text" className="rev-cpicker-preset-save" placeholder="" data-placeholder="enter_a_name" />' + 
-									'<span className="rev-cpicker-btn rev-cpicker-save-preset-btn" data-alert="naming_error">' + 
-										'<span className="rev-cpicker-save-icon"></span>' + 
-										'<span className="rev-cpicker-preset-save-text" data-text="save"></span>' + 
+									'<input type="text" class="rev-cpicker-preset-save" placeholder="" data-placeholder="enter_a_name" />' + 
+									'<span class="rev-cpicker-btn rev-cpicker-save-preset-btn" data-alert="naming_error">' + 
+										'<span class="rev-cpicker-save-icon"></span>' + 
+										'<span class="rev-cpicker-preset-save-text" data-text="save"></span>' + 
 									'</span>' + 
 								
 								'</div>' + 
 							
 							'</div>' + 
 							
-							'<div className="rev-cpicker-gradient-block">' + 
+							'<div class="rev-cpicker-gradient-block">' + 
 								
-								'<div id="rev-cpicker-gradient-output" className="rev-cpicker-gradient-builder"></div>' + 
+								'<div id="rev-cpicker-gradient-output" class="rev-cpicker-gradient-builder"></div>' + 
 								
 							'</div>' + 
 							
-							'<div className="rev-cpicker-meta-row-wrap">' + 
+							'<div class="rev-cpicker-meta-row-wrap">' + 
 								
-									'<div className="rev-cpicker-meta-row">' + 
+									'<div class="rev-cpicker-meta-row">' + 
 										
 										'<div><label>Orientation</label>' + 
 										
-											'<span id="rev-cpicker-orientation-horizontal" className="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-orientation" data-direction="90" data-text="horizontal"></span>' + 
-											'<span id="rev-cpicker-orientation-vertical" className="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-orientation" data-direction="180" data-text="vertical"></span>' + 
-											'<span id="rev-cpicker-orientation-radial" className="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-orientation" data-direction="radial" data-text="radial"></span>' + 
+											'<span id="rev-cpicker-orientation-horizontal" class="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-orientation" data-direction="90" data-text="horizontal"></span>' + 
+											'<span id="rev-cpicker-orientation-vertical" class="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-orientation" data-direction="180" data-text="vertical"></span>' + 
+											'<span id="rev-cpicker-orientation-radial" class="rev-cpicker-btn rev-cpicker-btn-small rev-cpicker-orientation" data-direction="radial" data-text="radial"></span>' + 
 											
 										'</div>' + 
 									
 									'</div>' + 
 									
-									'<div className="rev-cpicker-meta-row rev-cpicker-meta-row-push">' + 
+									'<div class="rev-cpicker-meta-row rev-cpicker-meta-row-push">' + 
 										
 										'<div>' + 
 											'<label data-text="enter_angle"></label>' + 
 											'<div id="rev-cpicker-angle-container">' + 
-												'<input type="text" className="rev-cpicker-input" id="rev-cpicker-meta-angle" value="" />' + 
+												'<input type="text" class="rev-cpicker-input" id="rev-cpicker-meta-angle" value="" />' + 
 												'<div id="rev-cpicker-wheel">' + 
 													'<div id="rev-cpicker-wheel-inner"><span id="rev-cpicker-wheel-point"></span></div>' + 
 												'</div>' + 
@@ -724,19 +724,19 @@
 		
 		'<span id="rev-cpicker-check"></span>' + 
 		
-		'<div id="rev-cpicker-section-right" className="rev-cpicker-section">' + 
+		'<div id="rev-cpicker-section-right" class="rev-cpicker-section">' + 
 		
-			'<div className="rev-cpicker-iris">' + 
+			'<div class="rev-cpicker-iris">' + 
 							
-				'<input id="rev-cpicker-iris-gradient" className="rev-cpicker-iris-input" value="#ffffff" />' + 
+				'<input id="rev-cpicker-iris-gradient" class="rev-cpicker-iris-input" value="#ffffff" />' + 
 			
 			'</div>' + 
 			
-			'<div className="rev-cpicker-fields">' + 
+			'<div class="rev-cpicker-fields">' + 
 			
-				'<input type="text" id="rev-cpicker-gradient-hex" className="rev-cpicker-input rev-cpicker-hex" value="#ffffff" />' + 
-				'<span id="rev-cpciker-clear-gradient" className="rev-cpicker-btn rev-cpicker-btn-small rev-cpciker-clear" data-text="clear"></span>' + 
-				'<span id="rev-cpicker-check-gradient" className="rev-cpicker-btn"></span>' + 
+				'<input type="text" id="rev-cpicker-gradient-hex" class="rev-cpicker-input rev-cpicker-hex" value="#ffffff" />' + 
+				'<span id="rev-cpciker-clear-gradient" class="rev-cpicker-btn rev-cpicker-btn-small rev-cpciker-clear" data-text="clear"></span>' + 
+				'<span id="rev-cpicker-check-gradient" class="rev-cpicker-btn"></span>' + 
 				
 			'</div>' + 
 		
@@ -873,11 +873,11 @@
 			
 			}
 			
-			var shell = '<span className="rev-cpicker-color tptip' + cls + '" data-title="' + titl + '" data-color="' + val + '">' + 
-					    '<span className="rev-cpicker-preset-tile"></span>' + 
-					    '<span className="rev-cpicker-preset-bg" style="background: ' + val + '"></span>';
+			var shell = '<span class="rev-cpicker-color tptip' + cls + '" data-title="' + titl + '" data-color="' + val + '">' + 
+					    '<span class="rev-cpicker-preset-tile"></span>' + 
+					    '<span class="rev-cpicker-preset-bg" style="background: ' + val + '"></span>';
 			
-			if(!core) shell += '<span className="rev-cpicker-delete"><span className="rev-cpicker-delete-icon"></span></span>';
+			if(!core) shell += '<span class="rev-cpicker-delete"><span class="rev-cpicker-delete-icon"></span></span>';
 			shell += '</span>';
 			
 			el = $(shell);
@@ -1210,15 +1210,15 @@
 		if(align === 'bottom') {
 			
 			el.innerHTML = 
-			'<span className="rev-cpicker-point-triangle" style="border-bottom-color: ' + bg + '"></span>' + 
-			'<span className="rev-cpicker-point-square" style="background: ' + bg  +'"></span>';
+			'<span class="rev-cpicker-point-triangle" style="border-bottom-color: ' + bg + '"></span>' + 
+			'<span class="rev-cpicker-point-square" style="background: ' + bg  +'"></span>';
 			
 		}
 		else {
 		
 			el.innerHTML = 
-			'<span className="rev-cpicker-point-square" style="background: ' + bg + '"></span>' + 
-			'<span className="rev-cpicker-point-triangle" style="border-top-color: ' + bg + '"></span>';
+			'<span class="rev-cpicker-point-square" style="background: ' + bg + '"></span>' + 
+			'<span class="rev-cpicker-point-triangle" style="border-top-color: ' + bg + '"></span>';
 			
 		}
 		
@@ -2271,7 +2271,7 @@
 					
 					if(!checkRows.call(group[0])) {
 						
-						$('<span className="rev-cpicker-color blank"></span>').insertBefore(scroller);
+						$('<span class="rev-cpicker-color blank"></span>').insertBefore(scroller);
 						
 					}
 					else {
@@ -2282,7 +2282,7 @@
 					
 					if(checkGroup.call(group[0]) < presetColumns + 1) {
 
-						$('<span className="rev-cpicker-color blank"></span>').insertBefore(scroller);
+						$('<span class="rev-cpicker-color blank"></span>').insertBefore(scroller);
 						if(btn.hasClass('active')) btn.children('.rev-cpicker-arrow-up').click();
 						
 					}
@@ -2754,7 +2754,7 @@
 		if(!bodies) {
 		
 			bodies = $('body');
-			cPicker = $('<div className="' + 'rev-cpicker-wrap color-view">' + markup + '</div>').appendTo(bodies);
+			cPicker = $('<div class="' + 'rev-cpicker-wrap color-view">' + markup + '</div>').appendTo(bodies);
 			
 		}
 		
@@ -2849,9 +2849,9 @@
 				
 			}
 			
-			var wrap = $('<span className="rev-colorpicker"></span>').data('revcolorinput', $this),
-				box = $('<span className="rev-colorbox" />'),
-				btn = $('<span className="rev-colorbtn" />'),
+			var wrap = $('<span class="rev-colorpicker"></span>').data('revcolorinput', $this),
+				box = $('<span class="rev-colorbox" />'),
+				btn = $('<span class="rev-colorbtn" />'),
 				cls = $this.attr('data-wrap-classes'),
 				wrapper = $this.attr('data-wrapper'),
 				ids = $this.attr('data-wrap-id'),

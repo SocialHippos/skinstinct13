@@ -146,7 +146,7 @@ var RsSnowAddOn = function($, slider) {
 					}
 					return !1
 				}
-				return r.c = e(this), r.sc = r.selector != s ? e(this).find(r.selector) : r.c, 0 == r.sc.length ? !1 : r.c.data("snowflakes") != s ? !1 : (r.sc.find(".snowflakes_wrapper").remove(), r.sc.append('<div className="snowflakes_wrapper" style="position:relative;z-index:0"><div className="snowflakes_wrapper_inner" style="overflow:hidden;position:relative"><canvas width="2700" height="2500" style="position:relative;" className="snowflake_canvas"></canvas></div></div>'), r.sw = r.sc.find(".snowflakes_wrapper_inner"), r.sw.data("caller_container", r.c), r.canvas = r.sc.find(".snowflake_canvas"), r.dimension != self ? r.sizer = r.c : r.sizer = r.sc, r.w = r.sizer.width(), r.h = r.sizer.height(), r.sc.find(".snowflakes_wrapper_inner").css({
+				return r.c = e(this), r.sc = r.selector != s ? e(this).find(r.selector) : r.c, 0 == r.sc.length ? !1 : r.c.data("snowflakes") != s ? !1 : (r.sc.find(".snowflakes_wrapper").remove(), r.sc.append('<div class="snowflakes_wrapper" style="position:relative;z-index:0"><div class="snowflakes_wrapper_inner" style="overflow:hidden;position:relative"><canvas width="2700" height="2500" style="position:relative;" class="snowflake_canvas"></canvas></div></div>'), r.sw = r.sc.find(".snowflakes_wrapper_inner"), r.sw.data("caller_container", r.c), r.canvas = r.sc.find(".snowflake_canvas"), r.dimension != self ? r.sizer = r.c : r.sizer = r.sc, r.w = r.sizer.width(), r.h = r.sizer.height(), r.sc.find(".snowflakes_wrapper_inner").css({
 					width: r.w,
 					height: r.h
 				}), r.canvas = r.canvas[0], r.snowflakes = [], r.ctx = r.canvas.getContext("2d"), n(r), t(r), r.c.data("snowflakes", r), void e(window).resize(function() {

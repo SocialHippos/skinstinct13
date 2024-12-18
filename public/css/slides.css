@@ -1,13 +1,12 @@
 .title-bold{
-  font-weight: 400;
-
+  font-weight: 600;
 }
 
 .hero-section .title,
 .slider-content .inner h1 {
   border-width: 0;
   color: #fff;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: 'Futura PT', sans-serif;
   font-size: 70px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -29,8 +28,7 @@
   color: #fff;
   display: inline-block;
   font-size: 17px;
-  font-weight: 400;
-
+  font-weight: 600;
   line-height: 50px;
   margin-right: 21px;
   padding: 0 35px;
@@ -58,8 +56,7 @@
 /* Home Slider 2 */
 .home-slider2 .slider-content .sliderStyle2 h1 {
   font-size: 90px;
-  font-weight: 400;
-
+  font-weight: 700;
   line-height: 1.1;
   max-width: 100%;
   flex: 0 0 100%;
@@ -92,8 +89,7 @@
 .slider-content .sliderStyle2 button {
   letter-spacing: 2px;
   font-size: 12px;
-  font-weight: 400;
-
+  font-weight: 600;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-align: center;
@@ -120,8 +116,7 @@
 }
 .swiper .slider-content .sliderStyle3 h1 {
   font-size: 60px;
-  font-weight: 400;
-
+  font-weight: 600;
   text-align: center;
 }
 .sliderStyle4 button {
@@ -131,12 +126,11 @@
   z-index: 8;
   letter-spacing: 2px;
   white-space: normal;
-
+  text-transform: capitalize;
   font-size: 50px;
   line-height: 60px;
-  font-weight: 400;
-
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-weight: 700;
+  font-family: 'Futura PT', sans-serif;
   border-width: 0px;
   text-align: left;
   margin: 0px;
@@ -145,9 +139,9 @@
 .slider-content .inner.sliderStyle4,
 .slider-content .inner.sliderStyle5,
 .slider-content .inner.sliderStyle7 {
-  padding: 0 30px 0 30px;
+  padding: 0 15px 0 15px;
   position: relative;
-
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -157,8 +151,8 @@
 .slider-content .inner.sliderStyle4 h1 {
   font-size: 65px;
   line-height: 80px;
-  font-weight: 400;
-
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 .slider-content .inner.sliderStyle4 p {
   font-size: 18px;
@@ -301,9 +295,9 @@
 .slider-content .inner.sliderStyle4,
 .slider-content .inner.sliderStyle5,
 .slider-content .inner.sliderStyle7 {
-  padding: 0 30px 0 30px;
+  padding: 0 15px 0 15px;
   position: relative;
-
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -313,8 +307,8 @@
 .slider-content .inner.sliderStyle4 h1 {
   font-size: 65px;
   line-height: 80px;
-  font-weight: 400;
-
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 .slider-content .inner.sliderStyle4 p {
   font-size: 18px;
@@ -361,6 +355,7 @@
   .slider-content .inner.sliderStyle4 h1 {
     font-size: 40px;
     line-height: 50px;
+    margin-bottom: 15px;
   }
   .slider-content .inner.sliderStyle4 p {
     min-width: 90%;
@@ -377,6 +372,7 @@
   .slider-content .inner.sliderStyle4 h1 {
     font-size: 30px;
     line-height: 40px;
+    margin-bottom: 10px;
   }
   .slider-content .inner.sliderStyle4 p {
     font-size: 14px;
@@ -390,7 +386,7 @@
 
 /* sliderStyle5 */
 .slider-content .inner.sliderStyle5 h1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-align: center;
   line-height: 53px;
   letter-spacing: 0px;
@@ -399,7 +395,7 @@
   max-width: none;
 }
 .slider-content .inner.sliderStyle5 .subTitle1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-align: center;
   margin: 0px;
   letter-spacing: 1px;
@@ -412,8 +408,7 @@
 .slider-content .inner.sliderStyle5 h1 {
   min-width: 450px;
   max-width: 450px;
-  font-weight: 400;
-
+  font-weight: 900;
   color: rgb(0, 3, 15);
   line-height: 75px;
   letter-spacing: 3px;
@@ -435,8 +430,7 @@
   margin-right: 20px;
   letter-spacing: 2px;
   font-size: 12px;
-  font-weight: 400;
-
+  font-weight: 600;
   color: rgb(255, 255, 255);
   line-height: 18px;
   padding: 15px 30px;
@@ -521,8 +515,7 @@
 .slider-content .inner.sliderStyle7 .subTitle1 {
   font-size: 22px;
   line-height: 35px;
-  font-weight: 400;
-
+  font-weight: 700;
   color: #000;
   margin-bottom: 10px;
 }
@@ -530,8 +523,7 @@
   letter-spacing: 2px;
   font-size: 45px;
   line-height: 55px;
-  font-weight: 400;
-
+  font-weight: 700;
   color: var(--color-primary);
   margin-bottom: 10px;
 }
@@ -625,7 +617,7 @@
   margin-right: auto;
 }
 .slider-content .inner.sliderStyle10 h1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   line-height: 61px;
   font-weight: 400;
   font-size: 61px;
@@ -633,7 +625,7 @@
   margin-bottom: 40px;
 }
 .slider-content .inner.sliderStyle10 button {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   line-height: 13px;
   padding: 15px 50px;
   letter-spacing: 2px;
@@ -644,7 +636,7 @@
   background-color: transparent;
 }
 .slider-content .inner.sliderStyle10 .subTitle1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   line-height: 12px;
   letter-spacing: 1px;
   font-weight: 400;
@@ -696,8 +688,7 @@
 .hero-section.home-slider-11 .subtitle.style3 {
   font-size: 15px;
   line-height: 16px;
-  font-weight: 400;
-
+  font-weight: 700;
   letter-spacing: 1px;
 }
 .hero-section .subtitle {
@@ -710,8 +701,7 @@
 .hero-section .subtitle.style3 {
   font-size: 13px;
   line-height: 14px;
-  font-weight: 400;
-
+  font-weight: 700;
   color: rgb(255, 255, 255);
   letter-spacing: 1px;
   font-family: Roboto;
@@ -729,7 +719,7 @@
 .hero-section .description.style2 {
   font-size: 13px;
   line-height: 21px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: 'Futura PT', sans-serif;
   text-align: left;
   width: 380px;
 }
@@ -816,8 +806,7 @@
 .hero-section.home-slider-11 .title.style3 {
   font-size: 58px;
   line-height: 69px;
-  font-weight: 400;
-
+  font-weight: 700;
 }
 .hero-section.home-slider-11 .subtitle.fs-16 {
   font-size: 18px;
@@ -846,8 +835,7 @@
   .hero-section.home-slider-11 .title.style3 {
     font-size: 36px;
     line-height: 50px;
-    font-weight: 400;
-
+    font-weight: 700;
   }
   .hero-section.home-slider-11 .subtitle.style3 {
     margin-bottom: 10px;
@@ -863,8 +851,7 @@
   line-height: 15px;
   padding: 12px 50px 12px 50px;
   letter-spacing: 2px;
-  font-weight: 400;
-
+  font-weight: 700;
   font-size: 15px;
   margin: 0 15px;
   background-color: transparent;
@@ -936,7 +923,7 @@
 
 /* home-slider-13 */
 .hero-section.home-slider-13 .big-text {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 @media only screen and (max-width: 991px) {
   .hero-section.home-slider-13 .big-text {
@@ -964,8 +951,7 @@
 
 /* home-slider-14 */
 .hero-section.home-slider-14 .title.style2 {
-  font-weight: 400;
-
+  font-weight: 700;
   font-size: 86px;
   line-height: 92px;
 }
@@ -1017,8 +1003,7 @@
 
 /* home-slider-15 */
 .hero-section.home-slider-15 .subtitle.style2 {
-  font-weight: 400;
-
+  font-weight: 600;
   font-family: Roboto;
 }
 .hero-section.home-slider-15 .title {

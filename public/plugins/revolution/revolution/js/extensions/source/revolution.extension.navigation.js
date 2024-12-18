@@ -828,9 +828,9 @@ var initArrows = function(container,o,opt) {
 	
 	// ADD LEFT AND RIGHT ARROWS
 	if (container.find('.tp-leftarrow.tparrows').length===0) 
-		container.append('<div className="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">'+o.tmp+'</div>');
+		container.append('<div class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">'+o.tmp+'</div>');
 	if (container.find('.tp-rightarrow.tparrows').length===0) 
-		container.append('<div className="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">'+o.tmp+'</div>');	
+		container.append('<div class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">'+o.tmp+'</div>');	
 	var la = container.find('.tp-leftarrow.tparrows'),
 		ra = container.find('.tp-rightarrow.tparrows');
 	if (o.rtl) {
@@ -960,7 +960,7 @@ var addBullet = function(container,o,li,opt) {
 	// Check if Bullet exists already ?		
 	if (container.find('.tp-bullets').length===0) {
 		o.style = o.style === undefined ? "" : o.style;		
-		container.append('<div className="tp-bullets '+o.style+' '+o.direction+'"></div>');
+		container.append('<div class="tp-bullets '+o.style+' '+o.direction+'"></div>');
 	}
 	
 	// Add Bullet Structure to the Bullet Container
@@ -971,7 +971,7 @@ var addBullet = function(container,o,li,opt) {
 	jQuery.each(opt.thumbs[li.index()].params,function(i,obj) { inst = inst.replace(obj.from,obj.to);})
 
 
-	bw.append('<div className="justaddedbullet tp-bullet">'+inst+'</div>');
+	bw.append('<div class="justaddedbullet tp-bullet">'+inst+'</div>');
 
 	// SET BULLET SPACES AND POSITION
 	var b = container.find('.justaddedbullet'),
@@ -1046,7 +1046,7 @@ var addThumb = function(container,o,li,what,opt) {
 		o.style = o.style === undefined ? "" : o.style;		
 		
 		var spanw = o.span===true ? "tp-span-wrapper" : "",
-			addcontent = '<div className="'+what+'s '+spanw+" "+o.position+" "+o.style+'"><div className="'+what+'-mask"><div className="'+what+'s-inner-wrapper" style="position:relative;"></div></div></div>';
+			addcontent = '<div class="'+what+'s '+spanw+" "+o.position+" "+o.style+'"><div class="'+what+'-mask"><div class="'+what+'s-inner-wrapper" style="position:relative;"></div></div></div>';
 	
 		if (o.position==="outer-top")
 			container.parent().prepend(addcontent)
@@ -1078,7 +1078,7 @@ var addThumb = function(container,o,li,what,opt) {
 		})	
 	
 
-		tw.append('<div data-liindex="'+li.index()+'" data-liref="'+linkto+'" className="justaddedthumb '+what+'" style="width:'+o.width+'px;height:'+o.height+'px;">'+inst+'</div>');
+		tw.append('<div data-liindex="'+li.index()+'" data-liref="'+linkto+'" class="justaddedthumb '+what+'" style="width:'+o.width+'px;height:'+o.height+'px;">'+inst+'</div>');
 
 
 	// SET BULLET SPACES AND POSITION

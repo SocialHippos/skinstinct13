@@ -228,6 +228,7 @@
 }
 .comming-soon .modal-backdrop.in {
   background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("../images/overlay/rrdiagonal-line.png");
   opacity: 1;
 }
 .comming-soon .close-btn {

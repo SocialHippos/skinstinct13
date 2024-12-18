@@ -115,7 +115,7 @@ var _R = jQuery.fn.revolution,
 							y=0;
 							for (var i=0;i<opt.slots;i++) 	{
 
-								sh.append('<div className="slot" '+
+								sh.append('<div class="slot" '+
 										  'style="position:absolute;'+
 													'top:'+(fullyoff+y)+'px;'+
 													'left:'+(fulloff+x)+'px;'+
@@ -123,7 +123,7 @@ var _R = jQuery.fn.revolution,
 													'height:'+opt.sloth+'px;'+
 													'overflow:hidden;">'+
 
-										  '<div className="slotslide '+mediafilter+'" data-x="'+x+'" data-y="'+y+'" '+
+										  '<div class="slotslide '+mediafilter+'" data-x="'+x+'" data-y="'+y+'" '+
 										  			'style="position:absolute;'+
 													'top:'+(0)+'px;'+
 													'left:'+(0)+'px;'+
@@ -153,12 +153,12 @@ var _R = jQuery.fn.revolution,
 
 							if (!visible) var off=0-opt.slotw;
 							for (var i=0;i<opt.slots;i++) {
-											sh.append('<div className="slot" style="position:absolute;'+
+											sh.append('<div class="slot" style="position:absolute;'+
 																	'top:'+(0+fullyoff)+'px;'+
 																	'left:'+(fulloff+(i*opt.slotw))+'px;'+
 																	'overflow:hidden;width:'+(opt.slotw+0.3)+'px;'+
 																	'height:'+h+'px">'+
-														'<div className="slotslide '+mediafilter+'" style="position:absolute;'+
+														'<div class="slotslide '+mediafilter+'" style="position:absolute;'+
 																	'top:0px;left:'+off+'px;'+
 																	'width:'+(opt.slotw+0.6)+'px;'+
 																	'height:'+h+'px;overflow:hidden;">'+
@@ -173,14 +173,14 @@ var _R = jQuery.fn.revolution,
 						} else {
 							if (!visible) var off=0-opt.sloth;
 							for (var i=0;i<opt.slots+2;i++) {
-								sh.append('<div className="slot" style="position:absolute;'+
+								sh.append('<div class="slot" style="position:absolute;'+
 														 'top:'+(fullyoff+(i*opt.sloth))+'px;'+
 														 'left:'+(fulloff)+'px;'+
 														 'overflow:hidden;'+
 														 'width:'+w+'px;'+
 														 'height:'+(opt.sloth)+'px">'+
 
-											 '<div className="slotslide '+mediafilter+'" style="position:absolute;'+
+											 '<div class="slotslide '+mediafilter+'" style="position:absolute;'+
 																 'top:'+(off)+'px;'+
 																 'left:0px;width:'+w+'px;'+
 																 'height:'+opt.sloth+'px;'+
@@ -415,7 +415,7 @@ function moveCircles(cont,ms,_nt,dir,ei) {
 				sw = cont.width(),
 				sh = cont.height(),
 				di = sh>sw ? (sw*2) / pieces : (sh*2) / pieces;
-			slot.wrap('<div className="slot-circle-wrapper" style="overflow:hidden;position:absolute;border:1px solid #fff"></div>');
+			slot.wrap('<div class="slot-circle-wrapper" style="overflow:hidden;position:absolute;border:1px solid #fff"></div>');
 			
 			for (var i=0; i<pieces;i++) slot.parent().clone(false).appendTo(nextsh);	
 
@@ -1100,7 +1100,7 @@ var animateSlideIntern = function(nexttrans, comingtransition, container, nextli
 
 
 			// PREPARE THE CUTS
-			actli.wrapInner('<div className="tp-half-one" style="position:relative; width:100%;height:100%"></div>');
+			actli.wrapInner('<div class="tp-half-one" style="position:relative; width:100%;height:100%"></div>');
 
 			actli.find('.tp-half-one').clone(true).appendTo(actli).addClass("tp-half-two");
 			actli.find('.tp-half-two').removeClass('tp-half-one');
@@ -1111,8 +1111,8 @@ var animateSlideIntern = function(nexttrans, comingtransition, container, nextli
 				ooh = container.height();
 
 
-			actli.find('.tp-half-one .defaultimg').wrap('<div className="tp-papercut" style="width:'+oow+'px;height:'+ooh+'px;"></div>')
-			actli.find('.tp-half-two .defaultimg').wrap('<div className="tp-papercut" style="width:'+oow+'px;height:'+ooh+'px;"></div>')
+			actli.find('.tp-half-one .defaultimg').wrap('<div class="tp-papercut" style="width:'+oow+'px;height:'+ooh+'px;"></div>')
+			actli.find('.tp-half-two .defaultimg').wrap('<div class="tp-papercut" style="width:'+oow+'px;height:'+ooh+'px;"></div>')
 			actli.find('.tp-half-two .defaultimg').css({position:'absolute',top:'-50%'});
 			actli.find('.tp-half-two .tp-caption').wrapAll('<div style="position:absolute;top:-50%;left:0px;"></div>');
 
