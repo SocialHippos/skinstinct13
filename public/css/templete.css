@@ -6689,7 +6689,6 @@ HOME 5 Box Header
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1200px;
     padding-left: 20px;
   }
 }

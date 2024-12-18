@@ -12247,12 +12247,11 @@ footer .widget_services ul li a:hover {
 }
 .boxed.footer-fixed .site-footer {
   left: 50%;
-  width: 1200px;
   margin: 0 -600px;
 }
 .boxed .is-fixed .main-bar {
   left: 50%;
-  width: 1200px;
+
   margin: 0 -600px;
 }
 .boxed .is-fixed.header-curve .logo-header:after {

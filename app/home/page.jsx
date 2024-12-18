@@ -1,9 +1,7 @@
 import React from "react";
-import Hero from "@/components/homes/home-ux/Hero";
+import Hero2 from "@/components/homes/home-ux/Hero2";
 import RightImageText from "@/components/homes/home-ux/RightImageText";
 import Treatment from "@/components/homes/home-ux/Treatments";
- 
-import BannerContent from '@/components/homes/home-ux/BannerContent'
 
 export const metadata = {
   title: "Home | Skinstinct",
@@ -14,8 +12,7 @@ export default function page() {
     <>
       <div className="page-wraper roboto-condensed  ">
         <div className="page-content bg-white home-slider-10">
-          <Hero />
-          <BannerContent/>
+          <Hero2 />
           <div className="content-block">
             <RightImageText />
             <Treatment />

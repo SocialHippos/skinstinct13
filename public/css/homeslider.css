@@ -31,7 +31,7 @@
 .previousButton,
 .nextButton {
   position: absolute;
-  top: 50%;
+  top: 90%;
   transform: translateY(-50%);
   z-index: 10;
   background: url(/images/icon/angle_right.png) no-repeat center center / 32px;
@@ -39,13 +39,13 @@
   height: 60px;
   text-indent: -9999px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0);
 }
 .previousButton {
   transform: translateY(-50%) rotate(180deg);
   z-index: 10;
   background: url(/images/icon/angle_right.png) no-repeat center center / 32px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0);
 }
 .previousButton2,
 .nextButton2 {
@@ -138,8 +138,7 @@
 
 .previousButton:hover,
 .nextButton:hover {
-  background: url(/images/icon/angle_right.png) no-repeat center center / 17px;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0);
 }
 .previousButton3:hover,
 .nextButton3:hover {
