@@ -165,7 +165,7 @@
 
 .swiper-button-prev, .swiper-button-next {
   position: absolute;
-  top: var(--swiper-navigation-top-offset, 90%) !important;}
+  top: var(--swiper-navigation-top-offset, 95%) !important;}
 
 
 .slider-content {

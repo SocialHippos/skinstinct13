@@ -39,14 +39,25 @@ export default function RootLayout({ children }) {
         // Module is imported, you can access any exported functionality if
       });
     }
-    window.addEventListener("scroll", function () {
-      var stickyHeader = document.querySelector(".sticky-header");
-      if (stickyHeader) {
-        if (window.pageYOffset > stickyHeader.offsetTop) {
-          stickyHeader.classList.add("is-fixed");
-        } else {
-          stickyHeader.classList.remove("is-fixed");
-        }
+    let ticking = false;
+
+    window.addEventListener("scroll", function() {
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          var stickyHeader = document.querySelector(".sticky-header");
+          if (stickyHeader) {
+            const ninetyVH = window.innerHeight * 0.9;
+            
+            if (window.pageYOffset > ninetyVH) {
+              stickyHeader.classList.add("is-fixed");
+            } else {
+              stickyHeader.classList.remove("is-fixed");
+            }
+          }
+          ticking = false;
+        });
+    
+        ticking = true;
       }
     });
   }, []);

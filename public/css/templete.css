@@ -2,6 +2,11 @@
   margin-top:150px !important;
 }
 
+.about_text{
+display: flex;
+justify-content: center;
+} 
+
 .slider img{
   filter: brightness(0.8);
 }
