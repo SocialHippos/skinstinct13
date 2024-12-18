@@ -2045,7 +2045,7 @@ dl dd {
   position: relative;
 }
 .dlab-box:hover .dlab-info-has,
-.dlab-media:hover .dlab-info-has {
+:hover .dlab-info-has {
   opacity: 1;
   width: 100%;
   margin-bottom: 0;
@@ -2625,6 +2625,9 @@ blockquote:before {
   }
 }
 @media only screen and (max-width: 767px) {
+
+
+
   .extra-nav {
     margin-right: 15px;
   }
@@ -2974,7 +2977,7 @@ blockquote:before {
   height: auto;
   width: 100%;
   max-width: 162px;
- margin-left: 36px;
+
 }
 
 .extra-nav .extra-cell a {
@@ -2999,7 +3002,35 @@ blockquote:before {
 }
 /*= Set width for mobile  =*/
 
+
+
+
+@media only screen and (min-width: 767px) {
+
+  .header-transparent{
+    width: 100vw !important;
+    padding: 0px 0px 0px 0px !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
+
+  .header-transparent{
+    width: 100vw !important;
+    padding: 0px 0px 0px 0px !important;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+  .header-transparent{
+    width: 100vw !important;
+    padding: 10px 20px 10px 10px;
+  }
+
   .logo-header,
   .is-fixed.header-curve .logo-header,
   .is-fixed .logo-header,
@@ -3022,7 +3053,7 @@ blockquote:before {
   }
   .site-header .navbar-toggler,
   .site-header .is-fixed .navbar-toggler {
-    margin: 18px 0 14px 10px;
+    margin: 18px 20 14px 20px !important;
   }
   .site-header .extra-nav,
   .site-header .is-fixed .extra-nav {
@@ -3522,7 +3553,6 @@ blockquote:before {
 @media only screen and (max-width: 767px) {
   .site-header.center .logo-header img {
     height: 60px;
-    margin-bottom: -30px;
   }
   .logo-header {
     height: 50px;
@@ -4025,6 +4055,11 @@ blockquote:before {
 .header-transparent .is-fixed .main-bar {
   position: absolute;
   background-color:#eebf9b;
+  border-bottom: 2px solid #b47455;
+}
+
+.is-fixed ~ .has-mega-menu a{
+  color: #b47455 !important;
 }
  
 
@@ -4048,6 +4083,15 @@ blockquote:before {
     padding-left: 15px;
     padding-right: 15px;
   }
+  
+  .invert-logo img{
+  filter: invert(1);
+  }
+
+  .site-footer .widget_getintuch{
+    padding-left: 0px !important;
+  }
+
 }
 
 /* Colored Bg */
@@ -6428,9 +6472,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   position: absolute;
  }
 
- .logo-header img {
-  background-color: #e2c09e;
- }
+ 
 .extra-nav .extra-cell button  {
   padding: 0;
    
@@ -11814,12 +11856,12 @@ footer.text-white .dlab-quik-search .form-control::-webkit-input-placeholder {
     margin-bottom: 15px;
   }
   .content-block {
-    margin-top: -14%;
+
 }
 
   .content-bx1 {
     padding-left: 19px;
-    margin-top: 25px;
+    ;
   }
   .footer-clear {
     display: block !important;
@@ -12176,8 +12218,7 @@ footer .widget_services ul li a:hover {
 }
 /*= Section Content Part =*/
 
-.section-content {
-}
+
 @media only screen and (max-width: 1024px) {
   .section-full {
     background-attachment: scroll !important;
@@ -12187,11 +12228,20 @@ footer .widget_services ul li a:hover {
   .page-content {
     margin-top: 0;
   }
+}
 
-  .content-block {
-    margin-top: -14%;
+@media only screen and (max-width: 768px) {
+.const-about .section-head.style2{
+padding:30px 30px 80px 30px !important;
 }
+
+.about-text{
+  width:100% !important ;
+  text-align: center;
 }
+
+}
+
 /*---------------------------------------------------------------
 28. INNER-CONTENT
 ---------------------------------------------------------------*/

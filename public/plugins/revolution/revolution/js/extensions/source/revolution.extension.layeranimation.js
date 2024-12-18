@@ -170,11 +170,11 @@ jQuery.extend(true,_R, {
 			nextli.addClass("indebugmode");
 			nextli.find('.helpgrid').remove();	
 			opt.c.find('.hglayerinfo').remove();	
-			nextli.append('<div class="helpgrid" style="width:'+(opt.gridwidth[opt.curWinRange]*opt.bw)+'px;height:'+(opt.gridheight[opt.curWinRange]*opt.bw)+'px;"></div>');
+			nextli.append('<div className="helpgrid" style="width:'+(opt.gridwidth[opt.curWinRange]*opt.bw)+'px;height:'+(opt.gridheight[opt.curWinRange]*opt.bw)+'px;"></div>');
 			var hg = nextli.find('.helpgrid');
-			hg.append('<div class="hginfo">Zoom:'+(Math.round(opt.bw*100))+'% &nbsp;&nbsp;&nbsp; Device Level:'+opt.curWinRange+'&nbsp;&nbsp;&nbsp; Grid Preset:'+opt.gridwidth[opt.curWinRange]+'x'+opt.gridheight[opt.curWinRange]+'</div>')
-			opt.c.append('<div class="hglayerinfo"></div>')
-			hg.append('<div class="tlhg"></div>');
+			hg.append('<div className="hginfo">Zoom:'+(Math.round(opt.bw*100))+'% &nbsp;&nbsp;&nbsp; Device Level:'+opt.curWinRange+'&nbsp;&nbsp;&nbsp; Grid Preset:'+opt.gridwidth[opt.curWinRange]+'x'+opt.gridheight[opt.curWinRange]+'</div>')
+			opt.c.append('<div className="hglayerinfo"></div>')
+			hg.append('<div className="tlhg"></div>');
 		}
 				
 		// PREPARE THE LAYERS
@@ -675,7 +675,7 @@ jQuery.extend(true,_R, {
 		// BLOCK ANIMATION ON LAYERS
 		if (_._sfx==="block") 
 			if (_._bmask === undefined) {
-				_._bmask = jQuery('<div class="tp-blockmask"></div>');
+				_._bmask = jQuery('<div className="tp-blockmask"></div>');
 				_._mw.append(_._bmask);
 			}
 				

@@ -101,7 +101,7 @@ var prepOptions = function(o) {
 			b.space=5;
 			b.h_offset=o.navigationHOffset || 0;
 			b.v_offset=o.navigationVOffset || 20;
-			b.tmp='<span class="tp-bullet-image"></span><span class="tp-bullet-title"></span>';
+			b.tmp='<span className="tp-bullet-image"></span><span className="tp-bullet-title"></span>';
 			n.bullets = b;
 		}
 		if (o.navigationType=="thumb") {
@@ -128,7 +128,7 @@ var prepOptions = function(o) {
 			t.v_align=o.navigationVAlign || "bottom";
 			t.h_offset=o.navigationHOffset || 0;
 			t.v_offset=o.navigationVOffset || 20;
-			t.tmp='<span class="tp-thumb-image"></span><span class="tp-thumb-title"></span>';
+			t.tmp='<span className="tp-thumb-image"></span><span className="tp-thumb-title"></span>';
 			n.thumbnails = t;
 		}
 		

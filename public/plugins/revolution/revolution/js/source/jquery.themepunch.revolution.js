@@ -185,7 +185,7 @@
 						space:0,
 						h_offset:20,
 						v_offset:0,
-						tmp:'<span class="tp-bullet-image"></span><span class="tp-bullet-title"></span>'
+						tmp:'<span className="tp-bullet-image"></span><span className="tp-bullet-title"></span>'
 					},
 					thumbnails: {
 						container:"slider",
@@ -198,7 +198,7 @@
 						wrapper_padding:2,
 						wrapper_color:"#f5f5f5",
 						wrapper_opacity:1,
-						tmp:'<span class="tp-thumb-image"></span><span class="tp-thumb-title"></span>',
+						tmp:'<span className="tp-thumb-image"></span><span className="tp-thumb-title"></span>',
 						visibleAmount:5,
 						hide_onmobile:false,							
 						hide_onleave:true,
@@ -226,7 +226,7 @@
 						wrapper_padding:10,
 						wrapper_color:"#f5f5f5",
 						wrapper_opacity:1,
-						tmp:'<span class="tp-tab-image"></span>',
+						tmp:'<span className="tp-tab-image"></span>',
 						visibleAmount:5,
 						hide_onmobile:false,							
 						hide_onleave:true,
@@ -1296,7 +1296,7 @@ var initSlider = function (container,opt) {
 	// CHECK FOR ALTERNATIVE IMAGE, AND IFRAM EXIST, AND WE ARE IN IE8, MOBILE, DRAW IT SIMPLE
 	if (container.data('aimg')!=undefined) 
 		if ((container.data('aie8')=="enabled" && _R.isIE(8)) || (container.data('amobile')=="enabled" && _ISM))
-			container.html('<img class="tp-slider-alternative-image" src="'+container.data("aimg")+'">');
+			container.html('<img className="tp-slider-alternative-image" src="'+container.data("aimg")+'">');
 	
 	// PREPRARE SOME CLASSES AND VARIABLES
 	container.find('>ul').addClass("tp-revslider-mainul");
@@ -1455,7 +1455,7 @@ var initSlider = function (container,opt) {
 			
 			if (link!="slide") linktoslide="no";
 			
-			var apptxt = '<div class="tp-caption slidelink" style="cursor:pointer;width:100%;height:100%;z-index:'+zindex+';" data-x="center" data-y="center" data-basealign="slide" ',
+			var apptxt = '<div className="tp-caption slidelink" style="cursor:pointer;width:100%;height:100%;z-index:'+zindex+';" data-x="center" data-y="center" data-basealign="slide" ',
 				jts = linktoslide==="scroll_under" ? '[{"event":"click","action":"scrollbelow","offset":"100px","delay":"0"}]' : 
 					 linktoslide==="prev" ? '[{"event":"click","action":"jumptoslide","slide":"prev","delay":"0.2"}]' : 
 					 linktoslide==="next" ? '[{"event":"click","action":"jumptoslide","slide":"next","delay":"0.2"}]' : '[{"event":"click","action":"jumptoslide","slide":"'+linktoslide+'","delay":"0.2"}]',
@@ -1512,8 +1512,8 @@ var initSlider = function (container,opt) {
 			mb = mb===undefined ? 0 : mb;
 			mt = mt===undefined ? 0 : mt;
 
-			cp.wrap('<div class="forcefullwidth_wrapper_tp_banner" id="'+cid+'" style="position:relative;width:100%;height:auto;margin-top:'+mt+';margin-bottom:'+mb+'"></div>');
-			container.closest('.forcefullwidth_wrapper_tp_banner').append('<div class="tp-fullwidth-forcer" style="width:100%;height:'+container.height()+'px"></div>');
+			cp.wrap('<div className="forcefullwidth_wrapper_tp_banner" id="'+cid+'" style="position:relative;width:100%;height:auto;margin-top:'+mt+';margin-bottom:'+mb+'"></div>');
+			container.closest('.forcefullwidth_wrapper_tp_banner').append('<div className="tp-fullwidth-forcer" style="width:100%;height:'+container.height()+'px"></div>');
 			container.parent().css({marginTop:"0px",marginBottom:"0px"});
 			//container.css({'backgroundColor':container.parent().css('backgroundColor'),'backgroundImage':container.parent().css('backgroundImage')});
 			container.parent().css({position:'absolute'});						
@@ -1525,7 +1525,7 @@ var initSlider = function (container,opt) {
 	// SHADOW ADD ONS
 	if (opt.shadow!==undefined && opt.shadow>0) {
 		container.parent().addClass('tp-shadow'+opt.shadow);			
-		container.parent().append('<div class="tp-shadowcover"></div>');
+		container.parent().append('<div className="tp-shadowcover"></div>');
 		container.parent().find('.tp-shadowcover').css({'backgroundColor':container.parent().css('backgroundColor'),'backgroundImage':container.parent().css('backgroundImage')});
 	}
 
@@ -1578,7 +1578,7 @@ var initSlider = function (container,opt) {
 		
 		//WRAP LAYERS INTO 1 CONTAINER TO AVOID FURTHER ISSUES
 		/*container.find('.tp-revslider-slidesli').each(function() {
-			jQuery(this).find('.tp-caption').wrapAll('<div class="tp-layers-container"></div>');
+			jQuery(this).find('.tp-caption').wrapAll('<div className="tp-layers-container"></div>');
 		});*/
 
 		container.find('.tp-caption, .rs-background-video-layer').each(function(i) {
@@ -1668,7 +1668,7 @@ var initSlider = function (container,opt) {
 				// POINTER EVENTS ADDITION
 				var pevents = '';
 				if(_nc.hasClass('tp-no-events')) pevents = ';pointer-events:none';
-				_nc.wrap('<div '+preid+' class="tp-parallax-wrap '+preclas+'" style="'+specec+' '+ec+'position:'+_pos+';'+dmode+';visibility:hidden'+pevents+'"><div class="tp-loop-wrap" style="'+ec+'position:'+_pos+';'+dmode+';"><div class="tp-mask-wrap" style="'+ec+'position:'+_pos+';'+dmode+';" ></div></div></div>');
+				_nc.wrap('<div '+preid+' className="tp-parallax-wrap '+preclas+'" style="'+specec+' '+ec+'position:'+_pos+';'+dmode+';visibility:hidden'+pevents+'"><div className="tp-loop-wrap" style="'+ec+'position:'+_pos+';'+dmode+';"><div className="tp-mask-wrap" style="'+ec+'position:'+_pos+';'+dmode+';" ></div></div></div>');
 				
 				// ONLY ADD LAYERS TO FADEOUT DYNAMIC LIST WHC
 				if (addtofadeout && opt.scrolleffect.on) 
@@ -1679,8 +1679,8 @@ var initSlider = function (container,opt) {
 				
 				// Add BG for Columns
 				if (nctype==="column") {
-					_nc.append('<div class="rev_column_bg rev_column_bg_man_sized" style="visibility:hidden"></div>');
-					_nc.closest('.tp-parallax-wrap').append('<div class="rev_column_bg rev_column_bg_auto_sized"></div>');
+					_nc.append('<div className="rev_column_bg rev_column_bg_man_sized" style="visibility:hidden"></div>');
+					_nc.closest('.tp-parallax-wrap').append('<div className="rev_column_bg rev_column_bg_auto_sized"></div>');
 				}
 
 				var lar = ['pendulum', 'rotate','slideloop','pulse','wave'],
@@ -1814,17 +1814,17 @@ var initSlider = function (container,opt) {
 		}
 		
 		// PREPARE THE SPINNER
-		container.append(	'<div class="tp-loader '+opt.spinner+'">'+
-					  		'<div class="dot1"></div>'+
-					  	    '<div class="dot2"></div>'+
-					  	    '<div class="bounce1"></div>'+
-							'<div class="bounce2"></div>'+
-							'<div class="bounce3"></div>'+
+		container.append(	'<div className="tp-loader '+opt.spinner+'">'+
+					  		'<div className="dot1"></div>'+
+					  	    '<div className="dot2"></div>'+
+					  	    '<div className="bounce1"></div>'+
+							'<div className="bounce2"></div>'+
+							'<div className="bounce3"></div>'+
 						 '</div>');
 		opt.loader = container.find('.tp-loader');
 
 		// RESET THE TIMER
-		if (container.find('.tp-bannertimer').length===0) container.append('<div class="tp-bannertimer" style="visibility:hidden"></div>');
+		if (container.find('.tp-bannertimer').length===0) container.append('<div className="tp-bannertimer" style="visibility:hidden"></div>');
 		container.find('.tp-bannertimer').css({'width':'0%'});
 		
 
@@ -2197,7 +2197,7 @@ var prepareSlides = function(container,opt) {
 
 	if (opt.sliderType === "carousel") {
 		//SET CAROUSEL				
-		opt.ul.css({overflow:"visible"}).wrap('<div class="tp-carousel-wrapper" style="width:100%;height:100%;position:absolute;top:0px;left:0px;overflow:hidden;"></div>');
+		opt.ul.css({overflow:"visible"}).wrap('<div className="tp-carousel-wrapper" style="width:100%;height:100%;position:absolute;top:0px;left:0px;overflow:hidden;"></div>');
 		var apt = '<div style="clear:both;display:block;width:100%;height:1px;position:relative;margin-bottom:-1px"></div>';
 		opt.c.parent().prepend(apt);
 		opt.c.parent().append(apt);
@@ -2227,7 +2227,7 @@ var prepareSlides = function(container,opt) {
 
 		var mediafilter = cli.data('mediafilter');
 		mediafilter = mediafilter==="none" || mediafilter===undefined ? "" : mediafilter;
-		img.wrap('<div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;"></div>');
+		img.wrap('<div className="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;"></div>');
 		bgvid.appendTo(cli.find('.slotholder'));
 		var dts = img.data();
 		img.closest('.slotholder').data(dts);
@@ -2238,7 +2238,7 @@ var prepareSlides = function(container,opt) {
 		}
 
 		if (opt.dottedOverlay!="none" && opt.dottedOverlay!=undefined)
-				img.closest('.slotholder').append('<div class="tp-dottedoverlay '+opt.dottedOverlay+'"></div>');
+				img.closest('.slotholder').append('<div className="tp-dottedoverlay '+opt.dottedOverlay+'"></div>');
 
 		var src=img.attr('src');		
 		dts.src = src;		
@@ -2256,7 +2256,7 @@ var prepareSlides = function(container,opt) {
 			bgstyle='"background-color:'+bgcolor+';background-repeat:'+dts.bgrepeat+';background-image:url('+src+');background-size:'+dts.bgfit+';background-position:'+dts.bgposition+';width:100%;height:100%;"';		
 		img.data('mediafilter',mediafilter)
 		mediafilter = img.data("kenburns")==="on" ? "" : mediafilter;
-		var newimg = jQuery('<div class="tp-bgimg defaultimg '+mediafilter+'" data-bgcolor="'+bgcolor+'" style='+bgstyle+'></div>')		
+		var newimg = jQuery('<div className="tp-bgimg defaultimg '+mediafilter+'" data-bgcolor="'+bgcolor+'" style='+bgstyle+'></div>')		
 		img.parent().append(newimg);
 		
 		var comment = document.createComment("Runtime Modification - Img tag is Still Available for SEO Goals in Source - " + img.get(0).outerHTML);
@@ -2274,7 +2274,7 @@ var prepareSlides = function(container,opt) {
 	if (opt.scrolleffect.on &&  opt.scrolleffect.on_slidebg==="on") {
 		opt.allslotholder = new Array();
 		opt.allli.find('.slotholder').each(function() {
-			jQuery(this).wrap('<div style="display:block;position:absolute;top:0px;left:0px;width:100%;height:100%" class="slotholder_fadeoutwrap"></div>')			
+			jQuery(this).wrap('<div style="display:block;position:absolute;top:0px;left:0px;width:100%;height:100%" className="slotholder_fadeoutwrap"></div>')			
 		});
 		opt.allslotholder = opt.c.find('.slotholder_fadeoutwrap');
 	}
@@ -2503,7 +2503,7 @@ var waitForCurrentImages = function(nextli,opt,callback) {
 
 			if (loadobj.type=="svg" && loadobj.progress=="loaded") {				
 
-				element.append('<div class="tp-svg-innercontainer"></div>');
+				element.append('<div className="tp-svg-innercontainer"></div>');
 				element.find('.tp-svg-innercontainer').append(loadobj.innerHTML);
 			}
 			// ELEMENT IS NOW FULLY LOADED
@@ -2672,7 +2672,7 @@ var swapSlide = function(container) {
 				if (_R.manageVideoLayer) _R.manageVideoLayer(_nc,opt);
 			}
 			if (_nc.find('.rs-fullvideo-cover').length==0)
-				_nc.append('<div class="rs-fullvideo-cover"></div>')
+				_nc.append('<div className="rs-fullvideo-cover"></div>')
 		});
 		swapSlideProgress(defimg,container)
 	});			

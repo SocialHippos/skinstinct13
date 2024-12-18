@@ -1205,7 +1205,7 @@ export default function Team() {
                 el: ".spt7",
                 bulletActiveClass: "active",
                 renderBullet: function (index, className) {
-                  return `  <button role="button" class="owl-dot ${className}">
+                  return `  <button role="button" className="owl-dot ${className}">
                 <span></span>
               </button>`;
                 },

@@ -12,7 +12,7 @@ export default function RightImageText() {
       <div className="row align-items-center col-rev sb">
       
         <div
-          className="col-lg-6 col-md-6 col-sm-12 col-12"
+          className="col-lg-6  col-12"
         >
           <Image
             alt="Image"
@@ -25,7 +25,7 @@ export default function RightImageText() {
 
         {/* Right Column with Content */}
         <div
-          className="col-lg-6 col-md-6 col-sm-12 col-12 about_text" 
+          className="col-lg-6 col-12 about_text" 
         >
           <div className="content-bx1 col-lg-9 col-sm-12 col-12 wow fadeInRight">
             <div className="section-head style2">
@@ -40,7 +40,7 @@ export default function RightImageText() {
                 dermatology and transformative skin care, Skinstinct is dedicated to
                 helping clients achieve radiant, healthy skin.
               </p>
-              <button className="button dz-bannerbtn bg-button" type="button">
+              <button className="button dz-bannerbtn bg-button about-button" type="button">
                 DISCOVER ME
               </button>
             </div>

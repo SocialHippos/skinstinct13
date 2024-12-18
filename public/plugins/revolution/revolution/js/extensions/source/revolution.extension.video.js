@@ -567,7 +567,7 @@ jQuery.extend(true,_R, {
 					}	
 				}
 				
-				var apptxt = '<'+tag+' '+_funcs+' style="object-fit:cover;background-size:cover;visible:hidden;width:100%; height:100%" class="" '+videoloop+' preload="'+videopreload+'">';
+				var apptxt = '<'+tag+' '+_funcs+' style="object-fit:cover;background-size:cover;visible:hidden;width:100%; height:100%" className="" '+videoloop+' preload="'+videopreload+'">';
 				
 				if (videopreload=="auto") opt.mediapreload = true;
 				//if (_.videoposter!=undefined) apptxt = apptxt + 'poster="'+_nc.data('videoposter')+'">';				
@@ -583,14 +583,14 @@ jQuery.extend(true,_R, {
 				apptxt = apptxt + '</'+tag+'>';
 				var hfm ="";
 				if (videoafs==="true" ||  videoafs===true)
-					hfm = '<div class="tp-video-button-wrap"><button  type="button" class="tp-video-button tp-vid-full-screen">Full-Screen</button></div>';
+					hfm = '<div className="tp-video-button-wrap"><button  type="button" className="tp-video-button tp-vid-full-screen">Full-Screen</button></div>';
 
 				if (videocontrols=="controls")
-					apptxt = apptxt + ('<div class="tp-video-controls">'+
-										  '<div class="tp-video-button-wrap"><button type="button" class="tp-video-button tp-vid-play-pause">Play</button></div>'+
-										  '<div class="tp-video-seek-bar-wrap"><input  type="range" class="tp-seek-bar" value="0"></div>'+
-										  '<div class="tp-video-button-wrap"><button  type="button" class="tp-video-button tp-vid-mute">Mute</button></div>'+
-										  '<div class="tp-video-vol-bar-wrap"><input  type="range" class="tp-volume-bar" min="0" max="1" step="0.1" value="1"></div>'+
+					apptxt = apptxt + ('<div className="tp-video-controls">'+
+										  '<div className="tp-video-button-wrap"><button type="button" className="tp-video-button tp-vid-play-pause">Play</button></div>'+
+										  '<div className="tp-video-seek-bar-wrap"><input  type="range" className="tp-seek-bar" value="0"></div>'+
+										  '<div className="tp-video-button-wrap"><button  type="button" className="tp-video-button tp-vid-mute">Mute</button></div>'+
+										  '<div className="tp-video-vol-bar-wrap"><input  type="range" className="tp-volume-bar" min="0" max="1" step="0.1" value="1"></div>'+
 										  hfm+
 										  '</div>');
 				
@@ -607,7 +607,7 @@ jQuery.extend(true,_R, {
 						jvideo = jQuery(this);
 
 					if (!jvideo.parent().hasClass("html5vid"))
-						jvideo.wrap('<div class="html5vid" style="position:relative;top:0px;left:0px;width:100%;height:100%; overflow:hidden;"></div>');
+						jvideo.wrap('<div className="html5vid" style="position:relative;top:0px;left:0px;width:100%;height:100%; overflow:hidden;"></div>');
 
 					var html5vid = jvideo.parent();
 					if (html5vid.data('metaloaded') != 1) {
@@ -670,7 +670,7 @@ jQuery.extend(true,_R, {
 		
 		if (_.videoposter!=undefined && _.videoposter.length>2 && !noposteronmobile) {
 			if (_nc.find('.tp-videoposter').length==0)
-				_nc.append('<div class="tp-videoposter noSwipe" style="cursor:pointer; position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:3;background-image:url('+_.videoposter+'); background-size:cover;background-position:center center;"></div>');				
+				_nc.append('<div className="tp-videoposter noSwipe" style="cursor:pointer; position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:3;background-image:url('+_.videoposter+'); background-size:cover;background-position:center center;"></div>');				
 			if (_nc.find('iframe').length==0)
 			_nc.find('.tp-videoposter').click(function() {					
 				_R.playVideo(_nc,opt);															
@@ -691,7 +691,7 @@ jQuery.extend(true,_R, {
 		
 		// ADD DOTTED OVERLAY IF NEEDED
 		if (_nc.data('dottedoverlay')!="none" && _nc.data('dottedoverlay')!=undefined && _nc.find('.tp-dottedoverlay').length!=1)
-			_nc.append('<div class="tp-dottedoverlay '+_nc.data('dottedoverlay')+'"></div>');
+			_nc.append('<div className="tp-dottedoverlay '+_nc.data('dottedoverlay')+'"></div>');
 		
 		_nc.addClass("HasListener");	
 
@@ -1167,7 +1167,7 @@ var htmlvideoevents = function(_nc,opt,startnow) {
 	//PLAY, STOP VIDEO ON CLICK OF PLAY, POSTER ELEMENTS
 	if (jvideo.attr('control') == undefined ) {
 		if (_nc.find('.tp-video-play-button').length==0 && !_ISM)
-			_nc.append('<div class="tp-video-play-button"><i class="revicon-right-dir"></i><span class="tp-revstop">&nbsp;</span></div>');
+			_nc.append('<div className="tp-video-play-button"><i className="revicon-right-dir"></i><span className="tp-revstop">&nbsp;</span></div>');
 		_nc.find('video, .tp-poster, .tp-video-play-button').click(function() {
 			if (_nc.hasClass("videoisplaying"))
 				video.pause();

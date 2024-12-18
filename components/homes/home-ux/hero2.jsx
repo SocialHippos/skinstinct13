@@ -59,7 +59,7 @@ export default function Hero() {
               <h1>{slide.title2}</h1>
               {/* <p>{slide.description}</p> */}
               <Link href={"/treatments"}>
-                <button className="site-button">DISCOVER MORE</button>
+                <button className="button dz-bannerbtn bg-button mt-20">DISCOVER MORE</button>
               </Link>
             </div>
           </SwiperSlide>

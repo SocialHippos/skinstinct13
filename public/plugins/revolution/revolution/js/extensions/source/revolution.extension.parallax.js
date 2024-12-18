@@ -30,18 +30,18 @@ jQuery.extend(true,_R, {
 			punchgs.TweenLite.set(opt.c,{overflow:_.ddd_overflow});
 			punchgs.TweenLite.set(opt.ul,{overflow:_.ddd_overflow});		
 			if (opt.sliderType!="carousel" && _.ddd_shadow=="on") {
-				opt.c.prepend('<div class="dddwrappershadow"></div>')
+				opt.c.prepend('<div className="dddwrappershadow"></div>')
 				punchgs.TweenLite.set(opt.c.find('.dddwrappershadow'),{force3D:"auto",transformPerspective:1600,transformOrigin:"50% 50%", width:"100%",height:"100%",position:"absolute",top:0,left:0,zIndex:0});			
 			}
 		}
 		
 		function setDDDInContainer(li) {
 			if (_.type=="3D" || _.type=="3d") {
-				li.find('.slotholder').wrapAll('<div class="dddwrapper" style="width:100%;height:100%;position:absolute;top:0px;left:0px;overflow:hidden"></div>');				
-				li.find('.tp-parallax-wrap').wrapAll('<div class="dddwrapper-layer" style="width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:5;overflow:'+_.ddd_layer_overflow+';"></div>');				
+				li.find('.slotholder').wrapAll('<div className="dddwrapper" style="width:100%;height:100%;position:absolute;top:0px;left:0px;overflow:hidden"></div>');				
+				li.find('.tp-parallax-wrap').wrapAll('<div className="dddwrapper-layer" style="width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:5;overflow:'+_.ddd_layer_overflow+';"></div>');				
 
 				// MOVE THE REMOVED 3D LAYERS OUT OF THE PARALLAX GROUP					
-				li.find('.rs-parallaxlevel-tobggroup').closest('.tp-parallax-wrap').wrapAll('<div class="dddwrapper-layertobggroup" style="position:absolute;top:0px;left:0px;z-index:50;width:100%;height:100%"></div>');
+				li.find('.rs-parallaxlevel-tobggroup').closest('.tp-parallax-wrap').wrapAll('<div className="dddwrapper-layertobggroup" style="position:absolute;top:0px;left:0px;z-index:50;width:100%;height:100%"></div>');
 
 				var dddw = li.find('.dddwrapper'),
 					dddwl = li.find('.dddwrapper-layer'),

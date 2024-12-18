@@ -1,5 +1,171 @@
+
+.section-full {
+  width: 100%;
+}
+
+.content-inner-2 {
+  padding: 70px 0;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.treatment-bg {
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.text-center-mbl {
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.portfolio-ic {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.dlab-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.dlab-media {
+  position: relative;
+}
+
+.dez-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+
+.text-white a img {
+  border-radius: 40px;
+}
+
+.dez-title {
+  margin: 0;
+}
+
+.dez-title a {
+  color: white !important;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.dlab-img-overlay1:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  transition: all 0.3s ease;
+}
+
+.dlab-img-overlay1:hover:before {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.overlay-bx {
+  position: absolute;
+  right: 20px;
+  z-index: 2;
+}
+
+.center {
+  text-align: center;
+}
+
+.treatment-button {
+  padding: 12px 30px;
+  background: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm-6 {
+    width: 100%;
+  }
+}
 .mt-150{
   margin-top:150px !important;
+}
+
+.treatment-box-img img{
+filter: brightness(0.9);
+}
+
+.about-button{
+  border: 1px solid #AE7451 !important;
+  color: #AE7451 !important;
+}
+
+.about-button:hover{
+  border: 1px solid #AE7451 !important;
+  background-color: #AE7451 !important;
+  background: #AE7451 !important;
+  color: #ffffff !important;
+}
+
+.treatment-button{
+  border: 1px solid #AE7451 !important;
+  color: #AE7451 !important;
+}
+
+.treatment-button:hover{
+  border: 1px solid #AE7451 !important;
+  background-color: #AE7451 !important;
+  background: #AE7451 !important;
+  color: #ffffff !important;
+}
+
+.treatment-bg{
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+.mt-20{
+  margin-top:20px !important;
 }
 
 .about_text{
@@ -57,8 +223,8 @@ padding: 0 60px;
 }
 
 .button.dz-bannerbtn.bg-button:hover{
-  background-color: #ffcfb2;
-  color:white;
+  background-color: #ffffff;
+  color:#AE7451;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -71,11 +237,11 @@ padding: 0 60px;
 
 .dlab-media{
   border-radius: 20px;
-  border: 2px solid #000000;
+
 }
 .border-blk-2-20{
   border-radius: 29px;
-  border: 2px solid #000000;
+
 }
 
 .pr-2{
@@ -4950,7 +5116,7 @@ HOME 5 Box Header
     width: 100px;
   }
   .frame-box .site-header.center .navbar-toggler {
-    margin: 16px 0 18px 15px;
+    margin: 13px 18px 14px 10px;
   }
   .frame-box .main-bar {
     padding: 55px 0;
@@ -5186,7 +5352,7 @@ HOME 5 Box Header
   }
   .header-transparent.box-header .is-fixed .navbar-toggler,
   .header-transparent.box-header .navbar-toggler {
-    margin: 17px 0 15px 20px;
+    margin: 13px 18px 14px 10px;
   }
   .box-header .is-fixed .extra-nav .site-button,
   .box-header .extra-nav .site-button {
@@ -6886,7 +7052,7 @@ HOME 5 Box Header
     width: 100%;
   }
   blockquote {
-    margin-top: 25px;
+    ;
     margin-bottom: 25px;
   }
 
@@ -7734,7 +7900,7 @@ button.scroltop {
     line-height: 16px;
   }
   .dz-ship-industry-zone .banner-content .dz-bannerlist {
-    margin-top: 25px;
+    ;
   }
   .dz-ship-industry-zone .banner-content .dz-bannerlist h6 {
     margin-bottom: 15px;

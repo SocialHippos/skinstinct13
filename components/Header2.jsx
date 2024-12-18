@@ -16,7 +16,7 @@ export default function Header2() {
             {/* website logo */}
             <div className="logo-header mostion ">
             <Link href="/">
-                <Image alt="" src="/images/skinstinct-white.svg" width="258" height="75" />
+                <Image alt="" src="/images/skinstinct1.png" width="258" height="75" />
               </Link>
             </div>
             {/* nav toggle button */}
@@ -52,7 +52,7 @@ export default function Header2() {
             >
               <div className="logo-header d-md-block d-lg-none">
               <Link href="/">
-                <Image alt="" src="/images/skinstinct.svg" width="258" height="75" />
+                <Image alt="" src="/images/skinstinct1.png" width="258" height="75" className="invert-logo" />
               </Link>
               </div>
               <ul className="nav navbar-nav">

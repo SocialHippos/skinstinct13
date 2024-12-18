@@ -89,7 +89,7 @@ export default function Sliders() {
                       el: ".spt1",
                       bulletActiveClass: "active",
                       renderBullet: function (index, className) {
-                        return `  <button role="button" class="owl-dot ${className}">
+                        return `  <button role="button" className="owl-dot ${className}">
                 <span></span>
               </button>`;
                       },
@@ -164,7 +164,7 @@ export default function Sliders() {
                         el: ".spt2",
                         bulletActiveClass: "active",
                         renderBullet: function (index, className) {
-                          return `  <button role="button" class="owl-dot ${className}">
+                          return `  <button role="button" className="owl-dot ${className}">
                 <span></span>
               </button>`;
                         },
@@ -266,7 +266,7 @@ export default function Sliders() {
                     el: ".spt15",
                     bulletActiveClass: "active",
                     renderBullet: function (index, className) {
-                      return `  <button role="button" class="owl-dot ${className}">
+                      return `  <button role="button" className="owl-dot ${className}">
                 <span></span>
               </button>`;
                     },
@@ -354,7 +354,7 @@ export default function Sliders() {
                         el: ".spt3",
                         bulletActiveClass: "active",
                         renderBullet: function (index, className) {
-                          return `  <button role="button" class="owl-dot ${className}">
+                          return `  <button role="button" className="owl-dot ${className}">
                 <span></span>
               </button>`;
                         },

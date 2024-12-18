@@ -33,21 +33,21 @@ export default function Filters() {
           <CommonFilter />
         </div>
         <div className="section-full content-inner-2 bg-black-light">
-          <CommonFilter filterStyle={2} btnClass="" />
+          <CommonFilter filterStyle={2} btnclassName="" />
         </div>
         <div className="section-full bg-white content-inner-2">
-          <CommonFilter filterStyle={3} btnClass="site-button-secondry" />
+          <CommonFilter filterStyle={3} btnclassName="site-button-secondry" />
         </div>
         <div
           className="section-full bg-white content-inner-2 overlay-black-dark bg-img-fix"
           style={{ backgroundImage: "url(/images/background/bg1.jpg)" }}
         >
-          <CommonFilter filterStyle={4} btnClass="site-button white" />
+          <CommonFilter filterStyle={4} btnclassName="site-button white" />
         </div>
         <div className="section-full bg-white content-inner-2 bg-gray">
           <CommonFilter
             filterStyle={5}
-            btnClass="site-button-secondry radius-xl"
+            btnclassName="site-button-secondry radius-xl"
           />
         </div>
         <div
@@ -56,7 +56,7 @@ export default function Filters() {
         >
           <CommonFilter
             filterStyle={6}
-            btnClass="site-button white radius-xl"
+            btnclassName="site-button white radius-xl"
           />
         </div>
         <div
@@ -65,19 +65,19 @@ export default function Filters() {
         >
           <CommonFilter
             filterStyle={7}
-            btnClass="site-button-secondry button-sm"
+            btnclassName="site-button-secondry button-sm"
           />
         </div>
         <div className="section-full content-inner-2 bg-black-light">
           <CommonFilter
             filterStyle={8}
-            btnClass="site-button white button-sm"
+            btnclassName="site-button white button-sm"
           />
         </div>
         <div className="section-full bg-white content-inner-2 overlay-white-dark bg-white">
           <CommonFilter
             filterStyle={9}
-            btnClass="site-button-secondry button-sm radius-xl"
+            btnclassName="site-button-secondry button-sm radius-xl"
           />
         </div>
         <div
@@ -86,13 +86,13 @@ export default function Filters() {
         >
           <CommonFilter
             filterStyle={10}
-            btnClass="site-button white button-sm radius-xl"
+            btnclassName="site-button white button-sm radius-xl"
           />
         </div>
         <div className="section-full bg-white content-inner-2">
           <CommonFilter
             filterStyle={11}
-            btnClass="site-button outline outline-2"
+            btnclassName="site-button outline outline-2"
           />
         </div>
         <div
@@ -101,19 +101,19 @@ export default function Filters() {
         >
           <CommonFilter
             filterStyle={12}
-            btnClass="site-button outline outline-2"
+            btnclassName="site-button outline outline-2"
           />
         </div>
         <div className="section-full bg-white content-inner-2 bg-gray">
           <CommonFilter
             filterStyle={13}
-            btnClass="site-button outline outline-2 radius-xl"
+            btnclassName="site-button outline outline-2 radius-xl"
           />
         </div>
         <div className="section-full content-inner-2 bg-black-light">
           <CommonFilter
             filterStyle={14}
-            btnClass="site-button outline outline-2 radius-xl"
+            btnclassName="site-button outline outline-2 radius-xl"
           />
         </div>
         <div
@@ -122,19 +122,19 @@ export default function Filters() {
         >
           <CommonFilter
             filterStyle={15}
-            btnClass="site-button outline outline-2 button-sm"
+            btnclassName="site-button outline outline-2 button-sm"
           />
         </div>
         <div className="section-full content-inner-2 bg-black-light">
           <CommonFilter
             filterStyle={16}
-            btnClass="site-button outline outline-2 button-sm"
+            btnclassName="site-button outline outline-2 button-sm"
           />
         </div>
         <div className="section-full bg-white content-inner-2 overlay-white-dark bg-white">
           <CommonFilter
             filterStyle={"17"}
-            btnClass="site-button button-sm radius-xl outline outline-2"
+            btnclassName="site-button button-sm radius-xl outline outline-2"
           />
         </div>
         <div
@@ -143,7 +143,7 @@ export default function Filters() {
         >
           <CommonFilter
             filterStyle={18}
-            btnClass="site-button button-sm radius-xl outline outline-2"
+            btnclassName="site-button button-sm radius-xl outline outline-2"
           />
         </div>
       </div>
