@@ -19,7 +19,6 @@ export default function RightImageText() {
             src="/images/about.png"
             width="1200"
             height="1200"
-            layout="responsive"
           />
         </div>
 
