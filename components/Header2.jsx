@@ -12,7 +12,7 @@ export default function Header2() {
       {/* main header */}
       <div className="sticky-header main-bar-wraper navbar-expand-lg">
         <div className="main-bar clearfix">
-          <div className="container clearfix">
+          <div className="  clearfix">
             {/* website logo */}
             <div className="logo-header mostion ">
             <Link href="/">
@@ -39,7 +39,7 @@ export default function Header2() {
               <div className="extra-cell d-flex align-items-center gap-5 gap-xl-3 d-none d-lg-flex">
                 <Link href="/contact">
                   <button className="button dz-bannerbtn bg-button" type="button">
-                    BOOK AN APPOINTMENT
+                    BOOKING
                   </button>
                 </Link>
               </div>

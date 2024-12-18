@@ -7,9 +7,9 @@ const BannerContent = () => {
     
   <div className="banner-end">
   
-  <h1 className="title">WHERE<br/>AGELESS SKIN<br/><span className="title-bold" style={{ lineHeight: "40px" }}>BEGINS</span></h1>
+  <h1 style={{fontStyle: 'italic'}} className="title">FLAWLESS SKIN<br/>starts HERE</h1>
 
-  <button className="button dz-bannerbtn bg-button" href="/treatments">GET STARTED</button>
+  <button className="button dz-bannerbtn bg-button" href="/treatments">Discover More</button>
 
   </div>
 

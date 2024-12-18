@@ -2966,7 +2966,14 @@ blockquote:before {
   height: auto;
   width: 100%;
   max-width: 162px;
+ margin-left: 36px;
 }
+
+.extra-nav .extra-cell a {
+  margin-right: 25px;
+}
+
+
 .logo-header span,
 .logo-footer span {
   font-size: 20px;
@@ -4005,7 +4012,7 @@ blockquote:before {
 }
 .header-transparent .is-fixed .main-bar {
   position: absolute;
-  background-color:#f7b289;
+  background-color:#eebf9b;
 }
  
 

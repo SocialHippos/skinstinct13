@@ -17,10 +17,14 @@ const Hero = () => {
           background: "rgba(0, 0, 0, 0.5)",
           borderRadius: "50%",
           padding: "10px",
+          position: "absolute",
+          bottom: "20px", // Position from bottom
+          right: "100px", // Position from right
+          zIndex: 2,
         }}
         onClick={onClick}
       >
-        <span style={{ color: "#ffff", fontSize: "18px" }}> -→ </span>
+        <span style={{ color: "#fff", fontSize: "18px" }}>→</span>
       </div>
     );
   };
@@ -33,70 +37,69 @@ const Hero = () => {
         style={{
           ...style,
           display: "block",
+          background: "rgba(0, 0, 0, 0.5)",
           borderRadius: "50%",
           padding: "10px",
-          
+          position: "absolute",
+          bottom: "20px", // Position from bottom
+          left: "20px", // Position from left
+          zIndex: 2,
         }}
         onClick={onClick}
       >
-        <span style={{ color: "white", fontSize: "18px" }}>←</span>
+        <span style={{ color: "#fff", fontSize: "18px" }}>←</span>
       </div>
     );
   };
 
   const settings = {
-    dots: true,  
-    infinite: true,  
-    speed: 500,  
-    slidesToShow: 1,  
-    slidesToScroll: 1,  
-    autoplay: true,  
-    autoplaySpeed: 3000,  
-    nextArrow: <SampleNextArrow />, 
-    prevArrow: <SamplePrevArrow />,  
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
 
   const images = [
     "/images/banner/img1.png",
     "/images/banner/img2.png",
     "/images/banner/img3.png",
-   
   ];
 
   return (
     <div style={{ padding: "0", margin: "0", height: "100vh", overflow: "hidden" }}>
-     
       <Slider {...settings} style={{ height: "100%" }}>
         {images.map((img, index) => (
-          <div className="slider"
+          <div
+            className="slider"
             key={index}
             style={{
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              height: "100vh",  
-              width: "100vw",   
-              opacity:2,
+              height: "100vh",
+              width: "100vw",
+              opacity: 1,
             }}
           >
             <img
               src={img}
               alt={`Slide ${index + 1}`}
               style={{
-                width: "100%",   
-                height: "100%",  
-                objectFit: "cover", 
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
                 borderRadius: "8px",
-            
               }}
             />
           </div>
         ))}
       </Slider>
-      
     </div>
- 
-    
   );
 };
 
