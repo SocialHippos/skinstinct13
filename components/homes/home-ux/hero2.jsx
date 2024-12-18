@@ -14,18 +14,20 @@ const slidesData = [
   {
     backgroundImage:
       'url("/images/banner/banner1.png") center center no-repeat',
-    title: "FLAWLESS SKIN",
+    title1: "FLAWLESS SKIN",
+    title2: "starts HERE",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    buttons: ["ABOUT US"],
+      "",
+    buttons: ["DISCOVER MORE"],
   },
   {
     backgroundImage:
       'url("/images/banner/banner2.png") center center no-repeat',
-    title: "FLAWLESS SKIN",
+      title1: "FLAWLESS SKIN",
+      title2: "starts HERE",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    buttons: ["ABOUT US"],
+      "",
+      buttons: ["DISCOVER MORE"],
   },
 ];
 
@@ -36,31 +38,28 @@ export default function Hero() {
         modules={[Navigation, Autoplay, EffectFade]}
         autoplay={{
           delay: 4000,
-          disableOnInteraction: false,
         }}
         effect="fade"
         fadeEffect={{
           crossFade: true
         }}
         speed={2500}
-        loop={true}
-        navigation={{
-          prevEl: ".snbph6",
-          nextEl: ".snbnh6",
-        }}
-        className="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-slider2 swiper-backface-hidden"
+        loop
+        navigation={{ prevEl: ".snbph6", nextEl: ".snbnh6" }}
+        className=" swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-slider2 swiper-backface-hidden"
       >
         {slidesData.map((slide, index) => (
           <SwiperSlide
             key={index}
-            className="swiper-slide slider-content"
+            className={`swiper-slide slider-content `}
             style={{ background: slide.backgroundImage }}
           >
             <div className="inner sliderStyle4">
-              <h1>{slide.title}</h1>
-              <p>{slide.description}</p>
-              <Link href="/about-1">
-                <button className="site-button">ABOUT US</button>
+              <h1>{slide.title1}</h1>
+              <h1>{slide.title2}</h1>
+              {/* <p>{slide.description}</p> */}
+              <Link href={"/treatments"}>
+                <button className="site-button">DISCOVER MORE</button>
               </Link>
             </div>
           </SwiperSlide>
@@ -74,7 +73,7 @@ export default function Hero() {
             <i className="las la-angle-right" />
           </div>
         </div>
-      </Swiper>
+      </Swiper>{" "}
     </div>
   );
 }

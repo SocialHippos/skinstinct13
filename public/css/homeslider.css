@@ -157,17 +157,16 @@
   transform: rotate(180deg) translateY(calc(50% + 0px));
 }
 
-.previousButton:hover {
-  left: -10px;
-}
+
 
 .nextButton {
   right: 0;
 }
 
-.nextButton:hover {
-  right: -10px;
-}
+.swiper-button-prev, .swiper-button-next {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 90%) !important;}
+
 
 .slider-content {
   text-align: center;
