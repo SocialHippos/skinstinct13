@@ -126,9 +126,97 @@ body,
 html {
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Portfolio2.module.css */
+.dezTitle {
+  position: relative;
+  display: inline-block;
+  color: white;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.dezTitle a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.dezTitle a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.dezTitle:hover a::after {
+  width: 100%;
+}
+
+/* Global styles - add these to your global CSS file */
+.card-container {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .card-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Additional styles you might need */
+.dlab-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.dlab-media {
+  position: relative;
+}
+
+.treatment-box-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-bx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dlab-box:hover .overlay-bx {
+  opacity: 1;
+}
+
+.dez-info {
+  padding: 15px;
+  text-align: center;
+}
+
+
 body {
   background-color: #fff;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #6f6f6f;
@@ -136,7 +224,6 @@ body {
   margin: 0;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
 }
 a {
   color: var(--color-primary);
@@ -272,7 +359,7 @@ h4,
 h5,
 h6 {
   color: #232323;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 h1 a,
 h2 a,
@@ -1594,9 +1681,6 @@ dl dd {
 }
 /*effect 9*/
 
-.dlab-img-overlay9:before,
-.dlab-img-overlay9:after {
-}
 .dlab-img-overlay9:after {
   left: auto;
   right: 0;
@@ -2323,7 +2407,6 @@ input[type="radio"]:checked + label:before {
   position: relative;
   white-space: nowrap;
   width: 1%;
-  vertical-align: middle;
   display: block;
 }
 .bootstrap-touchspin .input-group-btn-vertical > .btn {
@@ -3336,7 +3419,6 @@ blockquote:before {
   display: block;
   padding: 30px 0 25px;
   position: relative;
-  vertical-align: top;
   flex: 1;
 }
 .header-nav .nav > li .mega-menu > li:after {
@@ -3401,7 +3483,6 @@ blockquote:before {
 /* Header Center */
 .site-header.center .header-nav .nav {
   display: inline-block;
-  float: left;
   width: 40%;
 }
 .site-header.center .navbar-nav > li {
@@ -3704,9 +3785,15 @@ blockquote:before {
     border: 0;
     padding: 8px 0;
     font-size: 18px;
+    color: #954b1e !important;
     line-height: 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
+
+  .header-nav .nav > li {
+    border-bottom: 1px solid #954b1e;
+    padding: 10px 20px;
+  }
+
   .header-nav .nav > li .mega-menu > li:after {
     display: none;
   }
@@ -3822,8 +3909,7 @@ blockquote:before {
     opacity: 1;
     margin-top: 0;
   }
-  .header-nav .nav > li ul.mega-menu {
-  }
+ 
   .header-nav .nav > li.open > .sub-menu li.open > a > i,
   .header-nav .nav > li.open > a > i {
     background: #313444;
@@ -4495,8 +4581,7 @@ blockquote:before {
   color: #fff;
   opacity: 0.8;
 }
-.next-element i {
-}
+
 .breadcrumb-row ul li a {
   color: var(--color-primary);
 }
@@ -4752,7 +4837,6 @@ blockquote:before {
   margin: 5px 7px;
   background: #d6d6d6;
   display: block;
-  -webkit-backface-visibility: visible;
   -webkit-transition: opacity 200ms ease;
   -moz-transition: opacity 200ms ease;
   -ms-transition: opacity 200ms ease;
@@ -4766,9 +4850,7 @@ blockquote:before {
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
 }
-/* owl dots style */
-.owl-theme.dots-style-1 .owl-dots .owl-dot {
-}
+
 .owl-theme.dots-style-1 .owl-dots .owl-dot span,
 .owl-theme.dots-style-2 .owl-dots .owl-dot span {
   background: rgba(0, 0, 0, 0.2);
@@ -5364,7 +5446,7 @@ blockquote:before {
 .share-btn ul li {
   display: inline-block;
   margin-left: -40px;
-  float:left;
+
   transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -6499,7 +6581,6 @@ footer .widget ul{
 .widget_gallery li {
   display: inline-block;
   width: 33.33%;
-  float: left;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -6831,7 +6912,6 @@ a,
 
 /* Bootstrap button */
 .btn {
-  -moz-user-select: none;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 4px;
   display: inline-block;
@@ -10043,9 +10123,7 @@ ul[class*="list-"] {
   .testimonial-section:after {
     content: none;
   }
- .about-pic{
 
- }
 
 }
 /* Testimonial 8 */
@@ -10726,12 +10804,7 @@ ul[class*="list-"] {
 .overlay-white-dark:after {
   background: #fff;
 }
-.overlay-primary-light:after,
-.overlay-primary-middle:after,
-.overlay-primary-dark:after,
-.overlay-primary:after {
-  /* background: ; */
-}
+
 .overlay-black-light:after {
   opacity: 0.3;
 }
@@ -11542,9 +11615,7 @@ ul[class*="list-"] {
   padding: 10px 20px;
 }
 
-/* pagination color */
-.pagination-bx.primary {
-}
+
 .pagination-bx.primary .pagination > li > a,
 .pagination-bx.primary .pagination > li > span {
   background-color: var(--color-primary);
@@ -11763,7 +11834,7 @@ footer .widget_services ul li {
 }
 /*widget Getintuch*/
 .footer-top {
-  background:#ae7451 !important ;
+  background:#954b1e !important ;
   background-size: cover;
   background-position: center;
   padding: 80px 0 20px;
@@ -11853,9 +11924,7 @@ footer.text-white .dlab-quik-search .form-control::-webkit-input-placeholder {
   .footer-title {
     margin-bottom: 15px;
   }
-  .content-block {
 
-}
 
   .content-bx1 {
     padding-left: 19px;
@@ -12060,7 +12129,7 @@ button.scroltop.style4:hover {
   background-color: #fdfdfd;
 }
 .footer-white .footer-bottom {
-  background-color: #ae7451;
+  background-color: #954b1e;
 }
 footer.footer-white h1,
 footer.footer-white h2,
@@ -12081,7 +12150,7 @@ footer.footer-white b,
 footer.footer-white,
 footer.footer-white .footer-bottom,
 footer.footer-white .footer-bottom a {
-  color: #ae7451;
+  color: #954b1e;
 }
 .footer-white .footer-bottom {
   border: 0;
@@ -12857,9 +12926,7 @@ ol.commentlist li .star-rating {
     width: 100%;
     display: block;
   }
-  .team-mamber-img,
-  .team-info-box {
-  }
+
 }
 
 /*---------------------------------------------------------------
@@ -13869,8 +13936,7 @@ ol.commentlist li .star-rating {
 .shop-categories .acod-content {
   margin: 15px 0 15px;
 }
-.shop-categories .collapsed {
-}
+
 .shop-categories .acod-head a.collapsed:after,
 .shop-categories .acod-head a:after {
   font-family: open sans;
@@ -14085,7 +14151,7 @@ ol.commentlist li .star-rating {
 }
 .portfolio-mas a,
 .portfolio-ic a {
-  color: #000;
+  color: #fff;
 }
 .portfolio-mas .dez-info a:hover,
 .portfolio-ic .dez-info a:hover {
@@ -14202,6 +14268,7 @@ ol.commentlist li .star-rating {
     -o-transition: all 0.5s;
     top: 0;
     background-color: #f3bf9e;
+    padding: 75px 0px;
     margin: 0;
     z-index: 99;
   }
@@ -14237,7 +14304,8 @@ ol.commentlist li .star-rating {
     vertical-align: middle;
   }
   .mo-left .navbar-toggler.open span {
-    background: #fff;
+    background: #954b1e;
+
   }
 }
 @media screen and (max-width: 767px) {
@@ -14246,8 +14314,7 @@ ol.commentlist li .star-rating {
   }
 }
 /* Plugine box */
-.plugine-box {
-}
+
 /* 	Hover Effects 
 	> Box Shadow Hover
 

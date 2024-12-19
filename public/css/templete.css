@@ -1,4 +1,60 @@
 
+.announcement-bar {
+  background-color: #f3bf9e;
+  color: #9b4b26 !important;
+  padding: 10px 0px 5px 0px;
+  font-family: "itc-american-typewriter", serif;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  border: 1px solid #f3bf9e;
+}
+
+@media only screen and (max-width: 767px) {
+  .announcement-bar {
+    font-size: 1.8em;
+    padding: 20px 0px 10px 0px;
+  }
+}
+
+.announcement-bar {
+  overflow: hidden;
+  width: 100%;
+  background: #f3bf9e; /* or any color you prefer */
+}
+
+.marquee-container {
+  display: flex;
+  width: fit-content;
+}
+
+.marquee-content {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  white-space: nowrap;
+}
+
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+/* Optional: Pause animation on hover */
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+marquee {
+  display: block;
+  width: 100%;
+}
+
+
 .section-full {
   width: 100%;
 }
@@ -153,26 +209,26 @@ filter: brightness(0.9);
 }
 
 .about-button{
-  border: 1px solid #AE7451 !important;
-  color: #AE7451 !important;
+  border: 1px solid #954b1e !important;
+  color: #954b1e !important;
 }
 
 .about-button:hover{
-  border: 1px solid #AE7451 !important;
-  background-color: #AE7451 !important;
-  background: #AE7451 !important;
+  border: 1px solid #954b1e !important;
+  background-color: #954b1e !important;
+  background: #954b1e !important;
   color: #ffffff !important;
 }
 
 .treatment-button{
-  border: 1px solid #AE7451 !important;
-  color: #AE7451 !important;
+  border: 1px solid #954b1e !important;
+  color: #954b1e !important;
 }
 
 .treatment-button:hover{
-  border: 1px solid #AE7451 !important;
-  background-color: #AE7451 !important;
-  background: #AE7451 !important;
+  border: 1px solid #954b1e !important;
+  background-color: #954b1e !important;
+  background: #954b1e !important;
   color: #ffffff !important;
 }
 
@@ -241,7 +297,7 @@ padding: 0 60px;
 
 .button.dz-bannerbtn.bg-button:hover{
   background-color: #ffffff;
-  color:#AE7451;
+  color:#954b1e;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -703,7 +759,7 @@ h6 {
 }
 .dz_error-405 .dz_error {
   color: #dfdfdf;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   font-size: 200px;
   font-weight: 400;
 
@@ -819,6 +875,13 @@ h6 {
   margin-bottom: 0px;
   padding: 10px 15px;
 }
+
+@media only screen and (max-width: 768px) {
+  .portfolio .dlab-gallery-box {
+    padding: 0px !important;
+  }
+}
+
 .portfolio .btn {
   font-size: 12px;
 }
@@ -854,7 +917,7 @@ h6 {
   line-height: 46px;
 }
 .portfolio-ic a {
-  color: #000;
+  color: #fff;
 }
 .portfolio-ic .dez-info a:hover {
   color: #24c4dd;
@@ -1305,7 +1368,7 @@ h6 {
   border-radius: 5px;
   width: 65px;
   background-color: var(--color-primary);
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 .date-style-2 .post-date > strong:after {
   content: unset;
@@ -2481,7 +2544,7 @@ HOME 5 Box Header
 .roboto-condensed h3,
 .roboto-condensed h2,
 .roboto-condensed h1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 /* Header */
 .box-header.header-transparent .main-bar {
@@ -2543,7 +2606,7 @@ HOME 5 Box Header
 }
 .box-header .header-nav .nav > li > a {
   border: 0;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 .box-header .extra-nav .site-button {
   height: 68px;
@@ -2553,7 +2616,7 @@ HOME 5 Box Header
   padding: 0 30px;
   margin-left: 30px;
   position: relative;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 .box-header .extra-nav .site-button:after {
   content: "";
@@ -2604,7 +2667,7 @@ HOME 5 Box Header
 
   position: relative;
   z-index: 1;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   border: 5px solid;
   width: 120px;
   height: 150px;
@@ -2615,7 +2678,7 @@ HOME 5 Box Header
   border-color: var(--color-primary) !important;
 }
 .about-year p {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   margin-bottom: 0;
   font-size: 18px;
   line-height: 28px;
@@ -2779,7 +2842,7 @@ HOME 5 Box Header
   border-bottom: 3px solid #eee;
   align-items: center;
   justify-content: center;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   position: relative;
 }
 .filters2 ul li a:after {
@@ -2873,15 +2936,15 @@ HOME 5 Box Header
   font-weight: 400;
   font-size: 40px;
   margin-bottom: 10px;
-  color: #ae7451;
-  font-family: 'TT Drugs Trial', sans-serif;
+  color: #954b1e;
+  font-family: "itc-american-typewriter", serif;
 }
 .section-head.style2 p {
   padding-top: 0;
   font-size: 16px;
   line-height: 26px;
-  color:#ae7451 ;
-  font-family: 'TT Drugs Trial', sans-serif;
+  color:#954b1e ;
+  font-family: "Arial", sans-serif;
 }
 .sr-iconbox .dlab-tilte {
   font-weight: 400;
@@ -3509,12 +3572,12 @@ HOME 5 Box Header
 .frame-box h5,
 .frame-box h6,
 .frame-box .site-footer {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   font-weight: 400;
 
 }
 .frame-box p {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 .frame-box .area-frame .container {
   background: #fff;
@@ -3579,7 +3642,7 @@ HOME 5 Box Header
   background: var(--color-primary);
   margin: 0 2px;
   border-radius: 4px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 .frame-box .main-bar {
   width: 100%;
@@ -3664,7 +3727,7 @@ HOME 5 Box Header
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 .frame-box .slide-content-box p {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   font-size: 21px;
   font-weight: 400;
   color: #fff;
@@ -3778,7 +3841,7 @@ HOME 5 Box Header
   background-color: var(--color-hover);
 }
 .frame-box .service-list li {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   font-size: 18px;
   line-height: 28px;
   color: #000;
@@ -3794,20 +3857,20 @@ HOME 5 Box Header
 
 /* Testimonial Text*/
 .frame-box .testimonial-text p {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   font-size: 24px;
   color: #6c6979;
   line-height: 40px;
 }
 .frame-box .item .testimonial-1 .testimonial-position {
   color: var(--color-primary);
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 300;
 }
 .frame-box .testimonial-1 .testimonial-name {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   color: #000;
   font-size: 21px;
   margin-top: 5px;
@@ -4394,7 +4457,7 @@ HOME 5 Box Header
   font-weight: 400;
 
   line-height: 60px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   color: #000;
 }
 .about-info1 p,
@@ -4475,7 +4538,7 @@ HOME 5 Box Header
   top: 5px;
   left: 0;
   transition: all 0.5s;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   text-transform: capitalize;
 }
 .request-form .form-control {
@@ -6345,7 +6408,7 @@ HOME 5 Box Header
 .call-action.style2 h2.title {
   font-size: 36px;
   line-height: 46px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   font-weight: 400;
 
   letter-spacing: 1px;
@@ -6358,7 +6421,7 @@ HOME 5 Box Header
   font-size: 26px;
   font-weight: 400;
 
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   line-height: 36px;
   margin-bottom: 15px;
 }
@@ -7256,7 +7319,7 @@ button.scroltop {
 .dz-industry-zone {
   padding-top: 84px;
   padding-bottom: 84px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   width: 100%;
   background-color: #ffd658;
   position: relative;
@@ -7633,7 +7696,7 @@ button.scroltop {
   }
   .dz-header .header-nav .nav > li > a {
     font-size: 16px;
-    font-family: 'TT Drugs Trial', sans-serif;
+    font-family: "itc-american-typewriter", serif;
     padding-left: 12px;
   }
   .dz-oil-industry-zone .dz-banner-top .dz-title {
@@ -7672,7 +7735,7 @@ button.scroltop {
   }
   .dz-header .header-nav .nav > li > a {
     padding: 22px 9px 22px 9px;
-    font-family: 'TT Drugs Trial', sans-serif;
+    font-family: "itc-american-typewriter", serif;
   }
   .dz-header .dz-bannerbtn {
     padding: 12px 25px;
@@ -8193,8 +8256,15 @@ button.scroltop {
   border-radius: 19px;
   background-color: transparent;
   color: #fff;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "Arial", sans-serif;
  
+}
+
+
+@media only screen and (max-width: 768px) {
+  button.button.dz-bannerbtn.bg-button {
+ width:100%;
+ }
 }
 
 
@@ -8250,7 +8320,7 @@ footer .widget ul li a {
   font-size: 15px;
   font-weight: 400;
 
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 
 h5.footer-title  {
@@ -8276,7 +8346,7 @@ h5.footer-titles {
 
   letter-spacing: 3px;
   margin-top: 11px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   font-size: 30px;
   animation: slide 10s linear infinite; 
 }
@@ -8304,7 +8374,7 @@ h5.footer-titles {
 .join h4 {
   font-size: 40px;
   margin-bottom: 39px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 
 .footer-icon {
@@ -8314,12 +8384,12 @@ h5.footer-titles {
 .join input::placeholder {
   color: #fff;
    font-size: 18px;
-   font-family: 'TT Drugs Trial', sans-serif;
+   font-family: "itc-american-typewriter", serif;
 }
 
 .text-footer span{
   font-size: 18px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 
  
@@ -8333,7 +8403,7 @@ h5.footer-titles {
   padding: 6px 17px;
   border-radius: 19px;
   background-color: transparent;
-  color: #ae7451;
+  color: #954b1e;
  
 }
 

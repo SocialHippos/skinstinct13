@@ -1,3 +1,4 @@
+// Portfolio2.js
 "use client";
 import { portfolioItems3 } from "@/data/projects";
 import React, { useEffect, useRef, useState } from "react";
@@ -31,15 +32,37 @@ export default function Portfolio2() {
   };
 
   useEffect(() => {
+    // Initialize Intersection Observer for mobile animations
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    // Observe all card containers
+    const cardContainers = document.querySelectorAll('.card-container');
+    cardContainers.forEach((container) => observer.observe(container));
+
+    // Initialize Isotope
     initIsotop();
+
+    // Cleanup
+    return () => {
+      cardContainers.forEach((container) => observer.unobserve(container));
+    };
   }, []);
 
   return (
     <>
       <div className="section-full content-inner-2 portfolio text-uppercase treatment-bg" id="portfolio">
         <div className="container">
-          <h2 className="title text-center-mbl text-left-p-13">Treatments</h2>
-          
           <div className="clearfix" id="lightgallery">
             <ul
               id="masonry"
@@ -63,11 +86,11 @@ export default function Portfolio2() {
                       </Link>
                       
                       <div className="dez-info">
-                        <p className="dez-title">
+                        <h4 className="dezTitle" style={{ textTransform: "capitalize" }}>
                           <Link href={`/treatments/${item.slug}`}>
                             {item.title}
                           </Link>
-                        </p>
+                        </h4>
                       </div>
 
                       <div className="overlay-bx">

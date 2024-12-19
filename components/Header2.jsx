@@ -77,20 +77,6 @@ export default function Header2() {
                 <ul className="nav navbar-nav">
                   <Nav />
                 </ul>
-                <div className="dlab-social-icon">
-                  <ul>
-                    {socialLinks.map((elm, i) => (
-                      <React.Fragment key={i}>
-                        <li>
-                          <Link
-                            className={`site-button sharp-sm ${elm.className}`}
-                            href={elm.href}
-                          />
-                        </li>
-                      </React.Fragment>
-                    ))}
-                  </ul>
-                </div>
               </div>
             </div>
           </div>

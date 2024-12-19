@@ -9,7 +9,7 @@ export default function RightImageText() {
 
   return (
     <div className="section-full const-about">
-      <div className="row align-items-center col-rev sb">
+      <div className="row align-items-center sb">
       
         <div
           className="col-lg-6  col-12"

@@ -7,7 +7,7 @@
 .slider-content .inner h1 {
   border-width: 0;
   color: #fff;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   font-size: 70px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -136,7 +136,7 @@
   line-height: 60px;
   font-weight: 400;
 
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   border-width: 0px;
   text-align: left;
   margin: 0px;
@@ -154,6 +154,15 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+@media screen and (max-width: 768px) {
+  .slider-content .inner.sliderStyle4 {
+    top: 75% !important;
+  }
+}
+
+
 .slider-content .inner.sliderStyle4 h1 {
   font-size: 65px;
   line-height: 80px;
@@ -382,15 +391,15 @@
     font-size: 14px;
   }
   .slider-content .inner.sliderStyle4 button {
-    margin-right: 5px;
-    margin-left: 5px;
+    
     padding: 10px 20px;
+    width:100%;
   }
 }
 
 /* sliderStyle5 */
 .slider-content .inner.sliderStyle5 h1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   text-align: center;
   line-height: 53px;
   letter-spacing: 0px;
@@ -399,7 +408,7 @@
   max-width: none;
 }
 .slider-content .inner.sliderStyle5 .subTitle1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   text-align: center;
   margin: 0px;
   letter-spacing: 1px;
@@ -625,7 +634,7 @@
   margin-right: auto;
 }
 .slider-content .inner.sliderStyle10 h1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   line-height: 61px;
   font-weight: 400;
   font-size: 61px;
@@ -633,7 +642,7 @@
   margin-bottom: 40px;
 }
 .slider-content .inner.sliderStyle10 button {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   line-height: 13px;
   padding: 15px 50px;
   letter-spacing: 2px;
@@ -644,7 +653,7 @@
   background-color: transparent;
 }
 .slider-content .inner.sliderStyle10 .subTitle1 {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   line-height: 12px;
   letter-spacing: 1px;
   font-weight: 400;
@@ -661,7 +670,7 @@
   .home-slider-10 .hero-sec .swiper-slide,
   .home-slider-10 .hero-sec .slider-wrapper,
   .home-slider-10 .hero-sec .home-swiper-10 {
-    height: 600px;
+    height: 100vh;
   }
   .slider-content .inner.sliderStyle10 h1 {
     line-height: 45px;
@@ -729,7 +738,7 @@
 .hero-section .description.style2 {
   font-size: 13px;
   line-height: 21px;
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
   text-align: left;
   width: 380px;
 }
@@ -936,7 +945,7 @@
 
 /* home-slider-13 */
 .hero-section.home-slider-13 .big-text {
-  font-family: 'TT Drugs Trial', sans-serif;
+  font-family: "itc-american-typewriter", serif;
 }
 @media only screen and (max-width: 991px) {
   .hero-section.home-slider-13 .big-text {

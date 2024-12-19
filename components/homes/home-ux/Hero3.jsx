@@ -15,7 +15,8 @@ const slidesData = [
     backgroundImage:
       'url("/images/banner/banner1.png") center center no-repeat',
     title1: "FLAWLESS SKIN",
-    title2: "starts HERE",
+    title2: "starts",
+    title3: "HERE",
     description:
       "",
     buttons: ["DISCOVER MORE"],
@@ -24,7 +25,8 @@ const slidesData = [
     backgroundImage:
       'url("/images/banner/banner2.png") center center no-repeat',
       title1: "FLAWLESS SKIN",
-      title2: "starts HERE",
+      title2: "starts",
+      title3: "HERE",
     description:
       "",
       buttons: ["DISCOVER MORE"],
@@ -37,7 +39,7 @@ export default function Hero() {
       <Swiper
         modules={[Navigation, Autoplay, EffectFade]}
         autoplay={{
-          delay: 4000,
+          delay: 40000,
         }}
         effect="fade"
         fadeEffect={{
@@ -56,7 +58,7 @@ export default function Hero() {
           >
             <div className="inner sliderStyle4">
               <h1>{slide.title1}</h1>
-              <h1>{slide.title2}</h1>
+              <h1><span style={{ fontStyle: 'italic' }}>{slide.title2}</span>&nbsp;{slide.title3}</h1>
               {/* <p>{slide.description}</p> */}
               <Link href={"/treatments"}>
                 <button className="button dz-bannerbtn bg-button mt-20">DISCOVER MORE</button>

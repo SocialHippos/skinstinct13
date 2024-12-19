@@ -7,18 +7,22 @@ import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 export default function Footer() {
   return (
     <footer className="site-footer">
-          <div className="footer-bottom">
-         <div className="row">
-          <div className="Book-slot">
-          <div className="sliding-text">
-          <span>BOOK YOUR SESSION TODAY →</span>
-              <span>BOOK YOUR SESSION TODAY →</span>
-              <span>BOOK YOUR SESSION TODAY →</span>
-              <span>BOOK YOUR SESSION TODAY →</span>
-              </div>
+      <div className="announcement-bar">
+            <div className="marquee-container">
+                <div className="marquee-content" >
+                    <strong style={{ color: "#9b4b26"}}>Book Your Session Today →</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong style={{ color: "#9b4b26"}}>Book Your Session Today →</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong style={{ color: "#9b4b26"}}>Book Your Session Today →</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong style={{ color: "#9b4b26"}}>Book Your Session Today →</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div className="marquee-content" aria-hidden="true">
+                    <strong style={{ color: "#9b4b26"}}>Book Your Session Today →</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong style={{ color: "#9b4b26"}}>Book Your Session Today →</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong style={{ color: "#9b4b26"}}>Book Your Session Today →</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong style={{ color: "#9b4b26"}}>Book Your Session Today →</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+            </div>
         </div>
-        </div>
-      </div>
       <div className="footer-top"
         style={{
           backgroundColor: "#FBCEB2",
