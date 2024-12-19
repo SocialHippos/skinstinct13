@@ -139,6 +139,10 @@ html {
   color: #954b1e !important;
 }
 
+ul li{
+  font-family: "itc-american-typewriter", serif !important;
+}
+
 
 .sticky-header,
 .main-bar-wraper,

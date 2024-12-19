@@ -48,17 +48,15 @@ export default function Footer() {
 
             <div className="col-md-3 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
               <div className="widget widget_getintuch">
-                <h5 className="footer-titles text-white  ">TREATMENTS</h5>
+                <h5 className="footer-titles text-white  ">HOURS</h5>
                 <ul>
-                  <li>
-                   <Link href="#">HOME</Link>
-                  </li>
-                  <li>
-                  <Link href="#">TREATMENT</Link>
-                  </li>
-                  <li>
-                  <Link href="#">PRICING</Link>
-                  </li>
+                    <li>MON (9:30 am - 5:30 pm)</li>
+                    <li>TUE (9:30 am - 6:00 pm)</li>
+                    <li>WED (9:30 am - 6:00 pm)</li>
+                    <li>THU (9:30 am - 7:00 pm)</li>
+                    <li>FRI (9:30 am - 6:00 pm)</li>
+                    <li>SAT (9:00 am - 1 pm)</li>
+                    <li>SUN (Closed)</li>
                 </ul>
               </div>
             </div>
@@ -71,10 +69,10 @@ export default function Footer() {
                    <Link href="#">HOME</Link>
                   </li>
                   <li>
-                  <Link href="#">TREATMENT</Link>
+                  <Link href="/treatments">TREATMENT</Link>
                   </li>
                   <li>
-                  <Link href="#">PRICING</Link>
+                  <Link href="/pricing">PRICING</Link>
                   </li>
                 </ul>
               </div>
