@@ -31,6 +31,16 @@ const slidesData = [
       "",
       buttons: ["DISCOVER MORE"],
   },
+  {
+    backgroundImage:
+      'url("/images/banner/banner3.png") center center no-repeat',
+      title1: "FLAWLESS SKIN",
+      title2: "starts",
+      title3: "HERE",
+    description:
+      "",
+      buttons: ["DISCOVER MORE"],
+  },
 ];
 
 export default function Hero() {
@@ -39,7 +49,7 @@ export default function Hero() {
       <Swiper
         modules={[Navigation, Autoplay, EffectFade]}
         autoplay={{
-          delay: 40000,
+          delay: 4000,
         }}
         effect="fade"
         fadeEffect={{
