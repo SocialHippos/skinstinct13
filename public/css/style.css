@@ -127,6 +127,62 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Default styles for non-fixed state */
+
+/* Styles when navbar is fixed */
+.main-bar-wraper.is-fixed {
+  background: white;
+}
+
+/* Change nav link colors */
+.is-fixed .header-nav .nav > li > a {
+  color: #954b1e !important;
+}
+
+.sticky-header,
+.main-bar-wraper,
+.sticky-header *,
+.header-nav *,
+.button.dz-bannerbtn,
+.navbar-toggler.navicon span {
+  transition: none !important;
+}
+
+.is-fixed .header-nav .nav > li > a {
+  color: #954b1e;
+}
+
+.is-fixed .button.dz-bannerbtn {
+  background-color: #954b1e;
+  color: white;
+}
+
+.is-fixed .navbar-toggler.navicon span {
+  background-color: #954b1e;
+}
+
+/* Change button styles */
+.is-fixed .button.dz-bannerbtn {
+  background-color: #954b1e; /* or your desired button background color */
+  border: 1px solid #954b1e !important;
+  color: #954b1e !important; /* or your desired button text color */
+}
+
+/* Change hamburger icon color for mobile */
+.is-fixed .navbar-toggler.navicon span {
+  background-color: #954b1e;
+}
+
+/* Hover states for nav links when fixed */
+.is-fixed .header-nav .nav > li > a:hover {
+  color: #954b1e;
+}
+
+/* Active state for nav links when fixed */
+.is-fixed .header-nav .nav > li.active > a {
+  color: #954b1e;
+}
+
 /* Portfolio2.module.css */
 .dezTitle {
   position: relative;

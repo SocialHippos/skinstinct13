@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,9 +8,22 @@ import { socialLinks } from "@/data/socials";
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 
 export default function Header2() {
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const viewportHeight = window.innerHeight;
+      const isFixed = window.scrollY > viewportHeight * 0.9;
+      setIsFixed(isFixed);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <header className="site-header mo-left header-transparent header navstyle1">
-      <div className="sticky-header main-bar-wraper navbar-expand-lg">
+      <div className={`sticky-header navbar-expand-lg ${isFixed ? 'is-fixed' : ''}`}>
         <div className="main-bar clearfix">
           <div className="full-width-container clearfix">
             {/* Desktop header wrapper */}
@@ -19,7 +32,13 @@ export default function Header2() {
               <div className="d-flex align-items-center">
                 <div className="logo-header me-4">
                   <Link href="/">
-                    <Image alt="" src="/images/skinstinct-white.svg" width="258" height="75" />
+                    <Image
+                      alt=""
+                      src={isFixed ? "/images/skinstinct-dark.svg" : "/images/skinstinct-white.svg"}
+                      width={258}
+                      height={75}
+                      priority
+                    />
                   </Link>
                 </div>
 
@@ -49,7 +68,13 @@ export default function Header2() {
               <div className="d-flex justify-content-between align-items-center w-100">
                 <div className="logo-header">
                   <Link href="/">
-                    <Image alt="" src="/images/skinstinct-white.svg" width="258" height="75" />
+                    <Image 
+                      alt="" 
+                      src={isFixed ? "/images/skinstinct-dark.svg" : "/images/skinstinct-white.svg"}
+                      width={258} 
+                      height={75}
+                      priority
+                    />
                   </Link>
                 </div>
                 
