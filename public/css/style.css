@@ -3053,7 +3053,7 @@ blockquote:before {
   }
   .site-header .navbar-toggler,
   .site-header .is-fixed .navbar-toggler {
-    margin: 18px 20 14px 20px !important;
+    z-index: 999;
   }
   .site-header .extra-nav,
   .site-header .is-fixed .extra-nav {
@@ -3681,7 +3681,7 @@ blockquote:before {
   .header-nav .nav {
     float: none;
     margin: 0;
-    background: #fff;
+    background: #fff0;
     width: 100%;
     display: block;
   }
@@ -4084,9 +4084,7 @@ blockquote:before {
     padding-right: 15px;
   }
   
-  .invert-logo img{
-  filter: invert(1);
-  }
+
 
   .site-footer .widget_getintuch{
     padding-left: 0px !important;
@@ -12336,7 +12334,7 @@ padding:30px 30px 80px 30px !important;
   background-size: cover;
 }
 .boxed .page-wraper {
-  max-width: 1200px;
+  
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -12585,7 +12583,6 @@ ol.commentlist li .star-rating {
   transition: all 0.5s ease 0.5s;
   -moz-transition: all 0.5s ease 0.5s;
   -webkit-transition: all 0.5s ease 0.5s;
-  max-width: 1200px;
   opacity: 1;
 }
 .dlab-quik-search form {
@@ -14204,7 +14201,7 @@ ol.commentlist li .star-rating {
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     top: 0;
-    background-color: #fff;
+    background-color: #f3bf9e;
     margin: 0;
     z-index: 99;
   }
@@ -14216,34 +14213,16 @@ ol.commentlist li .star-rating {
     height: 100%;
   }
   .mo-left .header-nav.show {
-    left: -1px;
-    transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
+    left: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
     margin: 0;
-    width: 280px;
+    width: 100vw;
+    padding: 75px 0px;
   }
-  .mo-left .navbar-toggler.open:after {
-    background-color: rgba(0, 0, 0, 0.6);
-    content: "";
-    height: 100%;
-    left: 0;
-    position: fixed;
-    right: -20px;
-    top: -63px;
-    transform: scale(100);
-    -o-transform: scale(100);
-    -moz-transform: scale(100);
-    -webkit-transform: scale(100);
-    width: 100%;
-    z-index: -1;
-    transition: all 0.5s;
-    transform-origin: top right;
-    margin: 0 0px 0px 20px;
-    -webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.6);
-  }
+
   .mo-left .header-nav .logo-header {
     display: block;
     float: none;

@@ -7,6 +7,24 @@
   padding: 70px 0;
 }
 
+@media only screen and (min-width: 767px) {
+  .full-width-container{
+    width: calc(100vw - 0px);
+    padding: 0px 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .full-width-container{
+    padding: 0px 15px;
+  }
+}
+
+
+.logo-header{
+  z-index:999;
+}
+
 .portfolio {
   position: relative;
 }
@@ -16,7 +34,6 @@
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -8139,10 +8156,6 @@ button.scroltop {
 .site-header {
   position: fixed;  
   z-index: 12;  
-}
-
-ul.nav.navbar-nav {
-  padding-left: 8%;
 }
 
  
