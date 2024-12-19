@@ -14,7 +14,7 @@ export default function Team() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Team</h1>
+            <h1 className="text-skinstinct-brown">Team</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">

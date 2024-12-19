@@ -33,7 +33,7 @@ export default function Sliders() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Carousel Sliders</h1>
+            <h1 className="text-skinstinct-brown">Carousel Sliders</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">
@@ -802,7 +802,7 @@ export default function Sliders() {
                                     href="#"
                                     title="Posts by demongo"
                                     rel="author"
-                                    className="text-white"
+                                    className="text-skinstinct-brown"
                                   >
                                     demongo
                                   </a>

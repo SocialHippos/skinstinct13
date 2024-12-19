@@ -1,6 +1,7 @@
 import RightImageText from "@/components/homes/home-ux/RightImageText";
 import React from "react";
 import Link from "next/link";
+import Header3 from "@/components/Header3";
 
 export const metadata = {
   title: "About Us | Skinstinct",
@@ -9,13 +10,14 @@ export const metadata = {
 export default function page() {
   return (
     <>
+    <Header3/>
     <div
         className="dlab-bnr-inr  bg-pt"
         style={{ backgroundColor: "#febe98" }}
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">About Us</h1>
+            <h1 className="text-skinstinct-brown">About Us</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">

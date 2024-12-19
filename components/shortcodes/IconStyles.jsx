@@ -11,7 +11,7 @@ export default function IconStyles() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Icon box style</h1>
+            <h1 className="text-skinstinct-brown">Icon box style</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">

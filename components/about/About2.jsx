@@ -15,7 +15,7 @@ export default function About2() {
         </div>
         <div className="col-lg-6 col-md-12 bg-primary">
           <div className="max-w700 m-auto p-tb50 p-lr20">
-            <div className="text-white">
+            <div className="text-skinstinct-brown">
               <h2>
                 We're thriving and building <br />
                 better products

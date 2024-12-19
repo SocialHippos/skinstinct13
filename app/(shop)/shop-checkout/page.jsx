@@ -24,7 +24,7 @@ export default function page() {
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
-                <h1 className="text-white">Shop Checkout</h1>
+                <h1 className="text-skinstinct-brown">Shop Checkout</h1>
                 {/* Breadcrumb row */}
                 <div className="breadcrumb-row">
                   <ul className="list-inline">

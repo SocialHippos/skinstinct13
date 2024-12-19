@@ -42,7 +42,7 @@ export default function Widget() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">All widgets</h1>
+            <h1 className="text-skinstinct-brown">All widgets</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">

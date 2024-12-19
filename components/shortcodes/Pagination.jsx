@@ -10,7 +10,7 @@ export default function Pagination() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Pagination</h1>
+            <h1 className="text-skinstinct-brown">Pagination</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">

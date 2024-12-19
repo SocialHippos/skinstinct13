@@ -11,7 +11,7 @@ export default function AlertBox() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Alert Box</h1>
+            <h1 className="text-skinstinct-brown">Alert Box</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">

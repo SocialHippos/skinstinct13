@@ -95,7 +95,7 @@ export default function Portfolio2() {
                     </Link>
                     <div className="overlay-bx">
                       <div className="overlay-icon">
-                        <div className="text-white">
+                        <div className="text-skinstinct-brown">
                           <Link href={`/portfolio-details/${item.title}`}>
                             <i className="fas fa-link icon-bx-xs"></i>
                           </Link>

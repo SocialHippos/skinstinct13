@@ -1,5 +1,6 @@
 import Contact from "@/components/Contact";
 import React from "react";
+import Header3 from "@/components/Header3";
 
 export const metadata = {
   title: "Contact | Skinstinct",
@@ -8,6 +9,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
+    <Header3 />
       <div className="page-wraper  ">
         <div className="page-content bg-white">
           <Contact />

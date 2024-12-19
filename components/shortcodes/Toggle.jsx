@@ -10,7 +10,7 @@ export default function Toggle() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Toggles</h1>
+            <h1 className="text-skinstinct-brown">Toggles</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">

@@ -71,7 +71,7 @@ export default function Hero() {
           </form>
           <div className="bottom-link">
             <h4>
-              <a href="#" className="text-white">
+              <a href="#" className="text-skinstinct-brown">
                 Welcome To ship industry
               </a>
             </h4>

@@ -1442,6 +1442,11 @@ dl dd {
 .text-white {
   color: #fff;
 }
+
+.text-skinstinct-brown {
+  color: #9b4b26;
+}
+
 .text-black {
   color: #000;
 }
@@ -4625,7 +4630,7 @@ blockquote:before {
   height: 220px;
 }
 .dlab-bnr-inr {
-  height: 100px;
+  height: 200px;
   background-size: cover;
  
  

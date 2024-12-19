@@ -14,7 +14,7 @@ export default function ImageEffect() {
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
-              <h1 className="text-white">Images effects</h1>
+              <h1 className="text-skinstinct-brown">Images effects</h1>
               {/* Breadcrumb row */}
               <div className="breadcrumb-row">
                 <ul className="list-inline">
@@ -839,7 +839,7 @@ export default function ImageEffect() {
                             />
                             <div className="overlay-bx">
                               <div className="overlay-icon">
-                                <div className="text-white">
+                                <div className="text-skinstinct-brown">
                                   <p className="font-16 m-b5">
                                     Herbal Beauty Salon
                                   </p>
@@ -887,7 +887,7 @@ export default function ImageEffect() {
                             />
                             <div className="overlay-bx">
                               <div className="dlab-info-has-text">
-                                <div className="text-white">
+                                <div className="text-skinstinct-brown">
                                   <p className="font-16 m-b5">
                                     Herbal Beauty Salon
                                   </p>
@@ -936,7 +936,7 @@ export default function ImageEffect() {
                             />
                             <div className="overlay-bx">
                               <div className="dlab-info-has-text">
-                                <div className="text-white">
+                                <div className="text-skinstinct-brown">
                                   <p className="font-16 m-b5">
                                     Herbal Beauty Salon
                                   </p>
@@ -985,7 +985,7 @@ export default function ImageEffect() {
                             />
                             <div className="overlay-bx">
                               <div className="dlab-info-has-text">
-                                <div className="text-white">
+                                <div className="text-skinstinct-brown">
                                   <p className="font-16 m-b5">
                                     Herbal Beauty Salon
                                   </p>
@@ -1053,7 +1053,7 @@ export default function ImageEffect() {
                             />
                             <div className="overlay-bx no-hover">
                               <div className="overlay-icon text-white">
-                                <h4 className="text-white">Hover Box</h4>
+                                <h4 className="text-skinstinct-brown">Hover Box</h4>
                                 <p className="p-lr10 box-visible">
                                   Lorem ipsum Nam libero tempore cum soluta
                                   nobis esteligen dioptio cumque nihil impedit

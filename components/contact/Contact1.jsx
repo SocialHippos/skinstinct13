@@ -48,7 +48,7 @@ export default function Contact1() {
                     <p className="m-b0">
                       <a
                         href="mailto:someone@example.com"
-                        className="text-white"
+                        className="text-skinstinct-brown"
                       >
                         info@example.com
                       </a>
@@ -56,7 +56,7 @@ export default function Contact1() {
                     <p className="m-b0">
                       <a
                         href="mailto:someone@example.com"
-                        className="text-white"
+                        className="text-skinstinct-brown"
                       >
                         hr@example.com
                       </a>
@@ -64,7 +64,7 @@ export default function Contact1() {
                     <p className="m-b0">
                       <a
                         href="mailto:someone@example.com"
-                        className="text-white"
+                        className="text-skinstinct-brown"
                       >
                         support@example.com
                       </a>
@@ -82,12 +82,12 @@ export default function Contact1() {
                       Phone Numbers
                     </h5>
                     <p className="m-b0">
-                      <a href="tel:+4733378901" className="text-white">
+                      <a href="tel:+4733378901" className="text-skinstinct-brown">
                         +00 234 678 9012
                       </a>
                     </p>
                     <p className="m-b0">
-                      <a href="tel:+4733378901" className="text-white">
+                      <a href="tel:+4733378901" className="text-skinstinct-brown">
                         +00 1234 5678 90
                       </a>
                     </p>

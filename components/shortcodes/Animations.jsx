@@ -11,7 +11,7 @@ export default function Animations() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Animation Effects</h1>
+            <h1 className="text-skinstinct-brown">Animation Effects</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">
@@ -48,7 +48,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">Bounce</h4>
                             <p className="m-b5">Bounce Animation Effects</p>
                           </div>
@@ -123,7 +123,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">flash</h4>
                             <p className="m-b5">flash Animation Effects</p>
                           </div>
@@ -198,7 +198,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">pulse</h4>
                             <p className="m-b5">pulse Animation Effects</p>
                           </div>
@@ -273,7 +273,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rubberBand</h4>
                             <p className="m-b5">rubberBand Animation Effects</p>
                           </div>
@@ -348,7 +348,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">shake</h4>
                             <p className="m-b5">shake Animation Effects</p>
                           </div>
@@ -423,7 +423,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">headShake</h4>
                             <p className="m-b5">headShake Animation Effects</p>
                           </div>
@@ -498,7 +498,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">swing</h4>
                             <p className="m-b5">swing Animation Effects</p>
                           </div>
@@ -573,7 +573,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">tada</h4>
                             <p className="m-b5">tada Animation Effects</p>
                           </div>
@@ -648,7 +648,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">wobble</h4>
                             <p className="m-b5">wobble Animation Effects</p>
                           </div>
@@ -723,7 +723,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">jello</h4>
                             <p className="m-b5">jello Animation Effects</p>
                           </div>
@@ -798,7 +798,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">jackInTheBox</h4>
                             <p className="m-b5">
                               jackInTheBox Animation Effects
@@ -877,7 +877,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceIn</h4>
                             <p className="m-b5">bounceIn Animation Effects</p>
                           </div>
@@ -952,7 +952,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceInDown</h4>
                             <p className="m-b5">
                               bounceInDown Animation Effects
@@ -1031,7 +1031,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceInLeft</h4>
                             <p className="m-b5">
                               bounceInLeft Animation Effects
@@ -1110,7 +1110,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceInRight</h4>
                             <p className="m-b5">
                               bounceInRight Animation Effects
@@ -1189,7 +1189,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceInUp</h4>
                             <p className="m-b5">bounceInUp Animation Effects</p>
                           </div>
@@ -1264,7 +1264,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceOut</h4>
                             <p className="m-b5">bounceOut Animation Effects</p>
                           </div>
@@ -1339,7 +1339,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceOutDown</h4>
                             <p className="m-b5">
                               bounceOutDown Animation Effects
@@ -1418,7 +1418,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceOutLeft</h4>
                             <p className="m-b5">
                               bounceOutLeft Animation Effects
@@ -1497,7 +1497,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceOutRight</h4>
                             <p className="m-b5">
                               bounceOutRight Animation Effects
@@ -1576,7 +1576,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">bounceOutUp</h4>
                             <p className="m-b5">
                               bounceOutUp Animation Effects
@@ -1653,7 +1653,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeIn</h4>
                             <p className="m-b5">fadeIn Animation Effects</p>
                           </div>
@@ -1728,7 +1728,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeInDown</h4>
                             <p className="m-b5">fadeInDown Animation Effects</p>
                           </div>
@@ -1803,7 +1803,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeInDownBig</h4>
                             <p className="m-b5">
                               fadeInDownBig Animation Effects
@@ -1882,7 +1882,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeInLeft</h4>
                             <p className="m-b5">fadeInLeft Animation Effects</p>
                           </div>
@@ -1957,7 +1957,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeInLeftBig</h4>
                             <p className="m-b5">
                               fadeInLeftBig Animation Effects
@@ -2036,7 +2036,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeInRight</h4>
                             <p className="m-b5">
                               fadeInRight Animation Effects
@@ -2113,7 +2113,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeInRightBig</h4>
                             <p className="m-b5">
                               fadeInRightBig Animation Effects
@@ -2192,7 +2192,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeInUp</h4>
                             <p className="m-b5">fadeInUp Animation Effects</p>
                           </div>
@@ -2267,7 +2267,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeInUpBig</h4>
                             <p className="m-b5">
                               fadeInUpBig Animation Effects
@@ -2344,7 +2344,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeOut</h4>
                             <p className="m-b5">fadeOut Animation Effects</p>
                           </div>
@@ -2419,7 +2419,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeOutDown</h4>
                             <p className="m-b5">
                               fadeOutDown Animation Effects
@@ -2496,7 +2496,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeOutDownBig</h4>
                             <p className="m-b5">
                               fadeOutDownBig Animation Effects
@@ -2575,7 +2575,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeOutLeft</h4>
                             <p className="m-b5">
                               fadeOutLeft Animation Effects
@@ -2652,7 +2652,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeOutLeftBig</h4>
                             <p className="m-b5">
                               fadeOutLeftBig Animation Effects
@@ -2731,7 +2731,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeOutRight</h4>
                             <p className="m-b5">
                               fadeOutRight Animation Effects
@@ -2810,7 +2810,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeOutRightBig</h4>
                             <p className="m-b5">
                               fadeOutRightBig Animation Effects
@@ -2889,7 +2889,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeOutUp</h4>
                             <p className="m-b5">fadeOutUp Animation Effects</p>
                           </div>
@@ -2964,7 +2964,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">fadeOutUpBig</h4>
                             <p className="m-b5">
                               fadeOutUpBig Animation Effects
@@ -3043,7 +3043,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">flipInX</h4>
                             <p className="m-b5">flipInX Animation Effects</p>
                           </div>
@@ -3118,7 +3118,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">flipInY</h4>
                             <p className="m-b5">flipInY Animation Effects</p>
                           </div>
@@ -3193,7 +3193,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">flipOutX</h4>
                             <p className="m-b5">flipOutX Animation Effects</p>
                           </div>
@@ -3268,7 +3268,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">flipOutY</h4>
                             <p className="m-b5">flipOutY Animation Effects</p>
                           </div>
@@ -3343,7 +3343,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">lightSpeedIn</h4>
                             <p className="m-b5">
                               lightSpeedIn Animation Effects
@@ -3422,7 +3422,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">lightSpeedOut</h4>
                             <p className="m-b5">
                               lightSpeedOut Animation Effects
@@ -3501,7 +3501,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateIn</h4>
                             <p className="m-b5">rotateIn Animation Effects</p>
                           </div>
@@ -3576,7 +3576,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateInDownLeft</h4>
                             <p className="m-b5">
                               rotateInDownLeft Animation Effects
@@ -3655,7 +3655,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateInDownRight</h4>
                             <p className="m-b5">
                               rotateInDownRight Animation Effects
@@ -3734,7 +3734,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateInDownRight</h4>
                             <p className="m-b5">
                               rotateInDownRight Animation Effects
@@ -3813,7 +3813,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateInUpLeft</h4>
                             <p className="m-b5">
                               rotateInUpLeft Animation Effects
@@ -3892,7 +3892,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateInUpRight</h4>
                             <p className="m-b5">
                               rotateInUpRight Animation Effects
@@ -3971,7 +3971,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateOut</h4>
                             <p className="m-b5">rotateOut Animation Effects</p>
                           </div>
@@ -4046,7 +4046,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateOutDownLeft</h4>
                             <p className="m-b5">
                               rotateOutDownLeft Animation Effects
@@ -4125,7 +4125,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateOutDownRight</h4>
                             <p className="m-b5">
                               rotateOutDownRight Animation Effects
@@ -4204,7 +4204,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateOutUpLeft</h4>
                             <p className="m-b5">
                               rotateOutUpLeft Animation Effects
@@ -4283,7 +4283,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateOutUpRight</h4>
                             <p className="m-b5">
                               rotateOutUpRight Animation Effects
@@ -4362,7 +4362,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rotateOutUpRight</h4>
                             <p className="m-b5">
                               rotateOutUpRight Animation Effects
@@ -4441,7 +4441,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">hinge</h4>
                             <p className="m-b5">hinge Animation Effects</p>
                           </div>
@@ -4516,7 +4516,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rollIn</h4>
                             <p className="m-b5">rollIn Animation Effects</p>
                           </div>
@@ -4591,7 +4591,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">rollOut</h4>
                             <p className="m-b5">rollOut Animation Effects</p>
                           </div>
@@ -4666,7 +4666,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomIn</h4>
                             <p className="m-b5">zoomIn Animation Effects</p>
                           </div>
@@ -4741,7 +4741,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomInDown</h4>
                             <p className="m-b5">zoomInDown Animation Effects</p>
                           </div>
@@ -4816,7 +4816,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomInLeft</h4>
                             <p className="m-b5">zoomInLeft Animation Effects</p>
                           </div>
@@ -4891,7 +4891,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomInLeft</h4>
                             <p className="m-b5">zoomInLeft Animation Effects</p>
                           </div>
@@ -4966,7 +4966,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomInRight</h4>
                             <p className="m-b5">
                               zoomInRight Animation Effects
@@ -5043,7 +5043,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomInUp</h4>
                             <p className="m-b5">zoomInUp Animation Effects</p>
                           </div>
@@ -5118,7 +5118,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomOut</h4>
                             <p className="m-b5">zoomOut Animation Effects</p>
                           </div>
@@ -5193,7 +5193,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomOutDown</h4>
                             <p className="m-b5">
                               zoomOutDown Animation Effects
@@ -5270,7 +5270,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomOutLeft</h4>
                             <p className="m-b5">
                               zoomOutLeft Animation Effects
@@ -5347,7 +5347,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomOutLeft</h4>
                             <p className="m-b5">
                               zoomOutLeft Animation Effects
@@ -5424,7 +5424,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomOutRight</h4>
                             <p className="m-b5">
                               zoomOutRight Animation Effects
@@ -5503,7 +5503,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">zoomOutUp</h4>
                             <p className="m-b5">zoomOutUp Animation Effects</p>
                           </div>
@@ -5578,7 +5578,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">slideInDown</h4>
                             <p className="m-b5">
                               slideInDown Animation Effects
@@ -5655,7 +5655,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">slideInLeft</h4>
                             <p className="m-b5">
                               slideInLeft Animation Effects
@@ -5732,7 +5732,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">slideInRight</h4>
                             <p className="m-b5">
                               slideInRight Animation Effects
@@ -5811,7 +5811,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">slideInUp</h4>
                             <p className="m-b5">slideInUp Animation Effects</p>
                           </div>
@@ -5886,7 +5886,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">slideOutDown</h4>
                             <p className="m-b5">
                               slideOutDown Animation Effects
@@ -5965,7 +5965,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">slideOutLeft</h4>
                             <p className="m-b5">
                               slideOutLeft Animation Effects
@@ -6044,7 +6044,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">slideOutRight</h4>
                             <p className="m-b5">
                               slideOutRight Animation Effects
@@ -6123,7 +6123,7 @@ export default function Animations() {
                       />
                       <div className="overlay-bx">
                         <div className="overlay-icon">
-                          <div className="text-white">
+                          <div className="text-skinstinct-brown">
                             <h4 className="m-b5">slideOutUp</h4>
                             <p className="m-b5">slideOutUp Animation Effects</p>
                           </div>

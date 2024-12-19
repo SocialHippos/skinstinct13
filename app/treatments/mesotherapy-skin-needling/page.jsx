@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import Header3 from "@/components/Header3";
 
 export const metadata = {
   title:
@@ -11,6 +12,7 @@ export default function page({ params }) {
 
   return (
     <>
+    <Header3 />
       <div className="page-wraper  ">
         <div className="page-content bg-white">
           <div
@@ -19,7 +21,7 @@ export default function page({ params }) {
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
-                <h1 className="text-white">Mesotherapy Skin Needling</h1>
+                <h1 className="text-skinstinct-brown">Mesotherapy Skin Needling</h1>
                 {/* Breadcrumb row */}
                 <div className="breadcrumb-row">
                   <ul className="list-inline">

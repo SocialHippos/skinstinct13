@@ -11,7 +11,7 @@ export default function ImageBox() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Images box content</h1>
+            <h1 className="text-skinstinct-brown">Images box content</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">
@@ -334,7 +334,7 @@ export default function ImageBox() {
                         </div>
                         <div className="dlab-info p-a20 text-center bg-white">
                           <h4 className="m-a0 bg-primary content-box-head">
-                            <a href="#" className="text-white">
+                            <a href="#" className="text-skinstinct-brown">
                               Title Come Here
                             </a>
                           </h4>
@@ -360,7 +360,7 @@ export default function ImageBox() {
                         </div>
                         <div className="dlab-info p-a20 text-center bg-white">
                           <h4 className="m-a0 bg-primary content-box-head">
-                            <a href="#" className="text-white">
+                            <a href="#" className="text-skinstinct-brown">
                               Title Come Here
                             </a>
                           </h4>
@@ -386,7 +386,7 @@ export default function ImageBox() {
                         </div>
                         <div className="dlab-info p-a20 text-center bg-white">
                           <h4 className="m-a0 bg-primary content-box-head">
-                            <a href="#" className="text-white">
+                            <a href="#" className="text-skinstinct-brown">
                               Title Come Here
                             </a>
                           </h4>

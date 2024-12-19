@@ -330,7 +330,7 @@ export default function CommingSoon() {
                     ×
                   </button>
                   <div className="col-lg-12 text-center text-white">
-                    <h2 className="text-white">Stay Informed</h2>
+                    <h2 className="text-skinstinct-brown">Stay Informed</h2>
                     <p>
                       Lorem ipsum dolor sit amet, repellat quos ipsum corrupti
                       expedita sequi reprehenderit pariatur.

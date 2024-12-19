@@ -19,11 +19,11 @@ export default function ProjectGallery() {
             <p>
               Praesent pharetra orci odio, ut mattis tellus ullamcorper ornare.
               Suspendisse ullamcorper
-              <span className="text-white">metus in erat viverra</span>,
+              <span className="text-skinstinct-brown">metus in erat viverra</span>,
               vehicula pharetra dolor accumsan. In arcu ex, rutrum finibus
               malesuada vel. Praesent pharetra orci odio, ut mattis tellus
               ullamcorper ornare. Suspendisse ullamcorper
-              <span className="text-white">metus in erat viverra</span>,
+              <span className="text-skinstinct-brown">metus in erat viverra</span>,
               vehicula pharetra dolor accumsan. In arcu ex, rutrum finibus
               malesuada vel.
             </p>

@@ -80,7 +80,7 @@ export default function Hero() {
                 >
                   Read More
                 </Link>
-                <Link href="/about-1" className="text-white">
+                <Link href="/about-1" className="text-skinstinct-brown">
                   About Us
                 </Link>
               </div>
