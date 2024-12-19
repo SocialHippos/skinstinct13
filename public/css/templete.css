@@ -354,7 +354,7 @@ button.dz-bannerbtn.bg-button{
 }
 .client-logo ul li {
   display: inline-block;
-  float:left;
+  
   padding: 0 10px;
   width: 33.33%;
   margin-bottom: 20px;
@@ -960,8 +960,7 @@ h6 {
 .footer-info-bar .icon-bx-wraper.bx-style-1 {
   background: #fff;
 }
-.footer-info-bar .icon-bx-wraper.bx-style-1 {
-}
+
 .footer-info-bar .icon-bx-wraper.bx-style-1 p,
 .footer-info-bar .icon-bx-wraper.bx-style-1 .icon-sm,
 .footer-info-bar .icon-bx-wraper.bx-style-1 .dlab-tilte {
@@ -1962,8 +1961,7 @@ h6 {
   position: relative;
   z-index: 1;
 }
-.box-about-list {
-}
+
 /* Footer */
 .site-footer.style1 .footer-top {
   background: #191f23;
@@ -4900,8 +4898,7 @@ HOME 5 Box Header
   height: 100%;
 }
 /* homedemo */
-.header-nav .nav > li.homedemo {
-}
+
 .header-nav .nav > li.homedemo .mega-menu {
   display: flex;
   flex-wrap: wrap;
@@ -7069,7 +7066,7 @@ HOME 5 Box Header
     width: 100%;
   }
   blockquote {
-    ;
+
     margin-bottom: 25px;
   }
 
@@ -7916,9 +7913,7 @@ button.scroltop {
     font-size: 14px;
     line-height: 16px;
   }
-  .dz-ship-industry-zone .banner-content .dz-bannerlist {
-    ;
-  }
+
   .dz-ship-industry-zone .banner-content .dz-bannerlist h6 {
     margin-bottom: 15px;
   }
