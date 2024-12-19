@@ -29,58 +29,80 @@ export default function Footer() {
           backgroundSize: "cover",
         }}
       >
-        <div className="container">
-          <div className="row  ">
-          <div className="col-md-4 col-xl-5 col-lg-4 col-sm-6 footer-col-6">
-          <div className="container">
+        <div className="full-width-container">
+          <div className="row  sb">
+          <div className="col-md-3 col-xl-4 col-lg-3 col-sm-6 footer-col-6">
+          <div className="">
         <div className="styles.row">
           {/* Newsletter Section */}
           <div className="join">
-          <h4>Join newsletter</h4>
-            <input type="email" placeholder="YOUR EMAIL" className="emailInput" />
-            <button className="subscribeButton">→</button>
+            <h4>Join newsletter</h4>
+            <div className="input-group">
+              <input type="email" placeholder="YOUR EMAIL" className="emailInput" />
+              <button className="subscribeButton">→</button>
+            </div>
           </div>
             </div>
             </div>
             </div>
-            <div className="col-md-4 col-xl-3 col-lg-4 col-sm-6 footer-col-4">
+
+            <div className="col-md-3 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
               <div className="widget widget_getintuch">
-                <h5 className="footer-titles text-white ">CONTACT</h5>
-                <ul className="">
-                  <li>
-                    <a href="tel:+0417757110">0417 757 110</a>
-                  </li>
-                  <li>
-                    <a href="mailto:info@skinstinct.com.au">info@skinstinct.com.au</a>
-                  </li>
-                  <li>
-                     <a href="">62 Carrington Parade Curl Curl NSW 2096</a>
-                  </li>
-                  </ul>
-              </div>
-            </div>
-            <div className="col-md-4 col-xl-3 col-lg-4 col-sm-6 footer-col-4">
-              <div className="widget widget_getintuch">
-                <h5 className="footer-titles text-white  ">ABOUT</h5>
+                <h5 className="footer-titles text-white  ">TREATMENTS</h5>
                 <ul>
                   <li>
-                   <a href="#">HOME</a>
+                   <Link href="#">HOME</Link>
                   </li>
                   <li>
-                  <a href="#">TREATMENT</a>
+                  <Link href="#">TREATMENT</Link>
                   </li>
                   <li>
-                  <a href="#">PRICING</a>
+                  <Link href="#">PRICING</Link>
                   </li>
                 </ul>
               </div>
             </div>
+
+            <div className="col-md-3 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
+              <div className="widget widget_getintuch">
+                <h5 className="footer-titles text-white  ">ABOUT</h5>
+                <ul>
+                  <li>
+                   <Link href="#">HOME</Link>
+                  </li>
+                  <li>
+                  <Link href="#">TREATMENT</Link>
+                  </li>
+                  <li>
+                  <Link href="#">PRICING</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-md-3 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
+              <div className="widget widget_getintuch">
+                <h5 className="footer-titles text-white ">CONTACT</h5>
+                <ul className="">
+                  <li>
+                    <Link href="tel:+0417757110">0417 757 110</Link>
+                  </li>
+                  <li>
+                    <Link href="mailto:info@skinstinct.com.au">info@skinstinct.com.au</Link>
+                  </li>
+                  <li>
+                     <Link href="">62 Carrington Parade Curl Curl NSW 2096</Link>
+                  </li>
+                  </ul>
+              </div>
+            </div>
+
           </div>
         </div>
         <div className="copyright py-3">
-          <div className="container">
+          <div className="full-width-container">
         <div className="row  align-items-center">
-            <div className="col-md-4 col-sm-3 text-left">
+            <div className="col-lg-4  col-md-4 col-sm-4 text-left">
               <div className="text-footer">
               <span >
                  © {" "}
@@ -90,22 +112,22 @@ export default function Footer() {
               </span>
               </div>
             </div>
-            <div className="col-md-6 col-sm-4 text-left ">
+            <div className="col-lg-4  col-md-4 col-sm-4 text-center ">
             <div className="logo-bottom mostion logo-dark">
               <Link href="/">
                 <img alt="" src="/images/skinstinct1.png" width="100" height="60" />
               </Link>
             </div>
             </div>
-            <div className="col-md-2 col-sm-3 text-left">
+            <div className="col-lg-4 col-md-4 col-sm-4 text-right">
               <div className="footer-icon">
-            <div style={{ display: 'flex', gap: '12px' }}>
-      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <div className="bottom-social-icons">
+      <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faFacebook} size="2x" />
-      </a>
-      <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+      </Link>
+      <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a>
+      </Link>
     </div>
             </div>
             </div>

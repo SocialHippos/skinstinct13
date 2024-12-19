@@ -34,8 +34,8 @@
   top: 90%;
   transform: translateY(-50%);
   z-index: 10;
-  background: url(/images/icon/angle_right.png) no-repeat center center / 32px;
-  width: 60px;
+  background: url(/images/icon/angle_right.png) no-repeat center center / 100px;
+  width: 100px !important;
   height: 60px;
   text-indent: -9999px;
   cursor: pointer;
@@ -44,7 +44,7 @@
 .previousButton {
   transform: translateY(-50%) rotate(180deg);
   z-index: 10;
-  background: url(/images/icon/angle_right.png) no-repeat center center / 32px;
+  background: url(/images/icon/angle_right.png) no-repeat center center / 100px;
   background-color: rgba(0, 0, 0, 0);
 }
 .previousButton2,
