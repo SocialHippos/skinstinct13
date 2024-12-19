@@ -193,10 +193,45 @@ html {
   padding-bottom: 5px;
 }
 
+.dezTitle:hover {
+  position: relative;
+  display: inline-block;
+  color: white !important;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
 .dezTitle a {
   text-decoration: none;
   color: inherit;
   position: relative;
+}
+
+.dlab-box .dezTitle {
+  position: relative;
+  overflow: hidden;
+}
+
+.dlab-box .dezTitle a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.dlab-box .dezTitle a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0.5px;
+  background-color: currentColor;
+  transition: width 0.6s ease;
+}
+
+/* When the parent image container is hovered, show the underline */
+.dlab-box:hover .dezTitle a::after {
+  width: 100%;
 }
 
 .dezTitle a::after {

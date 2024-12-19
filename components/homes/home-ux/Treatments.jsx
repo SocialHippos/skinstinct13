@@ -93,20 +93,6 @@ export default function Portfolio2() {
                         </h4>
                       </div>
 
-                      <div className="overlay-bx">
-                        <div className="overlay-icon">
-                          <div className="text-white float-right">
-                            <Link href={`/treatments/${item.slug}`}>
-                              <Image 
-                                alt=""
-                                src="/images/arrow.svg"
-                                width="50"
-                                height="50"
-                              />
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </li>
