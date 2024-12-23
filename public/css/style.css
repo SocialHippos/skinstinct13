@@ -10883,11 +10883,6 @@ ul[class*="list-"] {
   width: 100%;
   height: 100%;
 }
-.overlay-black-light:after,
-.overlay-black-middle:after,
-.overlay-black-dark:after {
-  background: #000;
-}
 .overlay-gradient-light:after,
 .overlay-gradient-middle:after,
 .overlay-gradient-dark:after {
@@ -10927,9 +10922,7 @@ ul[class*="list-"] {
 .overlay-black-middle:after {
   opacity: 0.5;
 }
-.overlay-black-dark:after {
-  opacity: 0.8;
-}
+
 .overlay-gradient-light:after {
   opacity: 0.3;
 }
@@ -13788,7 +13781,7 @@ ol.commentlist li .star-rating {
 
 }
 .content-inner {
-  padding-top: 0px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 .content-inner-1 {
