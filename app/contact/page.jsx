@@ -1,6 +1,7 @@
-import Contact from "@/components/Contact";
+import Contact2 from "@/components/Contact2";
 import React from "react";
 import Header3 from "@/components/Header3";
+import Map from "@/components/Map";
 
 export const metadata = {
   title: "Contact | Skinstinct",
@@ -12,7 +13,8 @@ export default function page() {
     <Header3 />
       <div className="page-wraper  ">
         <div className="page-content bg-white">
-          <Contact />
+          <Contact2 />
+          <Map />
         </div>
       </div>
     </>

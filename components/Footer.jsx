@@ -31,7 +31,7 @@ export default function Footer() {
       >
         <div className="full-width-container">
           <div className="row  sb">
-          <div className="col-md-3 col-xl-4 col-lg-3 col-sm-6 footer-col-6">
+          <div className="col-md-3 col-xl-3 col-lg-3 col-sm-6 footer-col-6">
           <div className="">
         <div className="styles.row">
           {/* Newsletter Section */}
@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
             </div>
 
-            <div className="col-md-3 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
+            <div className="col-md-3 col-xl-3 col-lg-3 col-sm-6 footer-col-4">
               <div className="widget widget_getintuch">
                 <h5 className="footer-titles text-white  ">HOURS</h5>
                 <ul>
@@ -61,7 +61,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="col-md-3 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
+            <div className="col-md-3 col-xl-3 col-lg-3 col-sm-6 footer-col-4">
               <div className="widget widget_getintuch">
                 <h5 className="footer-titles text-white  ">ABOUT</h5>
                 <ul>
@@ -78,7 +78,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="col-md-3 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
+            <div className="col-md-3 col-xl-3 col-lg-3 col-sm-6 footer-col-4">
               <div className="widget widget_getintuch">
                 <h5 className="footer-titles text-white ">CONTACT</h5>
                 <ul className="">
