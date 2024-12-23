@@ -1,6 +1,6 @@
 "use client";
 
-import { galleryItems } from "@/data/projects";
+import { galleryItems } from "@/data/treatments";
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 const filterItems = [

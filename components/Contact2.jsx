@@ -14,7 +14,7 @@ export default function Contact1() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Contact Us</h1>
+            <h1 className="text-skinstinct-brown">Contact Us</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">
@@ -29,9 +29,9 @@ export default function Contact1() {
         </div>
       </div>
     <div
-      className="section-full content-inner contact-page-9 overlay-black-dark"
+      className="section-full content-inner contact-page-9"
       style={{
-        backgroundImage: "url(/images/background/contact-bg.jpg)",
+        backgroundColor: "#9b4b26",
         backgroundSize: "cover",
       }}
     >

@@ -28,7 +28,6 @@ export default function Pricing() {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-              <h2 className="title text-center-mbl text-left-p-13">Pricing</h2>
                 {/* Pricing table-1 Columns 3 with gap */}
                 <div className="section-content box-sort-in button-example">
                   <div className="pricingtable-row">

@@ -1,6 +1,6 @@
 // Portfolio2.js
 "use client";
-import { portfolioItems3 } from "@/data/projects";
+import { treatments } from "@/data/treatments";
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -69,7 +69,7 @@ export default function Portfolio2() {
               ref={isotopContainer}
               className="portfolio-ic dlab-gallery-listing gallery-grid-4 lightgallery text-center"
             >
-              {portfolioItems3.slice(0, 3).map((item, index) => (
+              {treatments.slice(0, 3).map((item, index) => (
                 <li
                   className={`${item.filter} card-container col-lg-4 col-md-6 col-sm-6 p-a0`}
                   key={index}
