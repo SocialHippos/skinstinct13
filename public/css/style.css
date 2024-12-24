@@ -260,7 +260,7 @@ ul li{
 
 @media (max-width: 767px) {
   .card-container {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(20px);
     transition: opacity 0.5s ease, transform 0.5s ease;
   }

@@ -16,9 +16,8 @@ export default function page() {
       <div className="page-wraper  ">
         <div className="page-content bg-white">
 
-          <div className="content-block">
             <Treatment />
-          </div>
+    
         </div>
       </div>
     </>
