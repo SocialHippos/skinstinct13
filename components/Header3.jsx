@@ -22,7 +22,7 @@ export default function Header3() {
 
   return (
     <header 
-      className={`site-header mo-left header-transparent header navstyle1 ${isFixed ? 'fixed-header' : ''}`} 
+      className={`site-header mo-left header navstyle1 ${isFixed ? 'fixed-header' : ''}`} 
       style={{ 
         background: "#febe98",
         borderBottom: "1px solid #9b4b26",
@@ -63,7 +63,7 @@ export default function Header3() {
               <div className="extra-nav border-0 ms-auto">
                 <div className="extra-cell d-flex align-items-center gap-5 gap-xl-3">
                   <Link href="/contact">
-                    <button className="button dz-bannerbtn bg-button" type="button">
+                    <button className="button dz-bannerbtn bg-button treatment-button" type="button">
                       BOOKING
                     </button>
                   </Link>
@@ -79,7 +79,7 @@ export default function Header3() {
                   <Link href="/">
                     <Image 
                       alt="" 
-                      src={isFixed ? "/images/skinstinct-dark.svg" : "/images/skinstinct-white.svg"}
+                      src="/images/skinstinct-dark.svg"
                       width={258} 
                       height={75}
                       priority
@@ -97,9 +97,9 @@ export default function Header3() {
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                  <span ></span>
+                  <span ></span>
+                  <span ></span>
                 </button>
               </div>
 
