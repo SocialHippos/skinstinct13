@@ -1,10 +1,130 @@
+.treatment-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+ }
+ 
+ .treatment-card {
+  display: flex;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+ }
+ 
+ .image-wrapper {
+  flex: 1;
+  position: relative;
+  min-height: 400px;
+ }
+ 
+ .content {
+  flex: 1;
+  padding: 30px;
+ }
+ 
+ .title-link {
+  text-decoration: none;
+  color: #333;
+ }
+ 
+ .content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+ }
+ 
+ .price {
+  font-size: 32px;
+  color: #9b4b26;
+  margin: 15px 0;
+ }
+ 
+ .price span {
+  font-size: 16px;
+ }
+ 
+ .package {
+  margin-bottom: 20px;
+  color: #666;
+ }
+ 
+ ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+ }
+ 
+ li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+ }
+ 
+ li i {
+  color: #9b4b26;
+  margin-right: 10px;
+ }
+ 
+ .buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+ }
+ 
+ .learn-more, .enquire-btn {
+  padding: 12px 30px;
+  text-decoration: none;
+  transition: 0.3s;
+ }
+ 
+ .learn-more {
+  border: 2px solid #666;
+  color: #666;
+ }
+ 
+ .learn-more:hover {
+  background: #666;
+  color: white;
+ }
+ 
+ .enquire-btn {
+  border: 2px solid #9b4b26;
+  color: #9b4b26;
+ }
+ 
+ .enquire-btn:hover {
+  background: #9b4b26;
+  color: white;
+ }
+ 
+ @media (max-width: 992px) {
+  .treatment-grid {
+    grid-template-columns: 1fr;
+  }
+ }
+ 
+ @media (max-width: 768px) {
+  .treatment-card {
+    flex-direction: column;
+  }
+  
+  .image-wrapper {
+    min-height: 300px;
+  }
+  
+  .buttons {
+    flex-direction: column;
+  }
+ }
+
 @media only screen and (min-width: 767px) {
   
 .half-box{
   height: calc(100vh - 75px);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }}
 
 
@@ -249,16 +369,14 @@ marquee {
 
 .treatment-button {
   padding: 12px 30px;
-  background: #000;
-  color: white;
-  border: none;
+  border-radius: 20px;
   cursor: pointer;
   text-transform: uppercase;
 }
 
 .contact-button {
   padding: 12px 30px;
-  border: none;
+  border-radius: 20px;
   cursor: pointer;
   text-transform: uppercase;
 }

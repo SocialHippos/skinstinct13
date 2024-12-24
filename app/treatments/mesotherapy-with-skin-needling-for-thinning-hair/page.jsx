@@ -12,20 +12,22 @@ export default function page({ params }) {
 
   return (
     <>
-    <Header3 />
+      <Header3 />
       <div className="page-wraper  ">
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr  bg-pt"
-            style={{ backgroundColor: "#febe98" }}
+            style={{ backgroundColor: "#F7B289" }}
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
-                <h1 className="text-skinstinct-brown">Mesotherapy (Thinning Hair)</h1>
+                <h1 className="text-white">Mesotherapy (Thinning Hair)</h1>
                 {/* Breadcrumb row */}
                 <div className="breadcrumb-row">
                   <ul className="list-inline">
-                    
+                    <li>
+                      <Link href={`/`}>Home</Link>
+                    </li>
                     <li>Treatments</li>
                     <li>Mesotherapy (Thinning Hair)</li>
                   </ul>
@@ -108,19 +110,23 @@ export default function page({ params }) {
                       </div>
 
           </div>
-          <div className="col-lg-6">
-            <div className="row">
-              <div className="col-lg-12 m-b30">
-                <Image 
-                  alt=""
-                  className="border-blk-2-20"
-                  src="/images/treatments/mesotherapy-skin-needling.png"
-                  width="1000"
-                  height="674"
-                />
-              </div>
-            </div>
+
+          <div
+            className="col-lg-6 col-md-12 m-b30 wow fadeInRight"
+            data-wow-duration="2s"
+            data-wow-delay="0.3s"
+          >
+            <div className="radius-sm m-b30 img-about">
+              <Image
+                alt=""
+                    src="/images/treatments/mesotherapy-skin-needling.png"
+                width="600"
+                height="722"
+              />
+
           </div>
+          </div>
+
         </div>
       </div>
     </div>

@@ -12,20 +12,22 @@ export default function page({ params }) {
 
   return (
     <>
-       <Header3 />
+    <Header3 />
       <div className="page-wraper  ">
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr  bg-pt"
-            style={{ backgroundColor: "#febe98" }}
+            style={{ backgroundColor: "#F7B289" }}
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
-                <h1 className="text-skinstinct-brown">Skin Needling with Exosomes</h1>
+                <h1 className="text-white">Skin Needling with Exosomes</h1>
                 {/* Breadcrumb row */}
                 <div className="breadcrumb-row">
                   <ul className="list-inline">
-                    
+                    <li>
+                      <Link href={`/`}>Home</Link>
+                    </li>
                     <li>Treatments</li>
                     <li>Skin Needling with Exosomes</li>
                   </ul>
@@ -61,23 +63,23 @@ export default function page({ params }) {
                             <ul className="pricingtable-features">
                             <li>
                                 <i className="fas fa-check text-primary" />
-                                Face Wash
+                                Double cleanse
                               </li>
                               <li>
                                 <i className="fas fa-check text-primary" />
-                                Needling
+                                Hyaluronic peel
                               </li>
                               <li>
                                 <i className="fas fa-check text-primary" />
-                                Cleansing
+                                Exosome used with skin needling treatment
                               </li>
                               <li>
                                 <i className="fas fa-check text-primary" /> 
-                                Hydra
+                                Mask
                               </li>
                               <li>
                                 <i className="fas fa-check text-primary" />
-                                Treatment
+                                Seal skin after treatment
                               </li>
                             </ul>
                             <div className="m-t20">
@@ -93,19 +95,23 @@ export default function page({ params }) {
                       </div>
 
           </div>
-          <div className="col-lg-6">
-            <div className="row">
-              <div className="col-lg-12 m-b30">
-                <Image 
-                  alt=""
-                  className="border-blk-2-20"
-                  src="/images/treatments/mesotherapy-skin-needling.png"
-                  width="1000"
-                  height="674"
-                />
-              </div>
-            </div>
+
+          <div
+            className="col-lg-6 col-md-12 m-b30 wow fadeInRight"
+            data-wow-duration="2s"
+            data-wow-delay="0.3s"
+          >
+            <div className="radius-sm m-b30 img-about">
+              <Image
+                alt=""
+                src="/images/treatments/mesotherapy-skin-needling.png"
+                width="600"
+                height="722"
+              />
+
           </div>
+          </div>
+
         </div>
       </div>
     </div>
