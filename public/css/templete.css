@@ -1,3 +1,70 @@
+@media only screen and (min-width: 767px) {
+  
+.half-box{
+  height: calc(100vh - 75px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}}
+
+
+.widget_getintuch {
+  padding: 40px;
+  color: #fff;
+ }
+ 
+ .our-story span {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.8;
+ }
+ 
+ .our-story .title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  margin: 15px 0 30px;
+ }
+ 
+ .widget_getintuch ul {
+  list-style: none;
+  padding: 0;
+ }
+ 
+ .widget_getintuch li {
+  margin-bottom: 20px;
+ }
+ 
+ .widget_getintuch li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0.9;
+  transition: opacity 0.3s;
+ }
+ 
+ .widget_getintuch li a:hover {
+  opacity: 1;
+ }
+
+
+.site-header {
+  transition: all 0.3s ease;
+}
+
+.fixed-header {
+  animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 
 .announcement-bar {
   background-color: #f3bf9e;
@@ -189,6 +256,13 @@ marquee {
   text-transform: uppercase;
 }
 
+.contact-button {
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
 @media (max-width: 768px) {
   .col-md-6 {
     width: 50%;
@@ -223,9 +297,23 @@ filter: brightness(0.9);
 .treatment-button{
   border: 1px solid #954b1e !important;
   color: #954b1e !important;
+  min-width:200px;
+}
+
+.contact-button{
+  border: 1px solid #954b1e !important;
+  color: #954b1e !important;
+  min-width:200px;
 }
 
 .treatment-button:hover{
+  border: 1px solid #954b1e !important;
+  background-color: #954b1e !important;
+  background: #954b1e !important;
+  color: #ffffff !important;
+}
+
+.contact-button:hover{
   border: 1px solid #954b1e !important;
   background-color: #954b1e !important;
   background: #954b1e !important;
@@ -252,6 +340,10 @@ justify-content: center;
 
 .hours{
   padding-bottom:0px !important;
+}
+
+.nav3 li a{
+  color: #954b1e !important;
 }
 
 .button2{
@@ -712,7 +804,6 @@ h6 {
   border-bottom: 1px solid #e1e6eb;
 }
 .inquiry-form {
-  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.05);
   border-radius: 0;
   margin-top: 0;
   height: 100%;
@@ -725,9 +816,7 @@ h6 {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.01);
 }
-.inquiry-form.box-shadow {
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
-}
+
 .contact-page-9 .icon-bx-wraper {
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid #505050;

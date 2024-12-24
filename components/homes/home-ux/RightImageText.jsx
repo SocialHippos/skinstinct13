@@ -16,7 +16,7 @@ export default function RightImageText() {
         >
           <Image
             alt="Image"
-            src="/images/about.png"
+            src="/images/about-large.png"
             width="1200"
             height="1200"
           />

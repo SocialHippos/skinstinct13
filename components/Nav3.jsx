@@ -60,7 +60,7 @@ export default function Nav({ onLinkClick }) {
       </li>
 
       <li className={`has-mega-menu homedemo ${isMenuActive("/about") ? "active" : ""}`}>
-        <Link href="/about" onClick={handleLinkClick}>
+        <Link className="text-skinstinct-brown" href="/about" onClick={handleLinkClick}>
           ABOUT US
         </Link>
       </li>

@@ -4,16 +4,15 @@ import React, { useState, useEffect } from "react";
 import Nav3 from "./Nav3";
 import Image from "next/image";
 import Link from "next/link";
-import { socialLinks } from "@/data/socials";
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 
-export default function Header2() {
+export default function Header3() {
   const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const viewportHeight = window.innerHeight;
-      const isFixed = window.scrollY > viewportHeight * 0.9;
+      // Change to check if scroll position is greater than 0
+      const isFixed = window.scrollY > 0;
       setIsFixed(isFixed);
     };
 
@@ -22,8 +21,18 @@ export default function Header2() {
   }, []);
 
   return (
-    <header className="site-header mo-left header-transparent header navstyle1" style={{ background: "#9b4b26",borderBottom: "1px solid #9b4b26"}}>
-      <div className={`sticky-header navbar-expand-lg ${isFixed ? 'is-fixed' : ''}`}>
+    <header 
+      className={`site-header mo-left header-transparent header navstyle1 ${isFixed ? 'fixed-header' : ''}`} 
+      style={{ 
+        background: "#febe98",
+        borderBottom: "1px solid #9b4b26",
+        position: isFixed ? 'fixed' : 'relative',
+        width: '100%',
+        top: 0,
+        left: 0,
+        zIndex: 1000
+      }}
+    ><div className={`sticky-header navbar-expand-lg ${isFixed ? 'is-fixed' : ''}`}>
         <div className="main-bar clearfix">
           <div className="full-width-container clearfix">
             {/* Desktop header wrapper */}
@@ -34,7 +43,7 @@ export default function Header2() {
                   <Link href="/">
                     <Image
                       alt=""
-                      src={isFixed ? "/images/skinstinct-dark.svg" : "/images/skinstinct-white.svg"}
+                      src="/images/skinstinct-dark.svg"
                       width={258}
                       height={75}
                       priority
@@ -44,7 +53,7 @@ export default function Header2() {
 
                 {/* Desktop Navigation */}
                 <div className="header-nav">
-                  <ul className="nav navbar-nav">
+                  <ul className="nav navbar-nav nav3">
                     <Nav3 />
                   </ul>
                 </div>
