@@ -1448,7 +1448,7 @@ dl dd {
 }
 
 .text-skinstinct-brown {
-  color: #9b4b26;
+  color: #9b4b26 !important;
 }
 
 .text-black {
@@ -10420,11 +10420,9 @@ ul[class*="list-"] {
   margin: 0;
   padding: 0;
   list-style: none;
-  border: 1px solid #e9e9e9;
 }
 .pricingtable-features li {
-  padding: 12px;
-  border-bottom: 1px solid #e9e9e9;
+  padding: 12px 0px;
 }
 .pricingtable-features li i {
   margin: 0 3px;
@@ -10459,9 +10457,7 @@ ul[class*="list-"] {
 }
 /* pricingtable Style 1 */
 .pricingtable-wrapper.style1 {
-  border: 1px solid #f0f0f0;
   padding: 10px 10px 40px;
-  margin-left: -1px;
 }
 .pricingtable-wrapper.style1 .pricingtable-icon i {
   color: #000000;
@@ -10482,13 +10478,14 @@ ul[class*="list-"] {
 .pricingtable-wrapper.style1 .pricingtable-features li {
   background: #ffffff none repeat scroll 0 0;
   border: 0 none;
-  color: #909090;
+  color: #954b1e !important;
+  border-radius: 30px;
   font-weight: 400;
-  padding: 8px 0;
+  padding: 10px;
   text-align: left;
 }
 .pricingtable-wrapper.style1 .pricingtable-features {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .pricingtable-wrapper.style1 .pricingtable-features li i {
