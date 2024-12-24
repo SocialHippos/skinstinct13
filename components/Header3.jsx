@@ -25,7 +25,6 @@ export default function Header3() {
       className={`site-header mo-left header navstyle1 ${isFixed ? 'fixed-header' : ''}`} 
       style={{ 
         background: "#febe98",
-        borderBottom: "1px solid #9b4b26",
         position: isFixed ? 'fixed' : 'relative',
         width: '100%',
         top: 0,
@@ -33,7 +32,9 @@ export default function Header3() {
         zIndex: 1000
       }}
     ><div className={`sticky-header navbar-expand-lg ${isFixed ? 'is-fixed' : ''}`}>
-        <div className="main-bar clearfix">
+        <div className="main-bar clearfix"
+              style={{ 
+                background: "#febe98",borderBottom: "1px solid #9b4b26",}}>
           <div className="full-width-container clearfix">
             {/* Desktop header wrapper */}
             <div className="d-none d-lg-flex align-items-center w-100">

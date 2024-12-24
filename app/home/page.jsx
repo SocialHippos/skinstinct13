@@ -12,7 +12,7 @@ export default function page() {
   return (
     <>
     <Header2/>
-      <div className="page-wraper roboto-condensed  ">
+      <div className="page-wraper">
         <div className="page-content bg-white home-slider-10">
           <Hero3 />
           <div className="content-block">
