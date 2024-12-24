@@ -27,11 +27,94 @@ import ScrollTop from "@/components/common/ScrollTop";
 import SearchPopup from "@/components/common/SearchPopup";
 
 import Footer from "@/components/Footer";
+import Header from "@/components/Header2";
 
 export default function RootLayout({ children }) {
   const path = usePathname();
   const [showChild, setShowChild] = useState(false);
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // Import the script only on the client side
+      import("bootstrap/dist/js/bootstrap.esm").then(() => {
+        // Module is imported, you can access any exported functionality if
+      });
+    }
+    let ticking = false;
 
+    window.addEventListener("scroll", function() {
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          var stickyHeader = document.querySelector(".sticky-header");
+          if (stickyHeader) {
+            const ninetyVH = window.innerHeight * 0.9;
+            
+            if (window.pageYOffset > ninetyVH) {
+              stickyHeader.classList.add("is-fixed");
+            } else {
+              stickyHeader.classList.remove("is-fixed");
+            }
+          }
+          ticking = false;
+        });
+    
+        ticking = true;
+      }
+    });
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      const links = document.querySelectorAll('a[href="#"]');
+
+      const handleClick = (event) => {
+        event.preventDefault();
+      };
+      if (links) {
+        links.forEach((link) => {
+          link.addEventListener("click", handleClick);
+        });
+      }
+    }, 600);
+
+    // Cleanup function to remove the event listener
+    // return () => {
+    //   links.forEach((link) => {
+    //     link.removeEventListener("click", handleClick);
+    //   });
+    // };
+  }, [path]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      const { WOW } = require("wowjs");
+      const wow = new WOW({
+        boxClass: "wow",
+        animateClass: "animated",
+        offset: 0,
+        mobile: false,
+        once: true,
+        live: false,
+        callback: function (box) {
+          box.classList.add("will-animate");
+          box.classList.add("animated");
+        },
+      });
+      wow.init();
+    }, 100);
+  }, [path]);
+  useEffect(() => {
+    if (localStorage.getItem("direction")) {
+      // document.documentElement.dir = JSON.parse(
+      //   localStorage.getItem("direction")?.dir
+      // );
+      document.documentElement.dir = JSON.parse(
+        localStorage.getItem("direction")
+      ).dir;
+    } else {
+      document.documentElement.dir = "ltr";
+    }
+    setShowChild(true);
+  });
   return (
     <html lang="en" dir="ltr">
       <head>
@@ -46,11 +129,14 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body id="bg">
-
+        {" "}
+        <div id="loading-areas"></div>
         <Context>
             <>
+
               {children} 
               <Footer/>
+              <ScrollTop />
             </>
         </Context>
 
