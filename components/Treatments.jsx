@@ -37,7 +37,7 @@ export default function Portfolio2() {
 
   return (
     <div
-      className="section-full content-inner-2 portfolio text-uppercase bg-gray"
+      className="section-full content-inner-2 portfolio text-uppercase"
       id="portfolio"
     >
       

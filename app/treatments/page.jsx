@@ -11,29 +11,10 @@ export const metadata = {
 export default function page() {
   return (
     <>
-        <Header3 />
+      <Header3 />
+      <h2 className="title text-center-mbl text-skinstinct-brown text-left-p-13 m-t40">Treatments</h2>
       <div className="page-wraper  ">
         <div className="page-content bg-white">
-          <div
-            className="dlab-bnr-inr bg-pt"
-            style={{ backgroundColor: "#F7B289" }}
-          >
-            <div className="container">
-              <div className="dlab-bnr-inr-entry">
-                <h1 className="text-skinstinct-brown">Treatments</h1>
-                {/* Breadcrumb row */}
-                <div className="breadcrumb-row">
-                  <ul className="list-inline">
-                    <li>
-                      <Link href={`/`}>Home</Link>
-                    </li>
-                    <li>Treatments</li>
-                  </ul>
-                </div>
-                {/* Breadcrumb row END */}
-              </div>
-            </div>
-          </div>
 
           <div className="content-block">
             <Treatment />

@@ -8,7 +8,12 @@ export default function RightImageText() {
   
 
   return (
-    <div className="section-full const-about">
+    <div className="section-full const-about"
+    style={{
+      backgroundColor: "#f3bf9e",
+    }}
+    
+    >
       <div className="row align-items-center sb">
       
         <div
