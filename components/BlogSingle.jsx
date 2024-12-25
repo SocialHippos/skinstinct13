@@ -7,7 +7,7 @@ export default async function BlogSingle({ params }) {
  const date = new Date(blog.createdAt);
 
  return (
-   <div className="blog-post blog-single">
+   <div className="container blog-post blog-single">
      <div className="dlab-post-meta m-b20">
        <ul>
          <li className="post-date">
