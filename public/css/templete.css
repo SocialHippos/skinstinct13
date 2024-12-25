@@ -2773,7 +2773,6 @@ ol.commentlist li .meta span {
 }
 .swiper-slide-thumb-active .project-owbx {
   background: var(--color-primary);
-  box-shadow: 0 0 40px -20px var(--color-primary);
 }
 .swiper-slide-thumb-active .project-owbx .title,
 .swiper-slide-thumb-active .project-owbx i {
@@ -5252,13 +5251,8 @@ HOME 5 Box Header
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
-.header-nav .nav > li.homedemo .mega-menu > li:hover > a img {
-  transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  -o-transform: translateY(-10px);
-}
+
+
 .header-nav .nav > li.homedemo .mega-menu > li > a span {
   display: block;
   text-transform: capitalize;
@@ -7540,7 +7534,6 @@ HOME 5 Box Header
 
 button.scroltop {
   background-color: var(--color-primary);
-  box-shadow: -4px 4px 24px -10px var(--color-primary) !important;
 }
 
 .service-box-5 .icon-up {

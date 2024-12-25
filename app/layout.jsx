@@ -1,33 +1,13 @@
 "use client";
 import { useEffect, useState } from "react";
-// import styles
-import "lightgallery/css/lightgallery.css";
-import "lightgallery/css/lg-zoom.css";
-import "lightgallery/css/lg-thumbnail.css";
-import "lightgallery/css/lg-autoplay.css";
-import "lightgallery/css/lg-fullscreen.css";
-import "lightgallery/css/lg-share.css";
-import "lightgallery/css/lg-zoom.css";
-
-// If you want you can use SCSS instead of css
-import "lightgallery/scss/lightgallery.scss";
-import "lightgallery/scss/lg-zoom.scss";
 import "../public/main.css";
 import "../public/custom.scss";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-import "react-modal-video/scss/modal-video.scss";
-
 import { usePathname } from "next/navigation";
 import Context from "@/context/Context";
-import ThemeChanger from "@/components/common/ThemeChanger";
 import "rc-slider/assets/index.css";
 import "../public/rtl.scss";
 import ScrollTop from "@/components/common/ScrollTop";
-import SearchPopup from "@/components/common/SearchPopup";
-
 import Footer from "@/components/Footer";
-import Header from "@/components/Header2";
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -128,7 +108,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body id="bg">
+      <body>
         {" "}
         <div id="loading-areas"></div>
         <Context>
