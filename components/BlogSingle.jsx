@@ -28,7 +28,7 @@ export default async function BlogSingle({ params }) {
        />
      </div>
      <div className="dlab-post-text">
-       <p>{blog.desccription}</p>
+       <p>{blog.description}</p>
      </div>
      <div className="dlab-divider bg-gray-dark" />
      <div className="dlab-post-tags clear">
