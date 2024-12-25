@@ -5,7 +5,7 @@ import Pagination from "@/components/common/Pagination";
 
 export default async function Blog() {
   const blogs = await getBlogs();
-
+ 
   return (
     <>
       <h2 className="title text-center-mbl text-skinstinct-brown text-left-p-13 m-b30">Blogs</h2>
@@ -17,9 +17,19 @@ export default async function Blog() {
             return (
               <div key={i} className="post card-container col-lg-4 col-md-4 col-sm-12">
                 <div className="blog-post blog-grid blog-rounded blog-effect1">
-                  <div className="dlab-post-media dlab-img-effect">
+                  <div className="dlab-post-media dlab-img-effect" style={{height: '300px', overflow: 'hidden'}}>
                     <Link href={`/blogs/${blog.slug}`}>
-                      <Image alt={blog.title} src={blog.image} width="700" height="500" />
+                      <Image 
+                        alt={blog.title} 
+                        src={blog.image} 
+                        width={700} 
+                        height={500}
+                        style={{
+                          objectFit: 'cover',
+                          width: '100%',
+                          height: '100%'
+                        }} 
+                      />
                     </Link>
                   </div>
                   <div className="dlab-info p-a20 border-1">
@@ -31,7 +41,7 @@ export default async function Blog() {
                         </li>
                       </ul>
                     </div>
-                    <div className="dlab-post-title">
+                    <div className="dlab-post-title" style={{minHeight: '80px'}}>
                       <h4 className="post-title">
                         <Link href={`/blogs/${blog.slug}`}>{blog.title}</Link>
                       </h4>
@@ -50,4 +60,4 @@ export default async function Blog() {
       </div>
     </>
   );
-}
+ }
