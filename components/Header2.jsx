@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
 import Image from "next/image";
@@ -9,22 +8,40 @@ import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 
 export default function Header2() {
   const [isFixed, setIsFixed] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [shouldAddMargin, setShouldAddMargin] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
+      // Check for fixed header
       const viewportHeight = window.innerHeight;
       const isFixed = window.scrollY > viewportHeight * 0.9;
       setIsFixed(isFixed);
+
+      // Check scroll direction for margin
+      if (window.scrollY > lastScrollY) {
+        setShouldAddMargin(true);
+      } else {
+        setShouldAddMargin(false);
+      }
+      setLastScrollY(window.scrollY);
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
   return (
     <header className="site-header mo-left header-transparent header navstyle1">
-      <div className={`sticky-header navbar-expand-lg ${isFixed ? 'is-fixed' : ''}`}>
-        <div className="main-bar clearfix">
+      <div 
+        className={`sticky-header navbar-expand-lg ${isFixed ? 'is-fixed' : ''}`}
+
+      >
+        <div className="main-bar clearfix"
+                style={{
+                  marginTop: shouldAddMargin ? '20px' : '0',
+                 
+                }}>
           <div className="full-width-container clearfix">
             {/* Desktop header wrapper */}
             <div className="d-none d-lg-flex align-items-center w-100">

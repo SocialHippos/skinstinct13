@@ -12,8 +12,10 @@ import {
 } from "@/data/menu";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+
 export default function Nav2() {
   const pathname = usePathname();
+  
   const isMenuActive = (menuMain) => {
     let isActive = false;
     if (menuMain.href && menuMain.href !== "#") {
@@ -51,7 +53,7 @@ export default function Nav2() {
   };
 
   const [headerHeight, setHeaderHeight] = useState(0);
-  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 991);
+  const [isLargeScreen, setIsLargeScreen] = useState(typeof window !== 'undefined' ? window.innerWidth > 991 : true);
   const [menuOpen1, setMenuOpen1] = useState("");
   const [menuOpen2, setMenuOpen2] = useState("");
 
@@ -72,33 +74,27 @@ export default function Nav2() {
     // Call handleResize on component mount
     handleResize();
 
-    // Add event listener for resize
+    // Add event listener for resize only
     window.addEventListener("resize", handleResize);
-    window.addEventListener("scroll", handleResize);
 
     // Clean up event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
-      window.removeEventListener("scroll", handleResize);
     };
   }, []);
 
   // Calculate the height for the mega-menu if large screen
-  const megaMenuHeight = isLargeScreen
-    ? `calc(100vh - ${headerHeight}px)`
-    : "auto";
+  const megaMenuHeight = isLargeScreen ? `calc(100vh - ${headerHeight}px)` : "auto";
 
   return (
     <>
       <ul className="nav navbar-nav d-flex justify-content-end">
         <li
-          className={` has-mega-menu homedemo ${
-            menuOpen1 == "home" ? "open" : ""
-          }  ${isMenuActive(homeItems) ? "active" : ""}`}
+          className={`has-mega-menu homedemo ${menuOpen1 == "home" ? "open" : ""} ${
+            isMenuActive(homeItems) ? "active" : ""
+          }`}
         >
-          <a
-            onClick={() => setMenuOpen1((pre) => (pre == "home" ? "" : "home"))}
-          >
+          <a onClick={() => setMenuOpen1((pre) => (pre == "home" ? "" : "home"))}>
             Home
             <i className="fas fa-chevron-down" />
           </a>
@@ -120,15 +116,11 @@ export default function Nav2() {
           </ul>
         </li>
         <li
-          className={` ${isMenuActive(headerAndFooters) ? "active" : ""} ${
+          className={`${isMenuActive(headerAndFooters) ? "active" : ""} ${
             menuOpen1 == "features" ? "open" : ""
-          }  `}
+          }`}
         >
-          <a
-            onClick={() =>
-              setMenuOpen1((pre) => (pre == "features" ? "" : "features"))
-            }
-          >
+          <a onClick={() => setMenuOpen1((pre) => (pre == "features" ? "" : "features"))}>
             Features
             <i className="fas fa-chevron-down" />
           </a>
@@ -136,12 +128,10 @@ export default function Nav2() {
             {headerAndFooters.map((item, index) => (
               <li
                 key={index}
-                className={` ${menuOpen2 == item.title ? "open" : ""}  `}
+                className={`${menuOpen2 == item.title ? "open" : ""}`}
               >
-                <a
-                  onClick={() =>
-                    setMenuOpen2((pre) => (pre == item.title ? "" : item.title))
-                  }
+                
+               <a onClick={() => setMenuOpen2((pre) => (pre == item.title ? "" : item.title))}
                   className={isMenuActive(item.links) ? "menuActive" : ""}
                 >
                   {item.title} <i className={item.iconClass} />
@@ -163,15 +153,11 @@ export default function Nav2() {
           </ul>
         </li>
         <li
-          className={`has-mega-menu  ${
-            isMenuActive(pagesItems) ? "active" : ""
-          } ${menuOpen1 == "pages" ? "open" : ""}  `}
+          className={`has-mega-menu ${isMenuActive(pagesItems) ? "active" : ""} ${
+            menuOpen1 == "pages" ? "open" : ""
+          }`}
         >
-          <a
-            onClick={() =>
-              setMenuOpen1((pre) => (pre == "pages" ? "" : "pages"))
-            }
-          >
+          <a onClick={() => setMenuOpen1((pre) => (pre == "pages" ? "" : "pages"))}>
             Pages
             <i className="fas fa-chevron-down" />
           </a>
@@ -196,13 +182,11 @@ export default function Nav2() {
           </ul>
         </li>
         <li
-          className={` ${isMenuActive(shopLinks) ? "active" : ""} ${
+          className={`${isMenuActive(shopLinks) ? "active" : ""} ${
             menuOpen1 == "shop" ? "open" : ""
-          }  `}
+          }`}
         >
-          <a
-            onClick={() => setMenuOpen1((pre) => (pre == "shop" ? "" : "shop"))}
-          >
+          <a onClick={() => setMenuOpen1((pre) => (pre == "shop" ? "" : "shop"))}>
             Shop
             <i className="fas fa-chevron-down" />
           </a>
@@ -222,13 +206,11 @@ export default function Nav2() {
       </ul>
       <ul className="nav navbar-nav d-flex justify-content-start">
         <li
-          className={`has-mega-menu  ${
-            isMenuActive(blogItems) ? "active" : ""
-          } ${menuOpen1 == "blog" ? "open" : ""}  `}
+          className={`has-mega-menu ${isMenuActive(blogItems) ? "active" : ""} ${
+            menuOpen1 == "blog" ? "open" : ""
+          }`}
         >
-          <a
-            onClick={() => setMenuOpen1((pre) => (pre == "blog" ? "" : "blog"))}
-          >
+          <a onClick={() => setMenuOpen1((pre) => (pre == "blog" ? "" : "blog"))}>
             Blog
             <i className="fas fa-chevron-down" />
           </a>
@@ -253,15 +235,11 @@ export default function Nav2() {
           </ul>
         </li>
         <li
-          className={`has-mega-menu  ${
-            isMenuActive(elementItems) ? "element" : ""
-          } ${menuOpen1 == "element" ? "open" : ""}  `}
+          className={`has-mega-menu ${isMenuActive(elementItems) ? "element" : ""} ${
+            menuOpen1 == "element" ? "open" : ""
+          }`}
         >
-          <a
-            onClick={() =>
-              setMenuOpen1((pre) => (pre == "element" ? "" : "element"))
-            }
-          >
+          <a onClick={() => setMenuOpen1((pre) => (pre == "element" ? "" : "element"))}>
             Element
             <i className="fas fa-chevron-down" />
           </a>
@@ -286,15 +264,11 @@ export default function Nav2() {
           </ul>
         </li>
         <li
-          className={` ${isMenuActive(contactLinks) ? "active" : ""} ${
+          className={`${isMenuActive(contactLinks) ? "active" : ""} ${
             menuOpen1 == "contact" ? "open" : ""
-          }  `}
+          }`}
         >
-          <a
-            onClick={() =>
-              setMenuOpen1((pre) => (pre == "contact" ? "" : "contact"))
-            }
-          >
+          <a onClick={() => setMenuOpen1((pre) => (pre == "contact" ? "" : "contact"))}>
             Contact Us
             <i className="fas fa-chevron-down" />
           </a>

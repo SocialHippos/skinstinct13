@@ -698,8 +698,7 @@ button.dz-bannerbtn.bg-button{
     overflow-x: auto;
   }
 }
-@media only screen and (max-width: 991px) {
-}
+
 @media only screen and (max-width: 767px) {
   .dlab-tabs.vertical .tab-pane {
     padding: 0;
@@ -1300,8 +1299,7 @@ h6 {
     padding: 20px;
   }
 }
-@media only screen and (max-width: 768px) {
-}
+
 @media only screen and (max-width: 600px) {
   .footer-info-bar [class*="col-"] {
     padding-left: 15px;

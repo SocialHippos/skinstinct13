@@ -6770,7 +6770,6 @@ img.tp-slider-alternative-image {
 .tp-loader.spinner1 {
   width: 40px;
   height: 40px;
-  margin-top: -20px;
   margin-left: -20px;
   animation: tp-rotateplane 1.2s infinite ease-in-out;
   background-color: #fff;
@@ -6832,7 +6831,6 @@ img.tp-slider-alternative-image {
 .tp-loader.spinner2 {
   width: 40px;
   height: 40px;
-  margin-top: -20px;
   margin-left: -20px;
   background-color: red;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
