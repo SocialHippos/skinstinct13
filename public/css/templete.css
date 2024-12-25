@@ -247,6 +247,7 @@ html{
 
 .announcement-bar {
   background-color: #f3bf9e;
+  border-top: 1px solid #9b4b26 !important;
   color: #9b4b26 !important;
   padding: 10px 0px 5px 0px;
   font-family: "itc-american-typewriter", serif;
@@ -431,19 +432,57 @@ marquee {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+
+  .about-button {
+    padding: 6px 17px;
+    border-radius: 19px;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .treatment-button {
+    padding: 6px 17px;
+    border-radius: 19px;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .contact-button {
+    padding: 6px 17px;
+    border-radius: 19px;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .about-button {
+    padding: 6px 17px;
+    border-radius: 19px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
 .treatment-button {
-  padding: 12px 30px;
-  border-radius: 20px;
+  padding: 6px 17px;
+  border-radius: 19px;
   cursor: pointer;
   text-transform: uppercase;
 }
 
 .contact-button {
-  padding: 12px 30px;
-  border-radius: 20px;
+  padding: 6px 17px;
+  border-radius: 19px;
   cursor: pointer;
   text-transform: uppercase;
-}
+}}
+
 
 @media (max-width: 768px) {
   .col-md-6 {

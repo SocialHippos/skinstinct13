@@ -100,9 +100,9 @@ export default function Portfolio2() {
             </ul>
 
             <div className="center">
-              <button className="button dz-bannerbtn bg-button treatment-button" type="button">
+              <Link href="/treatments" className="treatment-button" type="button">
                 ALL TREATMENTS
-              </button>
+              </Link>
             </div>
           </div>
         </div>

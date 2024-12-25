@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
  
 
 export default function RightImageText() {
@@ -44,9 +45,9 @@ export default function RightImageText() {
                 dermatology and transformative skin care, Skinstinct is dedicated to
                 helping clients achieve radiant, healthy skin.
               </p>
-              <button className="button dz-bannerbtn bg-button about-button" type="button">
+              <Link href="/about" className="about-button" type="button">
                 DISCOVER ME
-              </button>
+              </Link>
             </div>
           </div>
           <br />
