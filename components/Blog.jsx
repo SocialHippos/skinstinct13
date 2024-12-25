@@ -10,12 +10,12 @@ export default async function Blog() {
     <>
       <h2 className="title text-center-mbl text-skinstinct-brown text-left-p-13 m-b30">Blogs</h2>
       <div className="container">
-        <div id="masonry" className="dlab-blog-grid-2 row" style={{ width: "100%" }}>
+        <div id="masonry" className="dlab-blog-grid-3 row" style={{ width: "100%" }}>
           {blogs.map((blog, i) => {
             const date = new Date(blog.createdAt);
             
             return (
-              <div key={i} className="post card-container col-lg-6 col-md-6 col-sm-12">
+              <div key={i} className="post card-container col-lg-4 col-md-4 col-sm-12">
                 <div className="blog-post blog-grid blog-rounded blog-effect1">
                   <div className="dlab-post-media dlab-img-effect">
                     <Link href={`/blogs/${blog.slug}`}>
@@ -37,9 +37,8 @@ export default async function Blog() {
                       </h4>
                     </div>
                     <div className="dlab-post-readmore">
-                      <Link href={`/blogs/${blog.slug}`} className="site-button">
+                      <Link href={`/blogs/${blog.slug}`} className="text-skinstinct-brown">
                         READ MORE
-                        <i className="ti-arrow-right" />
                       </Link>
                     </div>
                   </div>

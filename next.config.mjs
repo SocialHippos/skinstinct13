@@ -1,7 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ['s3.us-east-1.wasabisys.com'], // Add S3 bucket domain for image optimization
+      images: {
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: '*.wasabisys.com',
+            port: '',
+            pathname: '/**',
+          }
+        ],
+        unoptimized: true // Add this to bypass image optimization
       },
 
 };
