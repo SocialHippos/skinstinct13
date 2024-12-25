@@ -3,6 +3,7 @@
   .mobile-only{
     display:none;
   }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -10,7 +11,14 @@
   .desktop-only{
     display:none;
   }
+
+
+  .margin-top-20 {
+    margin-top: 20px;
+  }
+
 }
+
 
 .treatment-grid {
   display: grid;
