@@ -8,17 +8,29 @@ import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 
 export default function Header3() {
   const [isFixed, setIsFixed] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [shouldAddMargin, setShouldAddMargin] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      // Change to check if scroll position is greater than 0
-      const isFixed = window.scrollY > 0;
-      setIsFixed(isFixed);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        // Check for fixed header
+        const viewportHeight = window.innerHeight;
+        const isFixed = window.scrollY > viewportHeight * 0;
+        setIsFixed(isFixed);
+  
+        // Check scroll direction for margin
+        if (window.scrollY > lastScrollY) {
+          setShouldAddMargin(true);
+        } else {
+          setShouldAddMargin(false);
+        }
+        setLastScrollY(window.scrollY);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, [lastScrollY]);
 
   return (
     <header 
@@ -32,7 +44,7 @@ export default function Header3() {
         zIndex: 1000
       }}
     ><div className={`sticky-header navbar-expand-lg ${isFixed ? 'is-fixed' : ''}`}>
-        <div className="main-bar clearfix"
+       <div className={`main-bar clearfix ${shouldAddMargin ? 'margin-top-20s' : ''}`}
               style={{ 
                 background: "#febe98",borderBottom: "1px solid #9b4b26",}}>
           <div className="full-width-container clearfix">

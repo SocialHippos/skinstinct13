@@ -37,7 +37,7 @@ export default function Header2() {
         className={`sticky-header navbar-expand-lg ${isFixed ? 'is-fixed' : ''}`}
 
       >
-<div className={`main-bar clearfix ${shouldAddMargin ? 'margin-top-20' : ''}`}>
+<div className={`main-bar clearfix ${shouldAddMargin ? 'margin-top-20s' : ''}`}>
 
           <div className="full-width-container clearfix">
             {/* Desktop header wrapper */}
