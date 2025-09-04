@@ -24,7 +24,7 @@ export default function page({ params }) {
               </div>
 
             <p>
-            Microneedling is a transformative treatment that rejuvenates the skin by creating controlled micro-injuries with fine needles. This process stimulates collagen and elastin production, helping to reduce the appearance of fine lines, acne scars, and uneven skin texture, revealing smoother, firmer skin.
+              Microneedling can be used all over the body and is excellent for targeting anti-aging, redness, scarring, stretch marks, acne, and menopausal skin. It offers great results with minimal downtime
             </p>
 
             </div>

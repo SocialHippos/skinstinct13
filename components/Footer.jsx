@@ -69,7 +69,7 @@ export default function Footer() {
                    <Link href="#">HOME</Link>
                   </li>
                   <li>
-                  <Link href="/treatments">TREATMENT</Link>
+                  <Link href="/treatments">TREATMENTS</Link>
                   </li>
                   <li>
                   <Link href="/pricing">PRICING</Link>

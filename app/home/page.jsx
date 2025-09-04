@@ -17,8 +17,7 @@ export default function page() {
           <Hero3 />
           <div className="content-block">
             <RightImageText />
-            <Treatment />
-            
+            <Treatment />            
           </div>
         </div>
       </div>

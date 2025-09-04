@@ -148,9 +148,8 @@ ul li{
 .main-bar-wraper,
 .sticky-header *,
 .header-nav *,
-.button.dz-bannerbtn,
 .navbar-toggler.navicon span {
-  transition: none !important;
+  transition: none;
 }
 
 .is-fixed .header-nav .nav > li > a {
@@ -314,8 +313,8 @@ body {
   background-color: #fff;
   font-family: "Arial", sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  color: #6f6f6f;
+  font-weight: 600;
+  color: #9b4b26;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -651,7 +650,7 @@ strong {
   font-weight: 400;
 }
 .font-weight-500 {
-  font-weight: 400;
+  font-weight: 500 !important;
 }
 .font-weight-600 {
   font-weight: 400;
@@ -3374,7 +3373,7 @@ blockquote:before {
   font-size: 16px;
   padding: 23px 17px 22px 17px;
   cursor: pointer;
-  font-weight: 400;
+  font-weight: 600;
   display: inline-block;
   position: relative;
 }
@@ -3679,7 +3678,7 @@ blockquote:before {
   .header-nav .nav > li > a {
     padding: 22px 15px 22px 15px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
   }
   .extra-nav .site-button-link {
     font-size: 22px;
@@ -14234,7 +14233,7 @@ ol.commentlist li .star-rating {
 }
 .portfolio-mas .dez-info a:hover,
 .portfolio-ic .dez-info a:hover {
-  color: #24c4dd;
+  color: #9b4b26;
 }
 .portfolio-mas a:hover,
 .portfolio-ic a:hover {

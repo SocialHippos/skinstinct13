@@ -59,25 +59,25 @@ export default function Nav({ onLinkClick }) {
   
       </li>
 
-      <li className={`has-mega-menu homedemo ${isMenuActive("/about") ? "active" : ""}`}>
+      <li className={`has-mega-menu font-weight-500 homedemo ${isMenuActive("/about") ? "active" : ""}`}>
         <Link href="/about" onClick={handleLinkClick}>
           ABOUT US
         </Link>
       </li>
 
-      <li className={`has-mega-menu homedemo ${isMenuActive("/treatments") ? "active" : ""}`}>
+      <li className={`has-mega-menu font-weight-500 homedemo ${isMenuActive("/treatments") ? "active" : ""}`}>
         <Link href="/treatments" onClick={handleLinkClick}>
           TREATMENTS
         </Link>
       </li>
 
-      <li className={`has-mega-menu homedemo ${isMenuActive("/pricing") ? "active" : ""}`}>
+      <li className={`has-mega-menu font-weight-500 homedemo ${isMenuActive("/pricing") ? "active" : ""}`}>
         <Link href="/pricing" onClick={handleLinkClick}>
           PRICING
         </Link>
       </li>
 
-      <li className={`has-mega-menu homedemo ${isMenuActive("/contact") ? "active" : ""}`}>
+      <li className={`has-mega-menu font-weight-500 homedemo ${isMenuActive("/contact") ? "active" : ""}`}>
         <Link href="/contact" onClick={handleLinkClick}>
           CONTACT
         </Link>

@@ -72,7 +72,7 @@ html{
  
  .package {
   margin-bottom: 20px;
-  color: #666;
+  color: #9b4b26;
  }
  
  ul {
@@ -611,6 +611,13 @@ padding: 0 60px;
 .button.dz-bannerbtn.bg-button:hover{
   background-color: #ffffff;
   color:#954b1e;
+
+}
+
+.is-fixed .button.dz-bannerbtn:hover{
+  border: 1px solid #954b1e !important;
+  background-color: #954b1e !important;
+  color: #ffffff !important;  
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -1229,7 +1236,7 @@ h6 {
   color: #fff;
 }
 .portfolio-ic .dez-info a:hover {
-  color: #24c4dd;
+  color: #9b4b26;
 }
 .portfolio-ic a:hover {
   color: #fff;
@@ -7808,7 +7815,7 @@ button.scroltop {
 }
 .dz-header .dz-bannerbtn {
   padding: 6px 10px;
-  font-size: 15px;
+  font-size: 15px;  
   color: #fff;
   border-radius: 27px;
   display: flex;
@@ -8558,7 +8565,8 @@ button.scroltop {
   background-color: transparent;
   color: #fff;
   font-family: "Arial", sans-serif;
- 
+  transition: all 0.8s linear;
+  min-width: 200px;
 }
 
 
