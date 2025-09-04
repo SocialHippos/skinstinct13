@@ -3,6 +3,7 @@ import Hero3 from "@/components/homes/home-ux/Hero3";
 import RightImageText from "@/components/homes/home-ux/RightImageText";
 import Treatment from "@/components/homes/home-ux/Treatments";
 import Header2 from "@/components/Header2";
+import Newsletter from "@/components/Newsletter";
 
 export const metadata = {
   title: "Home | Skinstinct",
@@ -17,7 +18,8 @@ export default function page() {
           <Hero3 />
           <div className="content-block">
             <RightImageText />
-            <Treatment />            
+            <Treatment />
+            <Newsletter />
           </div>
         </div>
       </div>

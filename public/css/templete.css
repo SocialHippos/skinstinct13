@@ -434,6 +434,10 @@ marquee {
 
 @media (max-width: 768px) {
 
+  .about-button{
+    text-align: center;
+  }
+  
   .about-button {
     padding: 6px 17px;
     border-radius: 19px;
