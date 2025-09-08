@@ -13,7 +13,7 @@ import 'swiper/css/autoplay';
 const slidesData = [
   {
     backgroundImage:
-      'url("/images/banner/banner1.png") center center no-repeat',
+      'url("/images/skinstinct-img1.jpg") center center no-repeat',
     title1: "FLAWLESS SKIN",
     title2: "starts",
     title3: "HERE",
@@ -23,7 +23,7 @@ const slidesData = [
   },
   {
     backgroundImage:
-      'url("/images/banner/banner2.png") center center no-repeat',
+      'url("/images/skinstinct-img2.jpg") center center no-repeat',
       title1: "FLAWLESS SKIN",
       title2: "starts",
       title3: "HERE",
@@ -33,7 +33,7 @@ const slidesData = [
   },
   {
     backgroundImage:
-      'url("/images/banner/banner3.png") center center no-repeat',
+      'url("/images/skinstinct-img3.jpg") center center no-repeat',
       title1: "FLAWLESS SKIN",
       title2: "starts",
       title3: "HERE",
