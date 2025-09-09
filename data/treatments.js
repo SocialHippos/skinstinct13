@@ -1,7 +1,7 @@
 export const treatments = [
   {
     id: 1,
-    imageSrc: "/images/treatments/microneedling.png",
+    imageSrc: "/images/skinstinct-treatment-1.webp",
     title: "Microneedling",
     short: "Microneedling",
     slug: "microneedling",
@@ -16,7 +16,7 @@ export const treatments = [
   },
   {
     id: 2, 
-    imageSrc: "/images/treatments/mesotherapy-skin-needling.png",
+    imageSrc: "/images/skinstinct-treatment-4.webp",
     title: "Mesotherapy Skin Needling",
     short: "Mesotherapy Skin Needling",
     slug: "mesotherapy-skin-needling",
@@ -31,7 +31,7 @@ export const treatments = [
   },
   {
     id: 3,
-    imageSrc: "/images/treatments/skin-needling-with-exosomes.png",
+    imageSrc: "/images/skinstinct-treatment-5.webp",
     title: "Skin Needling with Exosomes",
     short: "Skin Needling with Exosomes",
     slug: "skin-needling-with-exosomes",
@@ -46,7 +46,7 @@ export const treatments = [
   },
   {
     id: 4,
-    imageSrc: "/images/treatments/microneedling.png", 
+    imageSrc: "/images/skinstinct-treatment-2.webp", 
     title: "Microneedling with Electroporation",
     short: "Microneedling with Electroporation",
     slug: "microneedling-with-electroporation",
@@ -61,7 +61,7 @@ export const treatments = [
   },
   {
     id: 5,
-    imageSrc: "/images/treatments/mesotherapy-with-skin-needling-for-thinning-hair.png",
+    imageSrc: "/images/skinstinct-treatment-3.webp",
     title: "Mesotherapy with Skin Needling for Thinning Hair",
     short: "Mesotherapy with Skin Needling",
     slug: "mesotherapy-with-skin-needling-for-thinning-hair",

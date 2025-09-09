@@ -37,7 +37,7 @@ export default function page({ params }) {
           <div className="col-lg-6 col-12 half-box">
             <Image
               alt="Image"
-              src="/images/treatments/mesotherapy-skin-needling.png"
+              src="/images/skinstinct-treatment-3.webp"
               width="1200"
               height="1200"
             />
