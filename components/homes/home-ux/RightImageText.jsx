@@ -22,7 +22,7 @@ export default function RightImageText() {
         >
           <Image
             alt="Image"
-            src="/images/about-large.png"
+            src="/images/home-section-image.webp"
             width="1200"
             height="1200"
           />
