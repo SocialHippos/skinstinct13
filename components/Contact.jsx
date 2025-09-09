@@ -4,6 +4,27 @@ import React from "react";
 import Link from "next/link";
 import ReCAPTCHA from "react-google-recaptcha";
 export default function Contact4() {
+
+  const handleMailtoSubmit = (e) => {
+  e.preventDefault();
+  const form = e.target;
+
+  const name = form.dzName.value;
+  const email = form.dzEmail.value;
+  const phone = form["dzOther[Phone]"].value;
+  const subject = form["dzOther[Subject]"].value;
+  const message = form.dzMessage.value;
+
+  const mailtoLink = `mailto:info@skinstinct.com.au?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(
+    `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
+  )}`;
+
+  window.location.href = mailtoLink;
+};
+
+
   return (
     <>
       <div
@@ -100,7 +121,7 @@ export default function Contact4() {
               <div className="p-a30 bg-gray clearfix radius-sm">
                 <h3>Send Message Us</h3>
                 <div className="dzFormMsg" />
-                <form onSubmit={(e) => e.preventDefault()} className="dzForm">
+                <form onSubmit={handleMailtoSubmit} className="dzForm">
                   <input type="hidden" defaultValue="Contact" name="dzToDo" />
                   <div className="row">
                     <div className="col-md-6">
