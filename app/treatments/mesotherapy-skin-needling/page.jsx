@@ -32,7 +32,7 @@ export default function page({ params }) {
           <div className="col-lg-6 col-12 half-box">
             <Image
               alt="Image"
-              src="/images/treatments/mesotherapy-skin-needling.png"
+              src="/images/treatments/Mesotherapy1.webp"
               width="1200"
               height="1200"
             />
@@ -45,7 +45,7 @@ export default function page({ params }) {
           <div className="col-lg-6 col-12 half-box desktop-only">
             <Image
               alt="Image"
-              src="/images/treatments/mesotherapy-skin-needling.png"
+              src="/images/treatments/Mesotherapy2.webp"
               width="1200"
               height="1200"
             />
