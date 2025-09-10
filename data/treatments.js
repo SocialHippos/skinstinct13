@@ -31,7 +31,7 @@ export const treatments = [
   },
   {
     id: 3,
-    imageSrc: "/images/skinstinct-treatment-5.webp",
+    imageSrc: "/images/Exosomes-treatment.webp",
     title: "Skin Needling with Exosomes",
     short: "Skin Needling with Exosomes",
     slug: "skin-needling-with-exosomes",
@@ -61,7 +61,7 @@ export const treatments = [
   },
   {
     id: 5,
-    imageSrc: "/images/skinstinct-treatment-3.webp",
+    imageSrc: "/images/thinninghair-treatment.webp",
     title: "Mesotherapy with Skin Needling for Thinning Hair",
     short: "Mesotherapy with Skin Needling",
     slug: "mesotherapy-with-skin-needling-for-thinning-hair",
