@@ -17,9 +17,9 @@ export default function page({ params }) {
           <div className="col-lg-6 col-12 half-box">
             <div className="widget widget_getintuch">
               <div className="our-story">
-                <h2 className="title">
+                <h1 className="title">
                   Mesotherapy Skin Needling (Thinning Hair)
-                </h2>
+                </h1>
               </div>
 
               <p>
