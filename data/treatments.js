@@ -61,7 +61,7 @@ export const treatments = [
   },
   {
     id: 5,
-    imageSrc: "/images/thinninghair-treatment.webp",
+    imageSrc: "/images/treatments/thinninghair1.webp",
     title: "Mesotherapy with Skin Needling for Thinning Hair",
     short: "Mesotherapy with Skin Needling",
     slug: "mesotherapy-with-skin-needling-for-thinning-hair",
